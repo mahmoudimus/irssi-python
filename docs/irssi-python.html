@@ -1,0 +1,2601 @@
+
+<!doctype html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module irssi</title>
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>irssi</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/usr/local/share/irssi/scripts/irssi.py">/usr/local/share/irssi/scripts/irssi.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#fffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="_irssi-python.html">_irssi</a><br>
+</td><td width="25%" valign=top><a href="sys.html">sys</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="__builtin__.html#object">__builtin__.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="irssi-python.html#Ban">Ban</a>
+</font></dt><dt><font face="helvetica, arial"><a href="irssi-python.html#Command">Command</a>
+</font></dt><dt><font face="helvetica, arial"><a href="irssi-python.html#Ignore">Ignore</a>
+</font></dt><dt><font face="helvetica, arial"><a href="irssi-python.html#IrssiBase">IrssiBase</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="irssi-python.html#Dcc">Dcc</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="irssi-python.html#DccChat">DccChat</a>
+</font></dt><dt><font face="helvetica, arial"><a href="irssi-python.html#DccGet">DccGet</a>
+</font></dt><dt><font face="helvetica, arial"><a href="irssi-python.html#DccSend">DccSend</a>
+</font></dt></dl>
+</dd>
+<dt><font face="helvetica, arial"><a href="irssi-python.html#IrssiChatBase">IrssiChatBase</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="irssi-python.html#Chatnet">Chatnet</a>
+</font></dt><dt><font face="helvetica, arial"><a href="irssi-python.html#Connect">Connect</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="irssi-python.html#IrcConnect">IrcConnect</a>
+</font></dt></dl>
+</dd>
+<dt><font face="helvetica, arial"><a href="irssi-python.html#Nick">Nick</a>
+</font></dt><dt><font face="helvetica, arial"><a href="irssi-python.html#Server">Server</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="irssi-python.html#IrcServer">IrcServer</a>
+</font></dt></dl>
+</dd>
+<dt><font face="helvetica, arial"><a href="irssi-python.html#WindowItem">WindowItem</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="irssi-python.html#Channel">Channel</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="irssi-python.html#IrcChannel">IrcChannel</a>
+</font></dt></dl>
+</dd>
+<dt><font face="helvetica, arial"><a href="irssi-python.html#Query">Query</a>
+</font></dt></dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+<dt><font face="helvetica, arial"><a href="irssi-python.html#Log">Log</a>
+</font></dt><dt><font face="helvetica, arial"><a href="irssi-python.html#Logitem">Logitem</a>
+</font></dt><dt><font face="helvetica, arial"><a href="irssi-python.html#MainWindow">MainWindow</a>
+</font></dt><dt><font face="helvetica, arial"><a href="irssi-python.html#Netsplit">Netsplit</a>
+</font></dt><dt><font face="helvetica, arial"><a href="irssi-python.html#NetsplitChannel">NetsplitChannel</a>
+</font></dt><dt><font face="helvetica, arial"><a href="irssi-python.html#NetsplitServer">NetsplitServer</a>
+</font></dt><dt><font face="helvetica, arial"><a href="irssi-python.html#Notifylist">Notifylist</a>
+</font></dt><dt><font face="helvetica, arial"><a href="irssi-python.html#Process">Process</a>
+</font></dt><dt><font face="helvetica, arial"><a href="irssi-python.html#Rawlog">Rawlog</a>
+</font></dt><dt><font face="helvetica, arial"><a href="irssi-python.html#Reconnect">Reconnect</a>
+</font></dt><dt><font face="helvetica, arial"><a href="irssi-python.html#Script">Script</a>
+</font></dt><dt><font face="helvetica, arial"><a href="irssi-python.html#StatusbarItem">StatusbarItem</a>
+</font></dt><dt><font face="helvetica, arial"><a href="irssi-python.html#TextDest">TextDest</a>
+</font></dt><dt><font face="helvetica, arial"><a href="irssi-python.html#Theme">Theme</a>
+</font></dt><dt><font face="helvetica, arial"><a href="irssi-python.html#Window">Window</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Ban">class <strong>Ban</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>PyBan&nbsp;objects<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Data and other attributes defined here:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#Ban-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<dl><dt><strong>ban</strong> = &lt;attribute 'ban' of 'irssi.Ban' objects&gt;<dd><tt>The&nbsp;ban</tt></dl>
+
+<dl><dt><strong>setby</strong> = &lt;attribute 'setby' of 'irssi.Ban' objects&gt;<dd><tt><a href="#Nick">Nick</a>&nbsp;of&nbsp;who&nbsp;set&nbsp;the&nbsp;ban</tt></dl>
+
+<dl><dt><strong>time</strong> = &lt;attribute 'time' of 'irssi.Ban' objects&gt;<dd><tt>Timestamp&nbsp;when&nbsp;ban&nbsp;was&nbsp;set</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Channel">class <strong>Channel</strong></a>(<a href="irssi-python.html#WindowItem">WindowItem</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>PyChannel&nbsp;objects<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="irssi-python.html#Channel">Channel</a></dd>
+<dd><a href="irssi-python.html#WindowItem">WindowItem</a></dd>
+<dd><a href="irssi-python.html#IrssiChatBase">IrssiChatBase</a></dd>
+<dd><a href="irssi-python.html#IrssiBase">IrssiBase</a></dd>
+<dd><a href="__builtin__.html#object">__builtin__.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="Channel-nick_find"><strong>nick_find</strong></a>(...)</dt><dd><tt><a href="#Channel-nick_find">nick_find</a>(nick)&nbsp;-&gt;&nbsp;<a href="#Nick">Nick</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Find&nbsp;nick&nbsp;from&nbsp;nicklist.</tt></dd></dl>
+
+<dl><dt><a name="Channel-nick_insert_obj"><strong>nick_insert_obj</strong></a>(...)</dt><dd><tt>nick_insert(nick)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Insert&nbsp;nick&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;into&nbsp;nicklist.</tt></dd></dl>
+
+<dl><dt><a name="Channel-nick_remove"><strong>nick_remove</strong></a>(...)</dt><dd><tt><a href="#Channel-nick_remove">nick_remove</a>(nick)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Remove&nbsp;nick&nbsp;from&nbsp;nicklist.</tt></dd></dl>
+
+<dl><dt><a name="Channel-nicks"><strong>nicks</strong></a>(...)</dt><dd><tt><a href="#Channel-nicks">nicks</a>()&nbsp;-&gt;&nbsp;list&nbsp;of&nbsp;<a href="#Nick">Nick</a>&nbsp;objects<br>
+&nbsp;<br>
+Return&nbsp;a&nbsp;list&nbsp;of&nbsp;nicks&nbsp;in&nbsp;the&nbsp;channel.</tt></dd></dl>
+
+<dl><dt><a name="Channel-nicks_find_mask"><strong>nicks_find_mask</strong></a>(...)</dt><dd><tt><a href="#Channel-nicks_find_mask">nicks_find_mask</a>(mask)&nbsp;-&gt;&nbsp;<a href="#Nick">Nick</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Find&nbsp;nick&nbsp;mask&nbsp;from&nbsp;nicklist,&nbsp;wildcards&nbsp;allowed.</tt></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>chanop</strong> = &lt;attribute 'chanop' of 'irssi.Channel' objects&gt;<dd><tt>You&nbsp;are&nbsp;channel&nbsp;operator</tt></dl>
+
+<dl><dt><strong>joined</strong> = &lt;attribute 'joined' of 'irssi.Channel' objects&gt;<dd><tt>JOIN&nbsp;event&nbsp;for&nbsp;this&nbsp;channel&nbsp;has&nbsp;been&nbsp;received</tt></dl>
+
+<dl><dt><strong>key</strong> = &lt;attribute 'key' of 'irssi.Channel' objects&gt;<dd><tt><a href="#Channel">Channel</a>&nbsp;key&nbsp;(password)</tt></dl>
+
+<dl><dt><strong>kicked</strong> = &lt;attribute 'kicked' of 'irssi.Channel' objects&gt;<dd><tt>You&nbsp;were&nbsp;just&nbsp;kicked&nbsp;out&nbsp;of&nbsp;the&nbsp;channel&nbsp;(for&nbsp;'channel&nbsp;destroyed'&nbsp;event)</tt></dl>
+
+<dl><dt><strong>left</strong> = &lt;attribute 'left' of 'irssi.Channel' objects&gt;<dd><tt>You&nbsp;just&nbsp;left&nbsp;the&nbsp;channel&nbsp;(for&nbsp;'channel&nbsp;destroyed'&nbsp;event)</tt></dl>
+
+<dl><dt><strong>limit</strong> = &lt;attribute 'limit' of 'irssi.Channel' objects&gt;<dd><tt>Max.&nbsp;users&nbsp;in&nbsp;channel&nbsp;(+l&nbsp;mode)</tt></dl>
+
+<dl><dt><strong>mode</strong> = &lt;attribute 'mode' of 'irssi.Channel' objects&gt;<dd><tt><a href="#Channel">Channel</a>&nbsp;mode</tt></dl>
+
+<dl><dt><strong>names_got</strong> = &lt;attribute 'names_got' of 'irssi.Channel' objects&gt;<dd><tt>/NAMES&nbsp;list&nbsp;has&nbsp;been&nbsp;received</tt></dl>
+
+<dl><dt><strong>no_modes</strong> = &lt;attribute 'no_modes' of 'irssi.Channel' objects&gt;<dd><tt><a href="#Channel">Channel</a>&nbsp;is&nbsp;modeless</tt></dl>
+
+<dl><dt><strong>synced</strong> = &lt;attribute 'synced' of 'irssi.Channel' objects&gt;<dd><tt><a href="#Channel">Channel</a>&nbsp;is&nbsp;fully&nbsp;synchronized</tt></dl>
+
+<dl><dt><strong>topic</strong> = &lt;attribute 'topic' of 'irssi.Channel' objects&gt;<dd><tt><a href="#Channel">Channel</a>&nbsp;topic</tt></dl>
+
+<dl><dt><strong>topic_by</strong> = &lt;attribute 'topic_by' of 'irssi.Channel' objects&gt;<dd><tt><a href="#Nick">Nick</a>&nbsp;who&nbsp;set&nbsp;the&nbsp;topic</tt></dl>
+
+<dl><dt><strong>topic_time</strong> = &lt;attribute 'topic_time' of 'irssi.Channel' objects&gt;<dd><tt>Timestamp&nbsp;when&nbsp;the&nbsp;topic&nbsp;was&nbsp;set</tt></dl>
+
+<dl><dt><strong>wholist</strong> = &lt;attribute 'wholist' of 'irssi.Channel' objects&gt;<dd><tt>/WHO&nbsp;list&nbsp;has&nbsp;been&nbsp;received</tt></dl>
+
+<hr>
+Methods inherited from <a href="irssi-python.html#WindowItem">WindowItem</a>:<br>
+<dl><dt><a name="Channel-activity"><strong>activity</strong></a>(...)</dt><dd><tt><a href="#Channel-activity">activity</a>(data_level,&nbsp;hilight_color)&nbsp;-&gt;&nbsp;None</tt></dd></dl>
+
+<dl><dt><a name="Channel-change_server"><strong>change_server</strong></a>(...)</dt><dd><tt><a href="#Channel-change_server">change_server</a>(server)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Change&nbsp;server&nbsp;for&nbsp;window&nbsp;item</tt></dd></dl>
+
+<dl><dt><a name="Channel-command"><strong>command</strong></a>(...)</dt><dd><tt><a href="#Channel-command">command</a>(cmd)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Send&nbsp;command&nbsp;to&nbsp;window&nbsp;item</tt></dd></dl>
+
+<dl><dt><a name="Channel-destroy"><strong>destroy</strong></a>(...)</dt><dd><tt><a href="#Channel-destroy">destroy</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Destroy&nbsp;channel&nbsp;or&nbsp;query</tt></dd></dl>
+
+<dl><dt><a name="Channel-get_dcc"><strong>get_dcc</strong></a>(...)</dt><dd><tt><a href="#Channel-get_dcc">get_dcc</a>()&nbsp;-&gt;&nbsp;<a href="#DccChat">DccChat</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+If&nbsp;item&nbsp;is&nbsp;a&nbsp;query&nbsp;of&nbsp;a&nbsp;=nick,&nbsp;return&nbsp;DCC&nbsp;chat&nbsp;record&nbsp;of&nbsp;nick</tt></dd></dl>
+
+<dl><dt><a name="Channel-is_active"><strong>is_active</strong></a>(...)</dt><dd><tt><a href="#Channel-is_active">is_active</a>()&nbsp;-&gt;&nbsp;bool<br>
+&nbsp;<br>
+Returns&nbsp;true&nbsp;if&nbsp;window&nbsp;item&nbsp;is&nbsp;active</tt></dd></dl>
+
+<dl><dt><a name="Channel-printformat"><strong>printformat</strong></a>(...)</dt><dd><tt>for&nbsp;<a href="#Server">Server</a>&nbsp;objects:<br>
+<a href="#Channel-printformat">printformat</a>(target,&nbsp;level,&nbsp;format,&nbsp;...)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+For&nbsp;all&nbsp;else:<br>
+<a href="#Channel-printformat">printformat</a>(level,&nbsp;format,&nbsp;...)&nbsp;-&gt;&nbsp;None</tt></dd></dl>
+
+<dl><dt><a name="Channel-prnt"><strong>prnt</strong></a>(...)</dt><dd><tt><a href="#Channel-prnt">prnt</a>(str,&nbsp;level)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Print&nbsp;to&nbsp;window&nbsp;item</tt></dd></dl>
+
+<dl><dt><a name="Channel-set_active"><strong>set_active</strong></a>(...)</dt><dd><tt><a href="#Channel-set_active">set_active</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Set&nbsp;window&nbsp;item&nbsp;active</tt></dd></dl>
+
+<dl><dt><a name="Channel-window"><strong>window</strong></a>(...)</dt><dd><tt><a href="#Channel-window">window</a>()&nbsp;-&gt;&nbsp;<a href="#Window">Window</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Return&nbsp;parent&nbsp;window&nbsp;for&nbsp;window&nbsp;item</tt></dd></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#WindowItem">WindowItem</a>:<br>
+<dl><dt><strong>createtime</strong> = &lt;attribute 'createtime' of 'irssi.WindowItem' objects&gt;<dd><tt>Time&nbsp;the&nbsp;witem&nbsp;was&nbsp;created</tt></dl>
+
+<dl><dt><strong>data_level</strong> = &lt;attribute 'data_level' of 'irssi.WindowItem' objects&gt;<dd><tt>0=no&nbsp;new&nbsp;data,&nbsp;1=text,&nbsp;2=msg,&nbsp;3=highlighted&nbsp;text</tt></dl>
+
+<dl><dt><strong>hilight_color</strong> = &lt;attribute 'hilight_color' of 'irssi.WindowItem' objects&gt;<dd><tt>Color&nbsp;of&nbsp;the&nbsp;last&nbsp;highlighted&nbsp;text</tt></dl>
+
+<dl><dt><strong>name</strong> = &lt;attribute 'name' of 'irssi.WindowItem' objects&gt;<dd><tt>Name&nbsp;of&nbsp;the&nbsp;item</tt></dl>
+
+<dl><dt><strong>server</strong> = &lt;attribute 'server' of 'irssi.WindowItem' objects&gt;<dd><tt>Active&nbsp;name&nbsp;for&nbsp;item</tt></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#IrssiChatBase">IrssiChatBase</a>:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#Channel-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<dl><dt><strong>chat_type</strong> = &lt;attribute 'chat_type' of 'irssi.IrssiChatBase' objects&gt;<dd><tt>Chat&nbsp;name&nbsp;(str)</tt></dl>
+
+<dl><dt><strong>chat_type_id</strong> = &lt;attribute 'chat_type_id' of 'irssi.IrssiChatBase' objects&gt;<dd><tt>Chat&nbsp;Type&nbsp;id&nbsp;(int)</tt></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#IrssiBase">IrssiBase</a>:<br>
+<dl><dt><strong>type</strong> = &lt;attribute 'type' of 'irssi.IrssiBase' objects&gt;<dd><tt>Irssi's&nbsp;name&nbsp;for&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>type_id</strong> = &lt;attribute 'type_id' of 'irssi.IrssiBase' objects&gt;<dd><tt>Irssi's&nbsp;type&nbsp;id&nbsp;for&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>valid</strong> = &lt;attribute 'valid' of 'irssi.IrssiBase' objects&gt;<dd><tt>True&nbsp;if&nbsp;the&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;is&nbsp;valid</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Chatnet">class <strong>Chatnet</strong></a>(<a href="irssi-python.html#IrssiChatBase">IrssiChatBase</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>PyChatnet&nbsp;objects<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="irssi-python.html#Chatnet">Chatnet</a></dd>
+<dd><a href="irssi-python.html#IrssiChatBase">IrssiChatBase</a></dd>
+<dd><a href="irssi-python.html#IrssiBase">IrssiBase</a></dd>
+<dd><a href="__builtin__.html#object">__builtin__.object</a></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>autosendcmd</strong> = &lt;attribute 'autosendcmd' of 'irssi.Chatnet' objects&gt;<dd><tt>command&nbsp;to&nbsp;send&nbsp;after&nbsp;connecting&nbsp;to&nbsp;this&nbsp;network</tt></dl>
+
+<dl><dt><strong>name</strong> = &lt;attribute 'name' of 'irssi.Chatnet' objects&gt;<dd><tt>name&nbsp;of&nbsp;chat&nbsp;network</tt></dl>
+
+<dl><dt><strong>nick</strong> = &lt;attribute 'nick' of 'irssi.Chatnet' objects&gt;<dd><tt>if&nbsp;not&nbsp;empty,&nbsp;nick&nbsp;preferred&nbsp;in&nbsp;this&nbsp;network</tt></dl>
+
+<dl><dt><strong>own_host</strong> = &lt;attribute 'own_host' of 'irssi.Chatnet' objects&gt;<dd><tt>address&nbsp;to&nbsp;use&nbsp;when&nbsp;connecting&nbsp;to&nbsp;this&nbsp;network</tt></dl>
+
+<dl><dt><strong>realname</strong> = &lt;attribute 'realname' of 'irssi.Chatnet' objects&gt;<dd><tt>if&nbsp;not&nbsp;empty,&nbsp;realname&nbsp;preferred&nbsp;in&nbsp;this&nbsp;network</tt></dl>
+
+<dl><dt><strong>username</strong> = &lt;attribute 'username' of 'irssi.Chatnet' objects&gt;<dd><tt>if&nbsp;not&nbsp;empty,&nbsp;username&nbsp;preferred&nbsp;in&nbsp;this&nbsp;network</tt></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#IrssiChatBase">IrssiChatBase</a>:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#Chatnet-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<dl><dt><strong>chat_type</strong> = &lt;attribute 'chat_type' of 'irssi.IrssiChatBase' objects&gt;<dd><tt>Chat&nbsp;name&nbsp;(str)</tt></dl>
+
+<dl><dt><strong>chat_type_id</strong> = &lt;attribute 'chat_type_id' of 'irssi.IrssiChatBase' objects&gt;<dd><tt>Chat&nbsp;Type&nbsp;id&nbsp;(int)</tt></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#IrssiBase">IrssiBase</a>:<br>
+<dl><dt><strong>type</strong> = &lt;attribute 'type' of 'irssi.IrssiBase' objects&gt;<dd><tt>Irssi's&nbsp;name&nbsp;for&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>type_id</strong> = &lt;attribute 'type_id' of 'irssi.IrssiBase' objects&gt;<dd><tt>Irssi's&nbsp;type&nbsp;id&nbsp;for&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>valid</strong> = &lt;attribute 'valid' of 'irssi.IrssiBase' objects&gt;<dd><tt>True&nbsp;if&nbsp;the&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;is&nbsp;valid</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Command">class <strong>Command</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>PyCommand&nbsp;objects<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Data and other attributes defined here:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#Command-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<dl><dt><strong>category</strong> = &lt;attribute 'category' of 'irssi.Command' objects&gt;<dd><tt>Category</tt></dl>
+
+<dl><dt><strong>cmd</strong> = &lt;attribute 'cmd' of 'irssi.Command' objects&gt;<dd><tt><a href="#Command">Command</a>&nbsp;name</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Connect">class <strong>Connect</strong></a>(<a href="irssi-python.html#IrssiChatBase">IrssiChatBase</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>PyConnect&nbsp;objects<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="irssi-python.html#Connect">Connect</a></dd>
+<dd><a href="irssi-python.html#IrssiChatBase">IrssiChatBase</a></dd>
+<dd><a href="irssi-python.html#IrssiBase">IrssiBase</a></dd>
+<dd><a href="__builtin__.html#object">__builtin__.object</a></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>address</strong> = &lt;attribute 'address' of 'irssi.Connect' objects&gt;<dd><tt>Address&nbsp;where&nbsp;we&nbsp;connected&nbsp;(irc.blah.org)</tt></dl>
+
+<dl><dt><strong>chatnet</strong> = &lt;attribute 'chatnet' of 'irssi.Connect' objects&gt;<dd><tt>Chat&nbsp;network</tt></dl>
+
+<dl><dt><strong>password</strong> = &lt;attribute 'password' of 'irssi.Connect' objects&gt;<dd><tt>Password&nbsp;we&nbsp;used&nbsp;in&nbsp;connection.</tt></dl>
+
+<dl><dt><strong>port</strong> = &lt;attribute 'port' of 'irssi.Connect' objects&gt;<dd><tt>Port&nbsp;where&nbsp;we're&nbsp;connected</tt></dl>
+
+<dl><dt><strong>realname</strong> = &lt;attribute 'realname' of 'irssi.Connect' objects&gt;<dd><tt>Real&nbsp;name</tt></dl>
+
+<dl><dt><strong>username</strong> = &lt;attribute 'username' of 'irssi.Connect' objects&gt;<dd><tt>User&nbsp;name</tt></dl>
+
+<dl><dt><strong>wanted_nick</strong> = &lt;attribute 'wanted_nick' of 'irssi.Connect' objects&gt;<dd><tt><a href="#Nick">Nick</a>&nbsp;which&nbsp;we&nbsp;would&nbsp;prefer&nbsp;to&nbsp;use</tt></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#IrssiChatBase">IrssiChatBase</a>:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#Connect-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<dl><dt><strong>chat_type</strong> = &lt;attribute 'chat_type' of 'irssi.IrssiChatBase' objects&gt;<dd><tt>Chat&nbsp;name&nbsp;(str)</tt></dl>
+
+<dl><dt><strong>chat_type_id</strong> = &lt;attribute 'chat_type_id' of 'irssi.IrssiChatBase' objects&gt;<dd><tt>Chat&nbsp;Type&nbsp;id&nbsp;(int)</tt></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#IrssiBase">IrssiBase</a>:<br>
+<dl><dt><strong>type</strong> = &lt;attribute 'type' of 'irssi.IrssiBase' objects&gt;<dd><tt>Irssi's&nbsp;name&nbsp;for&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>type_id</strong> = &lt;attribute 'type_id' of 'irssi.IrssiBase' objects&gt;<dd><tt>Irssi's&nbsp;type&nbsp;id&nbsp;for&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>valid</strong> = &lt;attribute 'valid' of 'irssi.IrssiBase' objects&gt;<dd><tt>True&nbsp;if&nbsp;the&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;is&nbsp;valid</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Dcc">class <strong>Dcc</strong></a>(<a href="irssi-python.html#IrssiBase">IrssiBase</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>PyDcc&nbsp;objects<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="irssi-python.html#Dcc">Dcc</a></dd>
+<dd><a href="irssi-python.html#IrssiBase">IrssiBase</a></dd>
+<dd><a href="__builtin__.html#object">__builtin__.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="Dcc-close"><strong>close</strong></a>(...)</dt><dd><tt><a href="#Dcc-close">close</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Close&nbsp;and&nbsp;destroy&nbsp;DCC&nbsp;connection.</tt></dd></dl>
+
+<dl><dt><a name="Dcc-destroy"><strong>destroy</strong></a>(...)</dt><dd><tt><a href="#Dcc-destroy">destroy</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Destroy&nbsp;DCC&nbsp;connection</tt></dd></dl>
+
+<dl><dt><a name="Dcc-reject"><strong>reject</strong></a>(...)</dt><dd><tt><a href="#Dcc-reject">reject</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+?</tt></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>addr</strong> = &lt;attribute 'addr' of 'irssi.Dcc' objects&gt;<dd><tt>Other&nbsp;side's&nbsp;IP&nbsp;address.</tt></dl>
+
+<dl><dt><strong>arg</strong> = &lt;attribute 'arg' of 'irssi.Dcc' objects&gt;<dd><tt>Given&nbsp;argument&nbsp;..&nbsp;file&nbsp;name&nbsp;usually</tt></dl>
+
+<dl><dt><strong>chat</strong> = &lt;attribute 'chat' of 'irssi.Dcc' objects&gt;<dd><tt><a href="#Dcc">Dcc</a>&nbsp;chat&nbsp;record&nbsp;if&nbsp;the&nbsp;request&nbsp;came&nbsp;through&nbsp;DCC&nbsp;chat</tt></dl>
+
+<dl><dt><strong>created</strong> = &lt;attribute 'created' of 'irssi.Dcc' objects&gt;<dd><tt>Time&nbsp;stamp&nbsp;when&nbsp;the&nbsp;DCC&nbsp;record&nbsp;was&nbsp;created</tt></dl>
+
+<dl><dt><strong>mynick</strong> = &lt;attribute 'mynick' of 'irssi.Dcc' objects&gt;<dd><tt>Our&nbsp;nick&nbsp;to&nbsp;use&nbsp;in&nbsp;DCC&nbsp;chat.</tt></dl>
+
+<dl><dt><strong>nick</strong> = &lt;attribute 'nick' of 'irssi.Dcc' objects&gt;<dd><tt>Other&nbsp;side's&nbsp;nick&nbsp;name.</tt></dl>
+
+<dl><dt><strong>orig_type</strong> = &lt;attribute 'orig_type' of 'irssi.Dcc' objects&gt;<dd><tt>Original&nbsp;DCC&nbsp;type&nbsp;that&nbsp;was&nbsp;sent&nbsp;to&nbsp;us&nbsp;-&nbsp;same&nbsp;as&nbsp;type&nbsp;except&nbsp;GET&nbsp;and&nbsp;SEND&nbsp;are&nbsp;swapped</tt></dl>
+
+<dl><dt><strong>port</strong> = &lt;attribute 'port' of 'irssi.Dcc' objects&gt;<dd><tt>Port&nbsp;we're&nbsp;connecting&nbsp;in.</tt></dl>
+
+<dl><dt><strong>server</strong> = &lt;attribute 'server' of 'irssi.Dcc' objects&gt;<dd><tt><a href="#Server">Server</a>&nbsp;record&nbsp;where&nbsp;the&nbsp;DCC&nbsp;was&nbsp;initiated.</tt></dl>
+
+<dl><dt><strong>servertag</strong> = &lt;attribute 'servertag' of 'irssi.Dcc' objects&gt;<dd><tt>Tag&nbsp;of&nbsp;the&nbsp;server&nbsp;where&nbsp;the&nbsp;DCC&nbsp;was&nbsp;initiated.</tt></dl>
+
+<dl><dt><strong>starttime</strong> = &lt;attribute 'starttime' of 'irssi.Dcc' objects&gt;<dd><tt>Unix&nbsp;time&nbsp;stamp&nbsp;when&nbsp;the&nbsp;DCC&nbsp;transfer&nbsp;was&nbsp;started</tt></dl>
+
+<dl><dt><strong>target</strong> = &lt;attribute 'target' of 'irssi.Dcc' objects&gt;<dd><tt>Who&nbsp;the&nbsp;request&nbsp;was&nbsp;sent&nbsp;to&nbsp;-&nbsp;your&nbsp;nick,&nbsp;channel&nbsp;or&nbsp;empty&nbsp;if&nbsp;you&nbsp;sent&nbsp;the&nbsp;request</tt></dl>
+
+<dl><dt><strong>transfd</strong> = &lt;attribute 'transfd' of 'irssi.Dcc' objects&gt;<dd><tt>Bytes&nbsp;transferred</tt></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#IrssiBase">IrssiBase</a>:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#Dcc-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<dl><dt><strong>type</strong> = &lt;attribute 'type' of 'irssi.IrssiBase' objects&gt;<dd><tt>Irssi's&nbsp;name&nbsp;for&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>type_id</strong> = &lt;attribute 'type_id' of 'irssi.IrssiBase' objects&gt;<dd><tt>Irssi's&nbsp;type&nbsp;id&nbsp;for&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>valid</strong> = &lt;attribute 'valid' of 'irssi.IrssiBase' objects&gt;<dd><tt>True&nbsp;if&nbsp;the&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;is&nbsp;valid</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="DccChat">class <strong>DccChat</strong></a>(<a href="irssi-python.html#Dcc">Dcc</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>PyDccChat&nbsp;objects<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="irssi-python.html#DccChat">DccChat</a></dd>
+<dd><a href="irssi-python.html#Dcc">Dcc</a></dd>
+<dd><a href="irssi-python.html#IrssiBase">IrssiBase</a></dd>
+<dd><a href="__builtin__.html#object">__builtin__.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="DccChat-chat_send"><strong>chat_send</strong></a>(...)</dt><dd><tt><a href="#DccChat-chat_send">chat_send</a>(data)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Send&nbsp;data&nbsp;to&nbsp;a&nbsp;dcc&nbsp;chat&nbsp;session.</tt></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>connection_lost</strong> = &lt;attribute 'connection_lost' of 'irssi.DccChat' objects&gt;<dd><tt>Other&nbsp;side&nbsp;closed&nbsp;connection</tt></dl>
+
+<dl><dt><strong>id</strong> = &lt;attribute 'id' of 'irssi.DccChat' objects&gt;<dd><tt>Unique&nbsp;identifier&nbsp;-&nbsp;usually&nbsp;same&nbsp;as&nbsp;nick</tt></dl>
+
+<dl><dt><strong>mirc_ctcp</strong> = &lt;attribute 'mirc_ctcp' of 'irssi.DccChat' objects&gt;<dd><tt>Send&nbsp;CTCPs&nbsp;without&nbsp;the&nbsp;CTCP_MESSAGE&nbsp;prefix</tt></dl>
+
+<hr>
+Methods inherited from <a href="irssi-python.html#Dcc">Dcc</a>:<br>
+<dl><dt><a name="DccChat-close"><strong>close</strong></a>(...)</dt><dd><tt><a href="#DccChat-close">close</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Close&nbsp;and&nbsp;destroy&nbsp;DCC&nbsp;connection.</tt></dd></dl>
+
+<dl><dt><a name="DccChat-destroy"><strong>destroy</strong></a>(...)</dt><dd><tt><a href="#DccChat-destroy">destroy</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Destroy&nbsp;DCC&nbsp;connection</tt></dd></dl>
+
+<dl><dt><a name="DccChat-reject"><strong>reject</strong></a>(...)</dt><dd><tt><a href="#DccChat-reject">reject</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+?</tt></dd></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#Dcc">Dcc</a>:<br>
+<dl><dt><strong>addr</strong> = &lt;attribute 'addr' of 'irssi.Dcc' objects&gt;<dd><tt>Other&nbsp;side's&nbsp;IP&nbsp;address.</tt></dl>
+
+<dl><dt><strong>arg</strong> = &lt;attribute 'arg' of 'irssi.Dcc' objects&gt;<dd><tt>Given&nbsp;argument&nbsp;..&nbsp;file&nbsp;name&nbsp;usually</tt></dl>
+
+<dl><dt><strong>chat</strong> = &lt;attribute 'chat' of 'irssi.Dcc' objects&gt;<dd><tt><a href="#Dcc">Dcc</a>&nbsp;chat&nbsp;record&nbsp;if&nbsp;the&nbsp;request&nbsp;came&nbsp;through&nbsp;DCC&nbsp;chat</tt></dl>
+
+<dl><dt><strong>created</strong> = &lt;attribute 'created' of 'irssi.Dcc' objects&gt;<dd><tt>Time&nbsp;stamp&nbsp;when&nbsp;the&nbsp;DCC&nbsp;record&nbsp;was&nbsp;created</tt></dl>
+
+<dl><dt><strong>mynick</strong> = &lt;attribute 'mynick' of 'irssi.Dcc' objects&gt;<dd><tt>Our&nbsp;nick&nbsp;to&nbsp;use&nbsp;in&nbsp;DCC&nbsp;chat.</tt></dl>
+
+<dl><dt><strong>nick</strong> = &lt;attribute 'nick' of 'irssi.Dcc' objects&gt;<dd><tt>Other&nbsp;side's&nbsp;nick&nbsp;name.</tt></dl>
+
+<dl><dt><strong>orig_type</strong> = &lt;attribute 'orig_type' of 'irssi.Dcc' objects&gt;<dd><tt>Original&nbsp;DCC&nbsp;type&nbsp;that&nbsp;was&nbsp;sent&nbsp;to&nbsp;us&nbsp;-&nbsp;same&nbsp;as&nbsp;type&nbsp;except&nbsp;GET&nbsp;and&nbsp;SEND&nbsp;are&nbsp;swapped</tt></dl>
+
+<dl><dt><strong>port</strong> = &lt;attribute 'port' of 'irssi.Dcc' objects&gt;<dd><tt>Port&nbsp;we're&nbsp;connecting&nbsp;in.</tt></dl>
+
+<dl><dt><strong>server</strong> = &lt;attribute 'server' of 'irssi.Dcc' objects&gt;<dd><tt><a href="#Server">Server</a>&nbsp;record&nbsp;where&nbsp;the&nbsp;DCC&nbsp;was&nbsp;initiated.</tt></dl>
+
+<dl><dt><strong>servertag</strong> = &lt;attribute 'servertag' of 'irssi.Dcc' objects&gt;<dd><tt>Tag&nbsp;of&nbsp;the&nbsp;server&nbsp;where&nbsp;the&nbsp;DCC&nbsp;was&nbsp;initiated.</tt></dl>
+
+<dl><dt><strong>starttime</strong> = &lt;attribute 'starttime' of 'irssi.Dcc' objects&gt;<dd><tt>Unix&nbsp;time&nbsp;stamp&nbsp;when&nbsp;the&nbsp;DCC&nbsp;transfer&nbsp;was&nbsp;started</tt></dl>
+
+<dl><dt><strong>target</strong> = &lt;attribute 'target' of 'irssi.Dcc' objects&gt;<dd><tt>Who&nbsp;the&nbsp;request&nbsp;was&nbsp;sent&nbsp;to&nbsp;-&nbsp;your&nbsp;nick,&nbsp;channel&nbsp;or&nbsp;empty&nbsp;if&nbsp;you&nbsp;sent&nbsp;the&nbsp;request</tt></dl>
+
+<dl><dt><strong>transfd</strong> = &lt;attribute 'transfd' of 'irssi.Dcc' objects&gt;<dd><tt>Bytes&nbsp;transferred</tt></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#IrssiBase">IrssiBase</a>:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#DccChat-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<dl><dt><strong>type</strong> = &lt;attribute 'type' of 'irssi.IrssiBase' objects&gt;<dd><tt>Irssi's&nbsp;name&nbsp;for&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>type_id</strong> = &lt;attribute 'type_id' of 'irssi.IrssiBase' objects&gt;<dd><tt>Irssi's&nbsp;type&nbsp;id&nbsp;for&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>valid</strong> = &lt;attribute 'valid' of 'irssi.IrssiBase' objects&gt;<dd><tt>True&nbsp;if&nbsp;the&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;is&nbsp;valid</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="DccGet">class <strong>DccGet</strong></a>(<a href="irssi-python.html#Dcc">Dcc</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>PyDccGet&nbsp;objects<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="irssi-python.html#DccGet">DccGet</a></dd>
+<dd><a href="irssi-python.html#Dcc">Dcc</a></dd>
+<dd><a href="irssi-python.html#IrssiBase">IrssiBase</a></dd>
+<dd><a href="__builtin__.html#object">__builtin__.object</a></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>file</strong> = &lt;attribute 'file' of 'irssi.DccGet' objects&gt;<dd><tt>The&nbsp;real&nbsp;file&nbsp;name&nbsp;which&nbsp;we&nbsp;use.</tt></dl>
+
+<dl><dt><strong>file_quoted</strong> = &lt;attribute 'file_quoted' of 'irssi.DccGet' objects&gt;<dd><tt>true&nbsp;if&nbsp;file&nbsp;name&nbsp;was&nbsp;received&nbsp;quoted&nbsp;("file&nbsp;name")</tt></dl>
+
+<dl><dt><strong>get_type</strong> = &lt;attribute 'get_type' of 'irssi.DccGet' objects&gt;<dd><tt>What&nbsp;to&nbsp;do&nbsp;if&nbsp;file&nbsp;exists?&nbsp;0=default,&nbsp;1=rename,&nbsp;2=overwrite,&nbsp;3=resume</tt></dl>
+
+<dl><dt><strong>size</strong> = &lt;attribute 'size' of 'irssi.DccGet' objects&gt;<dd><tt>File&nbsp;size</tt></dl>
+
+<dl><dt><strong>skipped</strong> = &lt;attribute 'skipped' of 'irssi.DccGet' objects&gt;<dd><tt>Bytes&nbsp;skipped&nbsp;from&nbsp;start&nbsp;(resuming&nbsp;file)</tt></dl>
+
+<hr>
+Methods inherited from <a href="irssi-python.html#Dcc">Dcc</a>:<br>
+<dl><dt><a name="DccGet-close"><strong>close</strong></a>(...)</dt><dd><tt><a href="#DccGet-close">close</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Close&nbsp;and&nbsp;destroy&nbsp;DCC&nbsp;connection.</tt></dd></dl>
+
+<dl><dt><a name="DccGet-destroy"><strong>destroy</strong></a>(...)</dt><dd><tt><a href="#DccGet-destroy">destroy</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Destroy&nbsp;DCC&nbsp;connection</tt></dd></dl>
+
+<dl><dt><a name="DccGet-reject"><strong>reject</strong></a>(...)</dt><dd><tt><a href="#DccGet-reject">reject</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+?</tt></dd></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#Dcc">Dcc</a>:<br>
+<dl><dt><strong>addr</strong> = &lt;attribute 'addr' of 'irssi.Dcc' objects&gt;<dd><tt>Other&nbsp;side's&nbsp;IP&nbsp;address.</tt></dl>
+
+<dl><dt><strong>arg</strong> = &lt;attribute 'arg' of 'irssi.Dcc' objects&gt;<dd><tt>Given&nbsp;argument&nbsp;..&nbsp;file&nbsp;name&nbsp;usually</tt></dl>
+
+<dl><dt><strong>chat</strong> = &lt;attribute 'chat' of 'irssi.Dcc' objects&gt;<dd><tt><a href="#Dcc">Dcc</a>&nbsp;chat&nbsp;record&nbsp;if&nbsp;the&nbsp;request&nbsp;came&nbsp;through&nbsp;DCC&nbsp;chat</tt></dl>
+
+<dl><dt><strong>created</strong> = &lt;attribute 'created' of 'irssi.Dcc' objects&gt;<dd><tt>Time&nbsp;stamp&nbsp;when&nbsp;the&nbsp;DCC&nbsp;record&nbsp;was&nbsp;created</tt></dl>
+
+<dl><dt><strong>mynick</strong> = &lt;attribute 'mynick' of 'irssi.Dcc' objects&gt;<dd><tt>Our&nbsp;nick&nbsp;to&nbsp;use&nbsp;in&nbsp;DCC&nbsp;chat.</tt></dl>
+
+<dl><dt><strong>nick</strong> = &lt;attribute 'nick' of 'irssi.Dcc' objects&gt;<dd><tt>Other&nbsp;side's&nbsp;nick&nbsp;name.</tt></dl>
+
+<dl><dt><strong>orig_type</strong> = &lt;attribute 'orig_type' of 'irssi.Dcc' objects&gt;<dd><tt>Original&nbsp;DCC&nbsp;type&nbsp;that&nbsp;was&nbsp;sent&nbsp;to&nbsp;us&nbsp;-&nbsp;same&nbsp;as&nbsp;type&nbsp;except&nbsp;GET&nbsp;and&nbsp;SEND&nbsp;are&nbsp;swapped</tt></dl>
+
+<dl><dt><strong>port</strong> = &lt;attribute 'port' of 'irssi.Dcc' objects&gt;<dd><tt>Port&nbsp;we're&nbsp;connecting&nbsp;in.</tt></dl>
+
+<dl><dt><strong>server</strong> = &lt;attribute 'server' of 'irssi.Dcc' objects&gt;<dd><tt><a href="#Server">Server</a>&nbsp;record&nbsp;where&nbsp;the&nbsp;DCC&nbsp;was&nbsp;initiated.</tt></dl>
+
+<dl><dt><strong>servertag</strong> = &lt;attribute 'servertag' of 'irssi.Dcc' objects&gt;<dd><tt>Tag&nbsp;of&nbsp;the&nbsp;server&nbsp;where&nbsp;the&nbsp;DCC&nbsp;was&nbsp;initiated.</tt></dl>
+
+<dl><dt><strong>starttime</strong> = &lt;attribute 'starttime' of 'irssi.Dcc' objects&gt;<dd><tt>Unix&nbsp;time&nbsp;stamp&nbsp;when&nbsp;the&nbsp;DCC&nbsp;transfer&nbsp;was&nbsp;started</tt></dl>
+
+<dl><dt><strong>target</strong> = &lt;attribute 'target' of 'irssi.Dcc' objects&gt;<dd><tt>Who&nbsp;the&nbsp;request&nbsp;was&nbsp;sent&nbsp;to&nbsp;-&nbsp;your&nbsp;nick,&nbsp;channel&nbsp;or&nbsp;empty&nbsp;if&nbsp;you&nbsp;sent&nbsp;the&nbsp;request</tt></dl>
+
+<dl><dt><strong>transfd</strong> = &lt;attribute 'transfd' of 'irssi.Dcc' objects&gt;<dd><tt>Bytes&nbsp;transferred</tt></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#IrssiBase">IrssiBase</a>:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#DccGet-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<dl><dt><strong>type</strong> = &lt;attribute 'type' of 'irssi.IrssiBase' objects&gt;<dd><tt>Irssi's&nbsp;name&nbsp;for&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>type_id</strong> = &lt;attribute 'type_id' of 'irssi.IrssiBase' objects&gt;<dd><tt>Irssi's&nbsp;type&nbsp;id&nbsp;for&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>valid</strong> = &lt;attribute 'valid' of 'irssi.IrssiBase' objects&gt;<dd><tt>True&nbsp;if&nbsp;the&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;is&nbsp;valid</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="DccSend">class <strong>DccSend</strong></a>(<a href="irssi-python.html#Dcc">Dcc</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>PyDccSend&nbsp;objects<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="irssi-python.html#DccSend">DccSend</a></dd>
+<dd><a href="irssi-python.html#Dcc">Dcc</a></dd>
+<dd><a href="irssi-python.html#IrssiBase">IrssiBase</a></dd>
+<dd><a href="__builtin__.html#object">__builtin__.object</a></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>file_quoted</strong> = &lt;attribute 'file_quoted' of 'irssi.DccSend' objects&gt;<dd><tt>True&nbsp;if&nbsp;file&nbsp;name&nbsp;was&nbsp;received&nbsp;quoted&nbsp;("file&nbsp;name")</tt></dl>
+
+<dl><dt><strong>gotalldata</strong> = &lt;attribute 'gotalldata' of 'irssi.DccSend' objects&gt;<dd><tt>Got&nbsp;all&nbsp;acks&nbsp;from&nbsp;the&nbsp;other&nbsp;end</tt></dl>
+
+<dl><dt><strong>size</strong> = &lt;attribute 'size' of 'irssi.DccSend' objects&gt;<dd><tt>File&nbsp;size</tt></dl>
+
+<dl><dt><strong>skipped</strong> = &lt;attribute 'skipped' of 'irssi.DccSend' objects&gt;<dd><tt>Bytes&nbsp;skipped&nbsp;from&nbsp;start&nbsp;(resuming&nbsp;file)</tt></dl>
+
+<dl><dt><strong>waitforend</strong> = &lt;attribute 'waitforend' of 'irssi.DccSend' objects&gt;<dd><tt>File&nbsp;is&nbsp;sent,&nbsp;just&nbsp;wait&nbsp;for&nbsp;the&nbsp;replies&nbsp;from&nbsp;the&nbsp;other&nbsp;side</tt></dl>
+
+<hr>
+Methods inherited from <a href="irssi-python.html#Dcc">Dcc</a>:<br>
+<dl><dt><a name="DccSend-close"><strong>close</strong></a>(...)</dt><dd><tt><a href="#DccSend-close">close</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Close&nbsp;and&nbsp;destroy&nbsp;DCC&nbsp;connection.</tt></dd></dl>
+
+<dl><dt><a name="DccSend-destroy"><strong>destroy</strong></a>(...)</dt><dd><tt><a href="#DccSend-destroy">destroy</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Destroy&nbsp;DCC&nbsp;connection</tt></dd></dl>
+
+<dl><dt><a name="DccSend-reject"><strong>reject</strong></a>(...)</dt><dd><tt><a href="#DccSend-reject">reject</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+?</tt></dd></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#Dcc">Dcc</a>:<br>
+<dl><dt><strong>addr</strong> = &lt;attribute 'addr' of 'irssi.Dcc' objects&gt;<dd><tt>Other&nbsp;side's&nbsp;IP&nbsp;address.</tt></dl>
+
+<dl><dt><strong>arg</strong> = &lt;attribute 'arg' of 'irssi.Dcc' objects&gt;<dd><tt>Given&nbsp;argument&nbsp;..&nbsp;file&nbsp;name&nbsp;usually</tt></dl>
+
+<dl><dt><strong>chat</strong> = &lt;attribute 'chat' of 'irssi.Dcc' objects&gt;<dd><tt><a href="#Dcc">Dcc</a>&nbsp;chat&nbsp;record&nbsp;if&nbsp;the&nbsp;request&nbsp;came&nbsp;through&nbsp;DCC&nbsp;chat</tt></dl>
+
+<dl><dt><strong>created</strong> = &lt;attribute 'created' of 'irssi.Dcc' objects&gt;<dd><tt>Time&nbsp;stamp&nbsp;when&nbsp;the&nbsp;DCC&nbsp;record&nbsp;was&nbsp;created</tt></dl>
+
+<dl><dt><strong>mynick</strong> = &lt;attribute 'mynick' of 'irssi.Dcc' objects&gt;<dd><tt>Our&nbsp;nick&nbsp;to&nbsp;use&nbsp;in&nbsp;DCC&nbsp;chat.</tt></dl>
+
+<dl><dt><strong>nick</strong> = &lt;attribute 'nick' of 'irssi.Dcc' objects&gt;<dd><tt>Other&nbsp;side's&nbsp;nick&nbsp;name.</tt></dl>
+
+<dl><dt><strong>orig_type</strong> = &lt;attribute 'orig_type' of 'irssi.Dcc' objects&gt;<dd><tt>Original&nbsp;DCC&nbsp;type&nbsp;that&nbsp;was&nbsp;sent&nbsp;to&nbsp;us&nbsp;-&nbsp;same&nbsp;as&nbsp;type&nbsp;except&nbsp;GET&nbsp;and&nbsp;SEND&nbsp;are&nbsp;swapped</tt></dl>
+
+<dl><dt><strong>port</strong> = &lt;attribute 'port' of 'irssi.Dcc' objects&gt;<dd><tt>Port&nbsp;we're&nbsp;connecting&nbsp;in.</tt></dl>
+
+<dl><dt><strong>server</strong> = &lt;attribute 'server' of 'irssi.Dcc' objects&gt;<dd><tt><a href="#Server">Server</a>&nbsp;record&nbsp;where&nbsp;the&nbsp;DCC&nbsp;was&nbsp;initiated.</tt></dl>
+
+<dl><dt><strong>servertag</strong> = &lt;attribute 'servertag' of 'irssi.Dcc' objects&gt;<dd><tt>Tag&nbsp;of&nbsp;the&nbsp;server&nbsp;where&nbsp;the&nbsp;DCC&nbsp;was&nbsp;initiated.</tt></dl>
+
+<dl><dt><strong>starttime</strong> = &lt;attribute 'starttime' of 'irssi.Dcc' objects&gt;<dd><tt>Unix&nbsp;time&nbsp;stamp&nbsp;when&nbsp;the&nbsp;DCC&nbsp;transfer&nbsp;was&nbsp;started</tt></dl>
+
+<dl><dt><strong>target</strong> = &lt;attribute 'target' of 'irssi.Dcc' objects&gt;<dd><tt>Who&nbsp;the&nbsp;request&nbsp;was&nbsp;sent&nbsp;to&nbsp;-&nbsp;your&nbsp;nick,&nbsp;channel&nbsp;or&nbsp;empty&nbsp;if&nbsp;you&nbsp;sent&nbsp;the&nbsp;request</tt></dl>
+
+<dl><dt><strong>transfd</strong> = &lt;attribute 'transfd' of 'irssi.Dcc' objects&gt;<dd><tt>Bytes&nbsp;transferred</tt></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#IrssiBase">IrssiBase</a>:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#DccSend-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<dl><dt><strong>type</strong> = &lt;attribute 'type' of 'irssi.IrssiBase' objects&gt;<dd><tt>Irssi's&nbsp;name&nbsp;for&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>type_id</strong> = &lt;attribute 'type_id' of 'irssi.IrssiBase' objects&gt;<dd><tt>Irssi's&nbsp;type&nbsp;id&nbsp;for&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>valid</strong> = &lt;attribute 'valid' of 'irssi.IrssiBase' objects&gt;<dd><tt>True&nbsp;if&nbsp;the&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;is&nbsp;valid</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Ignore">class <strong>Ignore</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>PyIgnore&nbsp;objects<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Ignore-add_rec"><strong>add_rec</strong></a>(...)</dt><dd><tt><a href="#Ignore-add_rec">add_rec</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Add&nbsp;ignore&nbsp;record</tt></dd></dl>
+
+<dl><dt><a name="Ignore-channels"><strong>channels</strong></a>(...)</dt><dd><tt><a href="#Ignore-channels">channels</a>()&nbsp;-&gt;&nbsp;list&nbsp;of&nbsp;str<br>
+&nbsp;<br>
+<a href="#Ignore">Ignore</a>&nbsp;only&nbsp;in&nbsp;channels&nbsp;(list&nbsp;of&nbsp;names)</tt></dd></dl>
+
+<dl><dt><a name="Ignore-update_rec"><strong>update_rec</strong></a>(...)</dt><dd><tt><a href="#Ignore-update_rec">update_rec</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Update&nbsp;ignore&nbsp;record&nbsp;in&nbsp;configuration</tt></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#Ignore-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<dl><dt><strong>exception</strong> = &lt;attribute 'exception' of 'irssi.Ignore' objects&gt;<dd><tt>This&nbsp;is&nbsp;an&nbsp;exception&nbsp;ignore</tt></dl>
+
+<dl><dt><strong>fullword</strong> = &lt;attribute 'fullword' of 'irssi.Ignore' objects&gt;<dd><tt>Pattern&nbsp;matches&nbsp;only&nbsp;full&nbsp;words</tt></dl>
+
+<dl><dt><strong>level</strong> = &lt;attribute 'level' of 'irssi.Ignore' objects&gt;<dd><tt><a href="#Ignore">Ignore</a>&nbsp;level</tt></dl>
+
+<dl><dt><strong>mask</strong> = &lt;attribute 'mask' of 'irssi.Ignore' objects&gt;<dd><tt><a href="#Ignore">Ignore</a>&nbsp;mask</tt></dl>
+
+<dl><dt><strong>pattern</strong> = &lt;attribute 'pattern' of 'irssi.Ignore' objects&gt;<dd><tt><a href="#Ignore">Ignore</a>&nbsp;text&nbsp;patern</tt></dl>
+
+<dl><dt><strong>regexp</strong> = &lt;attribute 'regexp' of 'irssi.Ignore' objects&gt;<dd><tt>Regexp&nbsp;pattern&nbsp;matching</tt></dl>
+
+<dl><dt><strong>replies</strong> = &lt;attribute 'replies' of 'irssi.Ignore' objects&gt;<dd><tt><a href="#Ignore">Ignore</a>&nbsp;replies&nbsp;to&nbsp;nick&nbsp;in&nbsp;channel</tt></dl>
+
+<dl><dt><strong>servertag</strong> = &lt;attribute 'servertag' of 'irssi.Ignore' objects&gt;<dd><tt><a href="#Ignore">Ignore</a>&nbsp;only&nbsp;in&nbsp;server</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="IrcChannel">class <strong>IrcChannel</strong></a>(<a href="irssi-python.html#Channel">Channel</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>PyIrcChannel&nbsp;objects<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="irssi-python.html#IrcChannel">IrcChannel</a></dd>
+<dd><a href="irssi-python.html#Channel">Channel</a></dd>
+<dd><a href="irssi-python.html#WindowItem">WindowItem</a></dd>
+<dd><a href="irssi-python.html#IrssiChatBase">IrssiChatBase</a></dd>
+<dd><a href="irssi-python.html#IrssiBase">IrssiBase</a></dd>
+<dd><a href="__builtin__.html#object">__builtin__.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="IrcChannel-ban_get_mask"><strong>ban_get_mask</strong></a>(...)</dt><dd><tt><a href="#IrcChannel-ban_get_mask">ban_get_mask</a>(nick,&nbsp;ban_type=0)&nbsp;-&gt;&nbsp;str<br>
+&nbsp;<br>
+Get&nbsp;ban&nbsp;mask&nbsp;for&nbsp;'nick'.</tt></dd></dl>
+
+<dl><dt><a name="IrcChannel-banlist_add"><strong>banlist_add</strong></a>(...)</dt><dd><tt><a href="#IrcChannel-banlist_add">banlist_add</a>(ban,&nbsp;nick,&nbsp;time)&nbsp;-&gt;&nbsp;<a href="#Ban">Ban</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Add&nbsp;a&nbsp;new&nbsp;ban&nbsp;to&nbsp;channel.&nbsp;Return&nbsp;None&nbsp;if&nbsp;duplicate.</tt></dd></dl>
+
+<dl><dt><a name="IrcChannel-banlist_remove"><strong>banlist_remove</strong></a>(...)</dt><dd><tt><a href="#IrcChannel-banlist_remove">banlist_remove</a>(ban,&nbsp;nick)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Remove&nbsp;a&nbsp;new&nbsp;ban&nbsp;from&nbsp;channel.</tt></dd></dl>
+
+<dl><dt><a name="IrcChannel-bans"><strong>bans</strong></a>(...)</dt><dd><tt><a href="#IrcChannel-bans">bans</a>()&nbsp;-&gt;&nbsp;list&nbsp;of&nbsp;<a href="#Ban">Ban</a>&nbsp;objects<br>
+&nbsp;<br>
+Returns&nbsp;a&nbsp;list&nbsp;of&nbsp;bans&nbsp;in&nbsp;the&nbsp;channel.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="irssi-python.html#Channel">Channel</a>:<br>
+<dl><dt><a name="IrcChannel-nick_find"><strong>nick_find</strong></a>(...)</dt><dd><tt><a href="#IrcChannel-nick_find">nick_find</a>(nick)&nbsp;-&gt;&nbsp;<a href="#Nick">Nick</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Find&nbsp;nick&nbsp;from&nbsp;nicklist.</tt></dd></dl>
+
+<dl><dt><a name="IrcChannel-nick_insert_obj"><strong>nick_insert_obj</strong></a>(...)</dt><dd><tt>nick_insert(nick)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Insert&nbsp;nick&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;into&nbsp;nicklist.</tt></dd></dl>
+
+<dl><dt><a name="IrcChannel-nick_remove"><strong>nick_remove</strong></a>(...)</dt><dd><tt><a href="#IrcChannel-nick_remove">nick_remove</a>(nick)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Remove&nbsp;nick&nbsp;from&nbsp;nicklist.</tt></dd></dl>
+
+<dl><dt><a name="IrcChannel-nicks"><strong>nicks</strong></a>(...)</dt><dd><tt><a href="#IrcChannel-nicks">nicks</a>()&nbsp;-&gt;&nbsp;list&nbsp;of&nbsp;<a href="#Nick">Nick</a>&nbsp;objects<br>
+&nbsp;<br>
+Return&nbsp;a&nbsp;list&nbsp;of&nbsp;nicks&nbsp;in&nbsp;the&nbsp;channel.</tt></dd></dl>
+
+<dl><dt><a name="IrcChannel-nicks_find_mask"><strong>nicks_find_mask</strong></a>(...)</dt><dd><tt><a href="#IrcChannel-nicks_find_mask">nicks_find_mask</a>(mask)&nbsp;-&gt;&nbsp;<a href="#Nick">Nick</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Find&nbsp;nick&nbsp;mask&nbsp;from&nbsp;nicklist,&nbsp;wildcards&nbsp;allowed.</tt></dd></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#Channel">Channel</a>:<br>
+<dl><dt><strong>chanop</strong> = &lt;attribute 'chanop' of 'irssi.Channel' objects&gt;<dd><tt>You&nbsp;are&nbsp;channel&nbsp;operator</tt></dl>
+
+<dl><dt><strong>joined</strong> = &lt;attribute 'joined' of 'irssi.Channel' objects&gt;<dd><tt>JOIN&nbsp;event&nbsp;for&nbsp;this&nbsp;channel&nbsp;has&nbsp;been&nbsp;received</tt></dl>
+
+<dl><dt><strong>key</strong> = &lt;attribute 'key' of 'irssi.Channel' objects&gt;<dd><tt><a href="#Channel">Channel</a>&nbsp;key&nbsp;(password)</tt></dl>
+
+<dl><dt><strong>kicked</strong> = &lt;attribute 'kicked' of 'irssi.Channel' objects&gt;<dd><tt>You&nbsp;were&nbsp;just&nbsp;kicked&nbsp;out&nbsp;of&nbsp;the&nbsp;channel&nbsp;(for&nbsp;'channel&nbsp;destroyed'&nbsp;event)</tt></dl>
+
+<dl><dt><strong>left</strong> = &lt;attribute 'left' of 'irssi.Channel' objects&gt;<dd><tt>You&nbsp;just&nbsp;left&nbsp;the&nbsp;channel&nbsp;(for&nbsp;'channel&nbsp;destroyed'&nbsp;event)</tt></dl>
+
+<dl><dt><strong>limit</strong> = &lt;attribute 'limit' of 'irssi.Channel' objects&gt;<dd><tt>Max.&nbsp;users&nbsp;in&nbsp;channel&nbsp;(+l&nbsp;mode)</tt></dl>
+
+<dl><dt><strong>mode</strong> = &lt;attribute 'mode' of 'irssi.Channel' objects&gt;<dd><tt><a href="#Channel">Channel</a>&nbsp;mode</tt></dl>
+
+<dl><dt><strong>names_got</strong> = &lt;attribute 'names_got' of 'irssi.Channel' objects&gt;<dd><tt>/NAMES&nbsp;list&nbsp;has&nbsp;been&nbsp;received</tt></dl>
+
+<dl><dt><strong>no_modes</strong> = &lt;attribute 'no_modes' of 'irssi.Channel' objects&gt;<dd><tt><a href="#Channel">Channel</a>&nbsp;is&nbsp;modeless</tt></dl>
+
+<dl><dt><strong>synced</strong> = &lt;attribute 'synced' of 'irssi.Channel' objects&gt;<dd><tt><a href="#Channel">Channel</a>&nbsp;is&nbsp;fully&nbsp;synchronized</tt></dl>
+
+<dl><dt><strong>topic</strong> = &lt;attribute 'topic' of 'irssi.Channel' objects&gt;<dd><tt><a href="#Channel">Channel</a>&nbsp;topic</tt></dl>
+
+<dl><dt><strong>topic_by</strong> = &lt;attribute 'topic_by' of 'irssi.Channel' objects&gt;<dd><tt><a href="#Nick">Nick</a>&nbsp;who&nbsp;set&nbsp;the&nbsp;topic</tt></dl>
+
+<dl><dt><strong>topic_time</strong> = &lt;attribute 'topic_time' of 'irssi.Channel' objects&gt;<dd><tt>Timestamp&nbsp;when&nbsp;the&nbsp;topic&nbsp;was&nbsp;set</tt></dl>
+
+<dl><dt><strong>wholist</strong> = &lt;attribute 'wholist' of 'irssi.Channel' objects&gt;<dd><tt>/WHO&nbsp;list&nbsp;has&nbsp;been&nbsp;received</tt></dl>
+
+<hr>
+Methods inherited from <a href="irssi-python.html#WindowItem">WindowItem</a>:<br>
+<dl><dt><a name="IrcChannel-activity"><strong>activity</strong></a>(...)</dt><dd><tt><a href="#IrcChannel-activity">activity</a>(data_level,&nbsp;hilight_color)&nbsp;-&gt;&nbsp;None</tt></dd></dl>
+
+<dl><dt><a name="IrcChannel-change_server"><strong>change_server</strong></a>(...)</dt><dd><tt><a href="#IrcChannel-change_server">change_server</a>(server)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Change&nbsp;server&nbsp;for&nbsp;window&nbsp;item</tt></dd></dl>
+
+<dl><dt><a name="IrcChannel-command"><strong>command</strong></a>(...)</dt><dd><tt><a href="#IrcChannel-command">command</a>(cmd)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Send&nbsp;command&nbsp;to&nbsp;window&nbsp;item</tt></dd></dl>
+
+<dl><dt><a name="IrcChannel-destroy"><strong>destroy</strong></a>(...)</dt><dd><tt><a href="#IrcChannel-destroy">destroy</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Destroy&nbsp;channel&nbsp;or&nbsp;query</tt></dd></dl>
+
+<dl><dt><a name="IrcChannel-get_dcc"><strong>get_dcc</strong></a>(...)</dt><dd><tt><a href="#IrcChannel-get_dcc">get_dcc</a>()&nbsp;-&gt;&nbsp;<a href="#DccChat">DccChat</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+If&nbsp;item&nbsp;is&nbsp;a&nbsp;query&nbsp;of&nbsp;a&nbsp;=nick,&nbsp;return&nbsp;DCC&nbsp;chat&nbsp;record&nbsp;of&nbsp;nick</tt></dd></dl>
+
+<dl><dt><a name="IrcChannel-is_active"><strong>is_active</strong></a>(...)</dt><dd><tt><a href="#IrcChannel-is_active">is_active</a>()&nbsp;-&gt;&nbsp;bool<br>
+&nbsp;<br>
+Returns&nbsp;true&nbsp;if&nbsp;window&nbsp;item&nbsp;is&nbsp;active</tt></dd></dl>
+
+<dl><dt><a name="IrcChannel-printformat"><strong>printformat</strong></a>(...)</dt><dd><tt>for&nbsp;<a href="#Server">Server</a>&nbsp;objects:<br>
+<a href="#IrcChannel-printformat">printformat</a>(target,&nbsp;level,&nbsp;format,&nbsp;...)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+For&nbsp;all&nbsp;else:<br>
+<a href="#IrcChannel-printformat">printformat</a>(level,&nbsp;format,&nbsp;...)&nbsp;-&gt;&nbsp;None</tt></dd></dl>
+
+<dl><dt><a name="IrcChannel-prnt"><strong>prnt</strong></a>(...)</dt><dd><tt><a href="#IrcChannel-prnt">prnt</a>(str,&nbsp;level)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Print&nbsp;to&nbsp;window&nbsp;item</tt></dd></dl>
+
+<dl><dt><a name="IrcChannel-set_active"><strong>set_active</strong></a>(...)</dt><dd><tt><a href="#IrcChannel-set_active">set_active</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Set&nbsp;window&nbsp;item&nbsp;active</tt></dd></dl>
+
+<dl><dt><a name="IrcChannel-window"><strong>window</strong></a>(...)</dt><dd><tt><a href="#IrcChannel-window">window</a>()&nbsp;-&gt;&nbsp;<a href="#Window">Window</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Return&nbsp;parent&nbsp;window&nbsp;for&nbsp;window&nbsp;item</tt></dd></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#WindowItem">WindowItem</a>:<br>
+<dl><dt><strong>createtime</strong> = &lt;attribute 'createtime' of 'irssi.WindowItem' objects&gt;<dd><tt>Time&nbsp;the&nbsp;witem&nbsp;was&nbsp;created</tt></dl>
+
+<dl><dt><strong>data_level</strong> = &lt;attribute 'data_level' of 'irssi.WindowItem' objects&gt;<dd><tt>0=no&nbsp;new&nbsp;data,&nbsp;1=text,&nbsp;2=msg,&nbsp;3=highlighted&nbsp;text</tt></dl>
+
+<dl><dt><strong>hilight_color</strong> = &lt;attribute 'hilight_color' of 'irssi.WindowItem' objects&gt;<dd><tt>Color&nbsp;of&nbsp;the&nbsp;last&nbsp;highlighted&nbsp;text</tt></dl>
+
+<dl><dt><strong>name</strong> = &lt;attribute 'name' of 'irssi.WindowItem' objects&gt;<dd><tt>Name&nbsp;of&nbsp;the&nbsp;item</tt></dl>
+
+<dl><dt><strong>server</strong> = &lt;attribute 'server' of 'irssi.WindowItem' objects&gt;<dd><tt>Active&nbsp;name&nbsp;for&nbsp;item</tt></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#IrssiChatBase">IrssiChatBase</a>:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#IrcChannel-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<dl><dt><strong>chat_type</strong> = &lt;attribute 'chat_type' of 'irssi.IrssiChatBase' objects&gt;<dd><tt>Chat&nbsp;name&nbsp;(str)</tt></dl>
+
+<dl><dt><strong>chat_type_id</strong> = &lt;attribute 'chat_type_id' of 'irssi.IrssiChatBase' objects&gt;<dd><tt>Chat&nbsp;Type&nbsp;id&nbsp;(int)</tt></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#IrssiBase">IrssiBase</a>:<br>
+<dl><dt><strong>type</strong> = &lt;attribute 'type' of 'irssi.IrssiBase' objects&gt;<dd><tt>Irssi's&nbsp;name&nbsp;for&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>type_id</strong> = &lt;attribute 'type_id' of 'irssi.IrssiBase' objects&gt;<dd><tt>Irssi's&nbsp;type&nbsp;id&nbsp;for&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>valid</strong> = &lt;attribute 'valid' of 'irssi.IrssiBase' objects&gt;<dd><tt>True&nbsp;if&nbsp;the&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;is&nbsp;valid</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="IrcConnect">class <strong>IrcConnect</strong></a>(<a href="irssi-python.html#Connect">Connect</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>PyIrcConnect&nbsp;objects<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="irssi-python.html#IrcConnect">IrcConnect</a></dd>
+<dd><a href="irssi-python.html#Connect">Connect</a></dd>
+<dd><a href="irssi-python.html#IrssiChatBase">IrssiChatBase</a></dd>
+<dd><a href="irssi-python.html#IrssiBase">IrssiBase</a></dd>
+<dd><a href="__builtin__.html#object">__builtin__.object</a></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>alternate_nick</strong> = &lt;attribute 'alternate_nick' of 'irssi.IrcConnect' objects&gt;<dd><tt>Alternate&nbsp;nick&nbsp;to&nbsp;use&nbsp;if&nbsp;default&nbsp;nick&nbsp;is&nbsp;taken</tt></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#Connect">Connect</a>:<br>
+<dl><dt><strong>address</strong> = &lt;attribute 'address' of 'irssi.Connect' objects&gt;<dd><tt>Address&nbsp;where&nbsp;we&nbsp;connected&nbsp;(irc.blah.org)</tt></dl>
+
+<dl><dt><strong>chatnet</strong> = &lt;attribute 'chatnet' of 'irssi.Connect' objects&gt;<dd><tt>Chat&nbsp;network</tt></dl>
+
+<dl><dt><strong>password</strong> = &lt;attribute 'password' of 'irssi.Connect' objects&gt;<dd><tt>Password&nbsp;we&nbsp;used&nbsp;in&nbsp;connection.</tt></dl>
+
+<dl><dt><strong>port</strong> = &lt;attribute 'port' of 'irssi.Connect' objects&gt;<dd><tt>Port&nbsp;where&nbsp;we're&nbsp;connected</tt></dl>
+
+<dl><dt><strong>realname</strong> = &lt;attribute 'realname' of 'irssi.Connect' objects&gt;<dd><tt>Real&nbsp;name</tt></dl>
+
+<dl><dt><strong>username</strong> = &lt;attribute 'username' of 'irssi.Connect' objects&gt;<dd><tt>User&nbsp;name</tt></dl>
+
+<dl><dt><strong>wanted_nick</strong> = &lt;attribute 'wanted_nick' of 'irssi.Connect' objects&gt;<dd><tt><a href="#Nick">Nick</a>&nbsp;which&nbsp;we&nbsp;would&nbsp;prefer&nbsp;to&nbsp;use</tt></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#IrssiChatBase">IrssiChatBase</a>:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#IrcConnect-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<dl><dt><strong>chat_type</strong> = &lt;attribute 'chat_type' of 'irssi.IrssiChatBase' objects&gt;<dd><tt>Chat&nbsp;name&nbsp;(str)</tt></dl>
+
+<dl><dt><strong>chat_type_id</strong> = &lt;attribute 'chat_type_id' of 'irssi.IrssiChatBase' objects&gt;<dd><tt>Chat&nbsp;Type&nbsp;id&nbsp;(int)</tt></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#IrssiBase">IrssiBase</a>:<br>
+<dl><dt><strong>type</strong> = &lt;attribute 'type' of 'irssi.IrssiBase' objects&gt;<dd><tt>Irssi's&nbsp;name&nbsp;for&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>type_id</strong> = &lt;attribute 'type_id' of 'irssi.IrssiBase' objects&gt;<dd><tt>Irssi's&nbsp;type&nbsp;id&nbsp;for&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>valid</strong> = &lt;attribute 'valid' of 'irssi.IrssiBase' objects&gt;<dd><tt>True&nbsp;if&nbsp;the&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;is&nbsp;valid</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="IrcServer">class <strong>IrcServer</strong></a>(<a href="irssi-python.html#Server">Server</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>PyIrcServer&nbsp;objects<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="irssi-python.html#IrcServer">IrcServer</a></dd>
+<dd><a href="irssi-python.html#Server">Server</a></dd>
+<dd><a href="irssi-python.html#IrssiChatBase">IrssiChatBase</a></dd>
+<dd><a href="irssi-python.html#IrssiBase">IrssiBase</a></dd>
+<dd><a href="__builtin__.html#object">__builtin__.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="IrcServer-ctcp_send_reply"><strong>ctcp_send_reply</strong></a>(...)</dt><dd><tt><a href="#IrcServer-ctcp_send_reply">ctcp_send_reply</a>(data)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Send&nbsp;CTCP&nbsp;reply.&nbsp;This&nbsp;will&nbsp;be&nbsp;'CTCP&nbsp;flood&nbsp;protected'&nbsp;so&nbsp;if&nbsp;there's&nbsp;too<br>
+many&nbsp;CTCP&nbsp;requests&nbsp;in&nbsp;buffer,&nbsp;this&nbsp;reply&nbsp;might&nbsp;not&nbsp;get&nbsp;sent.&nbsp;The&nbsp;data<br>
+is&nbsp;the&nbsp;full&nbsp;raw&nbsp;command&nbsp;to&nbsp;be&nbsp;sent&nbsp;to&nbsp;server,&nbsp;like<br>
+'NOTICE&nbsp;nick&nbsp;:VERSION&nbsp;irssi'</tt></dd></dl>
+
+<dl><dt><a name="IrcServer-get_channels"><strong>get_channels</strong></a>(...)</dt><dd><tt><a href="#IrcServer-get_channels">get_channels</a>()&nbsp;-&gt;&nbsp;str<br>
+&nbsp;<br>
+Return&nbsp;a&nbsp;string&nbsp;of&nbsp;all&nbsp;channels&nbsp;(and&nbsp;keys,&nbsp;if&nbsp;any&nbsp;have&nbsp;them)&nbsp;in&nbsp;server,<br>
+like&nbsp;'#a,#b,#c,#d&nbsp;x,b_chan_key,x,x'&nbsp;or&nbsp;just&nbsp;'#e,#f,#g'</tt></dd></dl>
+
+<dl><dt><a name="IrcServer-isupport"><strong>isupport</strong></a>(...)</dt><dd><tt><a href="#IrcServer-isupport">isupport</a>(name)&nbsp;-&gt;&nbsp;str&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;named&nbsp;item&nbsp;in&nbsp;the&nbsp;ISUPPORT&nbsp;(005)&nbsp;numeric&nbsp;to&nbsp;the<br>
+script.&nbsp;If&nbsp;the&nbsp;item&nbsp;is&nbsp;not&nbsp;present&nbsp;returns&nbsp;undef,&nbsp;if&nbsp;the&nbsp;item&nbsp;has&nbsp;no&nbsp;value<br>
+then&nbsp;''&nbsp;is&nbsp;returned&nbsp;use&nbsp;defined&nbsp;server.<a href="#IrcServer-isupport">isupport</a>('name')&nbsp;if&nbsp;you&nbsp;need&nbsp;to<br>
+check&nbsp;whether&nbsp;a&nbsp;property&nbsp;is&nbsp;present.<br>
+See&nbsp;<a href="http://www.ietf.org/internet-drafts/draft-brocklesby-irc-isupport-01.txt">http://www.ietf.org/internet-drafts/draft-brocklesby-irc-isupport-01.txt</a><br>
+for&nbsp;more&nbsp;information&nbsp;on&nbsp;the&nbsp;ISUPPORT&nbsp;numeric.</tt></dd></dl>
+
+<dl><dt><a name="IrcServer-netsplit_find"><strong>netsplit_find</strong></a>(...)</dt><dd><tt><a href="#IrcServer-netsplit_find">netsplit_find</a>(nick,&nbsp;address)&nbsp;-&gt;&nbsp;<a href="#Netsplit">Netsplit</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Check&nbsp;if&nbsp;nick!address&nbsp;is&nbsp;on&nbsp;the&nbsp;other&nbsp;side&nbsp;of&nbsp;netsplit.&nbsp;<a href="#Netsplit">Netsplit</a>&nbsp;records<br>
+are&nbsp;automatically&nbsp;removed&nbsp;after&nbsp;30&nbsp;minutes&nbsp;(current&nbsp;default)..</tt></dd></dl>
+
+<dl><dt><a name="IrcServer-netsplit_find_channel"><strong>netsplit_find_channel</strong></a>(...)</dt><dd><tt><a href="#IrcServer-netsplit_find_channel">netsplit_find_channel</a>(nick,&nbsp;address,&nbsp;channel)&nbsp;-&gt;&nbsp;<a href="#NetsplitChannel">NetsplitChannel</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Find&nbsp;nick&nbsp;record&nbsp;for&nbsp;nick!address&nbsp;in&nbsp;channel&nbsp;`channel'.</tt></dd></dl>
+
+<dl><dt><a name="IrcServer-notifylist_ison"><strong>notifylist_ison</strong></a>(...)</dt><dd><tt><a href="#IrcServer-notifylist_ison">notifylist_ison</a>(nick)&nbsp;-&gt;&nbsp;bool<br>
+&nbsp;<br>
+Check&nbsp;if&nbsp;nick&nbsp;is&nbsp;on&nbsp;server</tt></dd></dl>
+
+<dl><dt><a name="IrcServer-redirect_event"><strong>redirect_event</strong></a>(...)</dt><dd><tt><a href="#IrcServer-redirect_event">redirect_event</a>(command,&nbsp;signals,&nbsp;arg=None,&nbsp;count=1,&nbsp;remote=-1,&nbsp;failure_signal=None)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Specify&nbsp;that&nbsp;the&nbsp;next&nbsp;command&nbsp;sent&nbsp;to&nbsp;server&nbsp;will&nbsp;be&nbsp;redirected.<br>
+NOTE:&nbsp;This&nbsp;command&nbsp;MUST&nbsp;be&nbsp;called&nbsp;before&nbsp;sending&nbsp;the&nbsp;command&nbsp;to&nbsp;server.<br>
+&nbsp;<br>
+`command'&nbsp;-&nbsp;Name&nbsp;of&nbsp;the&nbsp;registered&nbsp;redirection&nbsp;that&nbsp;we're&nbsp;using.<br>
+&nbsp;<br>
+`count'&nbsp;-&nbsp;How&nbsp;many&nbsp;times&nbsp;to&nbsp;execute&nbsp;the&nbsp;redirection.&nbsp;Some&nbsp;commands&nbsp;may<br>
+send&nbsp;multiple&nbsp;stop&nbsp;events,&nbsp;like&nbsp;MODE&nbsp;#a,#b.<br>
+&nbsp;<br>
+`arg'&nbsp;-&nbsp;The&nbsp;argument&nbsp;to&nbsp;be&nbsp;compared&nbsp;in&nbsp;event&nbsp;strings.&nbsp;You&nbsp;can&nbsp;give&nbsp;multiple<br>
+arguments&nbsp;separated&nbsp;with&nbsp;space.<br>
+&nbsp;<br>
+`remote'&nbsp;-&nbsp;Specifies&nbsp;if&nbsp;the&nbsp;command&nbsp;is&nbsp;a&nbsp;remote&nbsp;command,&nbsp;-1&nbsp;=&nbsp;use&nbsp;default.<br>
+&nbsp;<br>
+`failure_signal'&nbsp;-&nbsp;If&nbsp;irssi&nbsp;can't&nbsp;find&nbsp;the&nbsp;stop&nbsp;signal&nbsp;for&nbsp;the&nbsp;redirection,<br>
+this&nbsp;signal&nbsp;is&nbsp;called.<br>
+&nbsp;<br>
+`signals'&nbsp;-&nbsp;hash&nbsp;reference&nbsp;with&nbsp;"event"&nbsp;=&gt;&nbsp;"redir&nbsp;signal"&nbsp;entries.<br>
+If&nbsp;the&nbsp;event&nbsp;is&nbsp;,&nbsp;all&nbsp;the&nbsp;events&nbsp;belonging&nbsp;to&nbsp;the&nbsp;redirection&nbsp;but&nbsp;not<br>
+specified&nbsp;here,&nbsp;will&nbsp;be&nbsp;sent&nbsp;there.<br>
+&nbsp;<br>
+Example:<br>
+&nbsp;<br>
+#&nbsp;ignore&nbsp;all&nbsp;events&nbsp;generated&nbsp;by&nbsp;whois&nbsp;query,&nbsp;except&nbsp;311.<br>
+&nbsp;<br>
+server.<a href="#IrcServer-redirect_event">redirect_event</a>("whois",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;remote&nbsp;=&nbsp;0,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;arg&nbsp;=&nbsp;"cras",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;signals&nbsp;=&nbsp;[<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;('event&nbsp;311',&nbsp;'redir&nbsp;whois'),<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;('',&nbsp;'event&nbsp;empty')&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;]<br>
+)<br>
+server.<a href="#IrcServer-send_raw">send_raw</a>("WHOIS&nbsp;:cras")</tt></dd></dl>
+
+<dl><dt><a name="IrcServer-redirect_get_signal"><strong>redirect_get_signal</strong></a>(...)</dt><dd><tt><a href="#IrcServer-redirect_get_signal">redirect_get_signal</a>(event,&nbsp;args)&nbsp;-&gt;&nbsp;str</tt></dd></dl>
+
+<dl><dt><a name="IrcServer-redirect_peek_signal"><strong>redirect_peek_signal</strong></a>(...)</dt><dd><tt><a href="#IrcServer-redirect_peek_signal">redirect_peek_signal</a>(event,&nbsp;args)&nbsp;-&gt;&nbsp;str</tt></dd></dl>
+
+<dl><dt><a name="IrcServer-send_raw"><strong>send_raw</strong></a>(...)</dt><dd><tt><a href="#IrcServer-send_raw">send_raw</a>(cmd)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Send&nbsp;raw&nbsp;message&nbsp;to&nbsp;server,&nbsp;it&nbsp;will&nbsp;be&nbsp;flood&nbsp;protected&nbsp;so&nbsp;you<br>
+don't&nbsp;need&nbsp;to&nbsp;worry&nbsp;about&nbsp;it.</tt></dd></dl>
+
+<dl><dt><a name="IrcServer-send_raw_now"><strong>send_raw_now</strong></a>(...)</dt><dd><tt><a href="#IrcServer-send_raw_now">send_raw_now</a>(cmd)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Send&nbsp;raw&nbsp;message&nbsp;to&nbsp;server&nbsp;immediately&nbsp;without&nbsp;flood&nbsp;protection.</tt></dd></dl>
+
+<dl><dt><a name="IrcServer-send_raw_split"><strong>send_raw_split</strong></a>(...)</dt><dd><tt><a href="#IrcServer-send_raw_split">send_raw_split</a>(cmd,&nbsp;nickarg,&nbsp;max_nicks)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Split&nbsp;the&nbsp;`cmd'&nbsp;into&nbsp;several&nbsp;commands&nbsp;so&nbsp;`nickarg'&nbsp;argument&nbsp;has&nbsp;only<br>
+`max_nicks'&nbsp;number&nbsp;of&nbsp;nicks.<br>
+&nbsp;<br>
+Example:<br>
+server.<a href="#IrcServer-send_raw_split">send_raw_split</a>('KICK&nbsp;#channel&nbsp;nick1,nick2,nick3&nbsp;:byebye',&nbsp;3,&nbsp;2)<br>
+&nbsp;<br>
+Irssi&nbsp;will&nbsp;send&nbsp;commands&nbsp;'KICK&nbsp;#channel&nbsp;nick1,nick2&nbsp;:byebye'&nbsp;and<br>
+'KICK&nbsp;#channel&nbsp;nick3&nbsp;:byebye'&nbsp;to&nbsp;server.</tt></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>real_address</strong> = &lt;attribute 'real_address' of 'irssi.IrcServer' objects&gt;<dd><tt>Address&nbsp;the&nbsp;IRC&nbsp;server&nbsp;gives</tt></dl>
+
+<dl><dt><strong>userhost</strong> = &lt;attribute 'userhost' of 'irssi.IrcServer' objects&gt;<dd><tt>Your&nbsp;user&nbsp;host&nbsp;in&nbsp;server</tt></dl>
+
+<dl><dt><strong>usermode</strong> = &lt;attribute 'usermode' of 'irssi.IrcServer' objects&gt;<dd><tt>User&nbsp;mode&nbsp;in&nbsp;server</tt></dl>
+
+<hr>
+Methods inherited from <a href="irssi-python.html#Server">Server</a>:<br>
+<dl><dt><a name="IrcServer-channel_find"><strong>channel_find</strong></a>(...)</dt><dd><tt><a href="#IrcServer-channel_find">channel_find</a>(name)&nbsp;-&gt;&nbsp;<a href="#Channel">Channel</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Find&nbsp;channel&nbsp;from&nbsp;this&nbsp;server</tt></dd></dl>
+
+<dl><dt><a name="IrcServer-channels"><strong>channels</strong></a>(...)</dt><dd><tt><a href="#IrcServer-channels">channels</a>()&nbsp;-&gt;&nbsp;list&nbsp;of&nbsp;<a href="#Channel">Channel</a>&nbsp;objects<br>
+&nbsp;<br>
+Return&nbsp;list&nbsp;of&nbsp;channels&nbsp;for&nbsp;server</tt></dd></dl>
+
+<dl><dt><a name="IrcServer-channels_join"><strong>channels_join</strong></a>(...)</dt><dd><tt><a href="#IrcServer-channels_join">channels_join</a>(channels,&nbsp;automatic=False)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Join&nbsp;to&nbsp;channels&nbsp;in&nbsp;server.&nbsp;`channels'&nbsp;may&nbsp;also&nbsp;contain&nbsp;keys&nbsp;for<br>
+channels&nbsp;just&nbsp;like&nbsp;with&nbsp;/JOIN&nbsp;command.&nbsp;`automatic'&nbsp;specifies&nbsp;if&nbsp;this<br>
+channel&nbsp;was&nbsp;joined&nbsp;'automatically'&nbsp;or&nbsp;if&nbsp;it&nbsp;was&nbsp;joined&nbsp;because&nbsp;join<br>
+was&nbsp;requested&nbsp;by&nbsp;user.&nbsp;If&nbsp;channel&nbsp;join&nbsp;is&nbsp;'automatic',&nbsp;irssi&nbsp;doesn't<br>
+jump&nbsp;to&nbsp;the&nbsp;window&nbsp;where&nbsp;the&nbsp;channel&nbsp;was&nbsp;joined.</tt></dd></dl>
+
+<dl><dt><a name="IrcServer-command"><strong>command</strong></a>(...)</dt><dd><tt><a href="#IrcServer-command">command</a>(cmd)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Send&nbsp;command</tt></dd></dl>
+
+<dl><dt><a name="IrcServer-disconnect"><strong>disconnect</strong></a>(...)</dt><dd><tt><a href="#IrcServer-disconnect">disconnect</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Disconnect&nbsp;from&nbsp;server</tt></dd></dl>
+
+<dl><dt><a name="IrcServer-get_nick_flags"><strong>get_nick_flags</strong></a>(...)</dt><dd><tt><a href="#IrcServer-get_nick_flags">get_nick_flags</a>()&nbsp;-&gt;&nbsp;str<br>
+&nbsp;<br>
+Returns&nbsp;nick&nbsp;flag&nbsp;characters&nbsp;in&nbsp;order:&nbsp;op,&nbsp;voice,&nbsp;halfop&nbsp;("@+%")&nbsp;in&nbsp;IRC</tt></dd></dl>
+
+<dl><dt><a name="IrcServer-ignore_check"><strong>ignore_check</strong></a>(...)</dt><dd><tt><a href="#IrcServer-ignore_check">ignore_check</a>(nick,&nbsp;host,&nbsp;channel,&nbsp;text,&nbsp;level)&nbsp;-&gt;&nbsp;bool<br>
+&nbsp;<br>
+Return&nbsp;True&nbsp;if&nbsp;ignore&nbsp;matches</tt></dd></dl>
+
+<dl><dt><a name="IrcServer-ischannel"><strong>ischannel</strong></a>(...)</dt><dd><tt><a href="#IrcServer-ischannel">ischannel</a>(data)&nbsp;-&gt;&nbsp;bool<br>
+&nbsp;<br>
+Returns&nbsp;True&nbsp;if&nbsp;start&nbsp;of&nbsp;`data'&nbsp;seems&nbsp;to&nbsp;mean&nbsp;channel.</tt></dd></dl>
+
+<dl><dt><a name="IrcServer-isnickflag"><strong>isnickflag</strong></a>(...)</dt><dd><tt><a href="#IrcServer-isnickflag">isnickflag</a>(flag)&nbsp;-&gt;&nbsp;bool<br>
+&nbsp;<br>
+Returns&nbsp;True&nbsp;if&nbsp;flag&nbsp;is&nbsp;a&nbsp;nick&nbsp;mode&nbsp;flag&nbsp;(@,&nbsp;+&nbsp;or&nbsp;%&nbsp;in&nbsp;IRC)</tt></dd></dl>
+
+<dl><dt><a name="IrcServer-mask_match"><strong>mask_match</strong></a>(...)</dt><dd><tt><a href="#IrcServer-mask_match">mask_match</a>(mask,&nbsp;nick,&nbsp;user,&nbsp;host)&nbsp;-&gt;&nbsp;bool<br>
+&nbsp;<br>
+Return&nbsp;true&nbsp;if&nbsp;mask&nbsp;matches&nbsp;nick!user@host</tt></dd></dl>
+
+<dl><dt><a name="IrcServer-mask_match_address"><strong>mask_match_address</strong></a>(...)</dt><dd><tt><a href="#IrcServer-mask_match_address">mask_match_address</a>(mask,&nbsp;nick,&nbsp;address)&nbsp;-&gt;&nbsp;bool<br>
+&nbsp;<br>
+Return&nbsp;True&nbsp;if&nbsp;mask&nbsp;matches&nbsp;nick!address</tt></dd></dl>
+
+<dl><dt><a name="IrcServer-masks_match"><strong>masks_match</strong></a>(...)</dt><dd><tt><a href="#IrcServer-masks_match">masks_match</a>(masks,&nbsp;nick,&nbsp;address)&nbsp;-&gt;&nbsp;bool<br>
+&nbsp;<br>
+Return&nbsp;True&nbsp;if&nbsp;any&nbsp;mask&nbsp;in&nbsp;the&nbsp;masks&nbsp;(string&nbsp;separated&nbsp;by&nbsp;spaces)<br>
+matches&nbsp;nick!address</tt></dd></dl>
+
+<dl><dt><a name="IrcServer-nicks_get_same"><strong>nicks_get_same</strong></a>(...)</dt><dd><tt><a href="#IrcServer-nicks_get_same">nicks_get_same</a>(nick)<br>
+&nbsp;<br>
+Return&nbsp;all&nbsp;nick&nbsp;objects&nbsp;in&nbsp;all&nbsp;channels&nbsp;in&nbsp;server.&nbsp;List&nbsp;is&nbsp;in&nbsp;format:<br>
+[(<a href="#Channel">Channel</a>,&nbsp;<a href="#Nick">Nick</a>),&nbsp;(<a href="#Channel">Channel</a>,&nbsp;<a href="#Nick">Nick</a>),&nbsp;...]</tt></dd></dl>
+
+<dl><dt><a name="IrcServer-printformat"><strong>printformat</strong></a>(...)</dt><dd><tt>for&nbsp;<a href="#Server">Server</a>&nbsp;objects:<br>
+<a href="#IrcServer-printformat">printformat</a>(target,&nbsp;level,&nbsp;format,&nbsp;...)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+For&nbsp;all&nbsp;else:<br>
+<a href="#IrcServer-printformat">printformat</a>(level,&nbsp;format,&nbsp;...)&nbsp;-&gt;&nbsp;None</tt></dd></dl>
+
+<dl><dt><a name="IrcServer-prnt"><strong>prnt</strong></a>(...)</dt><dd><tt><a href="#IrcServer-prnt">prnt</a>(channel,&nbsp;str,&nbsp;level)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Print&nbsp;to&nbsp;server</tt></dd></dl>
+
+<dl><dt><a name="IrcServer-queries"><strong>queries</strong></a>(...)</dt><dd><tt><a href="#IrcServer-queries">queries</a>()&nbsp;-&gt;&nbsp;list&nbsp;of&nbsp;<a href="#Query">Query</a>&nbsp;objects<br>
+&nbsp;<br>
+Return&nbsp;a&nbsp;list&nbsp;of&nbsp;queries&nbsp;for&nbsp;server.</tt></dd></dl>
+
+<dl><dt><a name="IrcServer-query_find"><strong>query_find</strong></a>(...)</dt><dd><tt><a href="#IrcServer-query_find">query_find</a>(nick)&nbsp;-&gt;&nbsp;<a href="#Query">Query</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Find&nbsp;a&nbsp;query&nbsp;on&nbsp;this&nbsp;server.</tt></dd></dl>
+
+<dl><dt><a name="IrcServer-send_message"><strong>send_message</strong></a>(...)</dt><dd><tt><a href="#IrcServer-send_message">send_message</a>(target,&nbsp;msg,&nbsp;target_type)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Sends&nbsp;a&nbsp;message&nbsp;to&nbsp;nick/channel.&nbsp;target_type&nbsp;0&nbsp;=&nbsp;channel,&nbsp;1&nbsp;=&nbsp;nick</tt></dd></dl>
+
+<dl><dt><a name="IrcServer-window_find_closest"><strong>window_find_closest</strong></a>(...)</dt><dd><tt><a href="#IrcServer-window_find_closest">window_find_closest</a>(name,&nbsp;level)&nbsp;-&gt;&nbsp;<a href="#Window">Window</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Find&nbsp;window&nbsp;that&nbsp;matches&nbsp;best&nbsp;to&nbsp;given&nbsp;arguments.&nbsp;`name'&nbsp;can&nbsp;be&nbsp;either<br>
+window&nbsp;name&nbsp;or&nbsp;name&nbsp;of&nbsp;one&nbsp;of&nbsp;the&nbsp;window&nbsp;items.</tt></dd></dl>
+
+<dl><dt><a name="IrcServer-window_find_item"><strong>window_find_item</strong></a>(...)</dt><dd><tt><a href="#IrcServer-window_find_item">window_find_item</a>(name)&nbsp;-&gt;&nbsp;<a href="#Window">Window</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Find&nbsp;window&nbsp;which&nbsp;contains&nbsp;window&nbsp;item&nbsp;with&nbsp;specified&nbsp;name/server</tt></dd></dl>
+
+<dl><dt><a name="IrcServer-window_find_level"><strong>window_find_level</strong></a>(...)</dt><dd><tt><a href="#IrcServer-window_find_level">window_find_level</a>(level)&nbsp;-&gt;&nbsp;<a href="#Window">Window</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Find&nbsp;window&nbsp;with&nbsp;level</tt></dd></dl>
+
+<dl><dt><a name="IrcServer-window_item_find"><strong>window_item_find</strong></a>(...)</dt><dd><tt><a href="#IrcServer-window_item_find">window_item_find</a>(name)&nbsp;-&gt;&nbsp;<a href="#WindowItem">WindowItem</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Find&nbsp;window&nbsp;item&nbsp;that&nbsp;matches&nbsp;best&nbsp;to&nbsp;given&nbsp;arguments</tt></dd></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#Server">Server</a>:<br>
+<dl><dt><strong>away_reason</strong> = &lt;attribute 'away_reason' of 'irssi.Server' objects&gt;<dd><tt>Away&nbsp;reason&nbsp;message</tt></dl>
+
+<dl><dt><strong>banned</strong> = &lt;attribute 'banned' of 'irssi.Server' objects&gt;<dd><tt>Were&nbsp;we&nbsp;banned&nbsp;from&nbsp;this&nbsp;server?&nbsp;1|0</tt></dl>
+
+<dl><dt><strong>connect</strong> = &lt;attribute 'connect' of 'irssi.Server' objects&gt;<dd><tt><a href="#Connect">Connect</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;for&nbsp;the&nbsp;server</tt></dl>
+
+<dl><dt><strong>connect_time</strong> = &lt;attribute 'connect_time' of 'irssi.Server' objects&gt;<dd><tt>Time&nbsp;when&nbsp;<a href="#IrcServer-connect">connect</a>()&nbsp;to&nbsp;server&nbsp;finished</tt></dl>
+
+<dl><dt><strong>connected</strong> = &lt;attribute 'connected' of 'irssi.Server' objects&gt;<dd><tt>Is&nbsp;connection&nbsp;finished?&nbsp;1|0</tt></dl>
+
+<dl><dt><strong>connection_lost</strong> = &lt;attribute 'connection_lost' of 'irssi.Server' objects&gt;<dd><tt>Did&nbsp;we&nbsp;lose&nbsp;the&nbsp;connection&nbsp;(1)&nbsp;or&nbsp;was&nbsp;the&nbsp;connection&nbsp;just&nbsp;/DISCONNECTed&nbsp;(0)</tt></dl>
+
+<dl><dt><strong>lag</strong> = &lt;attribute 'lag' of 'irssi.Server' objects&gt;<dd><tt>Current&nbsp;lag&nbsp;to&nbsp;server&nbsp;in&nbsp;milliseconds</tt></dl>
+
+<dl><dt><strong>last_invite</strong> = &lt;attribute 'last_invite' of 'irssi.Server' objects&gt;<dd><tt>Last&nbsp;channel&nbsp;we&nbsp;were&nbsp;invited&nbsp;to</tt></dl>
+
+<dl><dt><strong>nick</strong> = &lt;attribute 'nick' of 'irssi.Server' objects&gt;<dd><tt>Current&nbsp;nick</tt></dl>
+
+<dl><dt><strong>rawlog</strong> = &lt;attribute 'rawlog' of 'irssi.Server' objects&gt;<dd><tt><a href="#Rawlog">Rawlog</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;for&nbsp;the&nbsp;server</tt></dl>
+
+<dl><dt><strong>real_connect_time</strong> = &lt;attribute 'real_connect_time' of 'irssi.Server' objects&gt;<dd><tt>Time&nbsp;when&nbsp;server&nbsp;sent&nbsp;'connected'&nbsp;message</tt></dl>
+
+<dl><dt><strong>server_operator</strong> = &lt;attribute 'server_operator' of 'irssi.Server' objects&gt;<dd><tt>Are&nbsp;we&nbsp;server&nbsp;operator&nbsp;(IRC&nbsp;op)&nbsp;1|0</tt></dl>
+
+<dl><dt><strong>tag</strong> = &lt;attribute 'tag' of 'irssi.Server' objects&gt;<dd><tt>Unique&nbsp;server&nbsp;tag</tt></dl>
+
+<dl><dt><strong>usermode_away</strong> = &lt;attribute 'usermode_away' of 'irssi.Server' objects&gt;<dd><tt>Are&nbsp;we&nbsp;marked&nbsp;as&nbsp;away?&nbsp;1|0</tt></dl>
+
+<dl><dt><strong>version</strong> = &lt;attribute 'version' of 'irssi.Server' objects&gt;<dd><tt><a href="#Server">Server</a>&nbsp;version</tt></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#IrssiChatBase">IrssiChatBase</a>:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#IrcServer-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<dl><dt><strong>chat_type</strong> = &lt;attribute 'chat_type' of 'irssi.IrssiChatBase' objects&gt;<dd><tt>Chat&nbsp;name&nbsp;(str)</tt></dl>
+
+<dl><dt><strong>chat_type_id</strong> = &lt;attribute 'chat_type_id' of 'irssi.IrssiChatBase' objects&gt;<dd><tt>Chat&nbsp;Type&nbsp;id&nbsp;(int)</tt></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#IrssiBase">IrssiBase</a>:<br>
+<dl><dt><strong>type</strong> = &lt;attribute 'type' of 'irssi.IrssiBase' objects&gt;<dd><tt>Irssi's&nbsp;name&nbsp;for&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>type_id</strong> = &lt;attribute 'type_id' of 'irssi.IrssiBase' objects&gt;<dd><tt>Irssi's&nbsp;type&nbsp;id&nbsp;for&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>valid</strong> = &lt;attribute 'valid' of 'irssi.IrssiBase' objects&gt;<dd><tt>True&nbsp;if&nbsp;the&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;is&nbsp;valid</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="IrssiBase">class <strong>IrssiBase</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>PyIrssiBase&nbsp;objects<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Data and other attributes defined here:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#IrssiBase-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<dl><dt><strong>type</strong> = &lt;attribute 'type' of 'irssi.IrssiBase' objects&gt;<dd><tt>Irssi's&nbsp;name&nbsp;for&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>type_id</strong> = &lt;attribute 'type_id' of 'irssi.IrssiBase' objects&gt;<dd><tt>Irssi's&nbsp;type&nbsp;id&nbsp;for&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>valid</strong> = &lt;attribute 'valid' of 'irssi.IrssiBase' objects&gt;<dd><tt>True&nbsp;if&nbsp;the&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;is&nbsp;valid</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="IrssiChatBase">class <strong>IrssiChatBase</strong></a>(<a href="irssi-python.html#IrssiBase">IrssiBase</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>PyIrssiChatBase&nbsp;objects<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="irssi-python.html#IrssiChatBase">IrssiChatBase</a></dd>
+<dd><a href="irssi-python.html#IrssiBase">IrssiBase</a></dd>
+<dd><a href="__builtin__.html#object">__builtin__.object</a></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#IrssiChatBase-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<dl><dt><strong>chat_type</strong> = &lt;attribute 'chat_type' of 'irssi.IrssiChatBase' objects&gt;<dd><tt>Chat&nbsp;name&nbsp;(str)</tt></dl>
+
+<dl><dt><strong>chat_type_id</strong> = &lt;attribute 'chat_type_id' of 'irssi.IrssiChatBase' objects&gt;<dd><tt>Chat&nbsp;Type&nbsp;id&nbsp;(int)</tt></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#IrssiBase">IrssiBase</a>:<br>
+<dl><dt><strong>type</strong> = &lt;attribute 'type' of 'irssi.IrssiBase' objects&gt;<dd><tt>Irssi's&nbsp;name&nbsp;for&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>type_id</strong> = &lt;attribute 'type_id' of 'irssi.IrssiBase' objects&gt;<dd><tt>Irssi's&nbsp;type&nbsp;id&nbsp;for&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>valid</strong> = &lt;attribute 'valid' of 'irssi.IrssiBase' objects&gt;<dd><tt>True&nbsp;if&nbsp;the&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;is&nbsp;valid</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Log">class <strong>Log</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#Log-__init__">__init__</a>(fname,&nbsp;level=MSGLEVEL_ALL)<br>
+&nbsp;<br>
+Create&nbsp;a&nbsp;log<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Log-__init__"><strong>__init__</strong></a>(...)</dt><dd><tt>x.<a href="#Log-__init__">__init__</a>(...)&nbsp;initializes&nbsp;x;&nbsp;see&nbsp;x.__class__.__doc__&nbsp;for&nbsp;signature</tt></dd></dl>
+
+<dl><dt><a name="Log-close"><strong>close</strong></a>(...)</dt><dd><tt>destroy()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Destroy&nbsp;the&nbsp;log&nbsp;file</tt></dd></dl>
+
+<dl><dt><a name="Log-item_add"><strong>item_add</strong></a>(...)</dt><dd><tt><a href="#Log-item_add">item_add</a>(item,&nbsp;servertag=None,&nbsp;type=0,&nbsp;target=False,&nbsp;window=False)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Add&nbsp;a&nbsp;log&nbsp;item&nbsp;to&nbsp;log.<br>
+&nbsp;<br>
+Add&nbsp;a&nbsp;target&nbsp;item&nbsp;(nick,&nbsp;chan):&nbsp;<br>
+&nbsp;&nbsp;&nbsp;<a href="#Log-item_add">item_add</a>('#linux',&nbsp;target=True)<br>
+&nbsp;&nbsp;&nbsp;<a href="#Log-item_add">item_add</a>('#linux',&nbsp;type=0)<br>
+&nbsp;<br>
+Add&nbsp;a&nbsp;window&nbsp;ref:&nbsp;<br>
+&nbsp;&nbsp;&nbsp;<a href="#Log-item_add">item_add</a>('2',&nbsp;window=True)<br>
+&nbsp;&nbsp;&nbsp;<a href="#Log-item_add">item_add</a>('2',&nbsp;type=1)</tt></dd></dl>
+
+<dl><dt><a name="Log-item_destroy"><strong>item_destroy</strong></a>(...)</dt><dd><tt><a href="#Log-item_destroy">item_destroy</a>(item)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Remove&nbsp;log&nbsp;item&nbsp;from&nbsp;log.</tt></dd></dl>
+
+<dl><dt><a name="Log-item_find"><strong>item_find</strong></a>(...)</dt><dd><tt><a href="#Log-item_find">item_find</a>(item,&nbsp;servertag=None,&nbsp;type=-1,&nbsp;target=False,&nbsp;window=False)&nbsp;-&gt;&nbsp;item&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Find&nbsp;item&nbsp;from&nbsp;log.</tt></dd></dl>
+
+<dl><dt><a name="Log-items"><strong>items</strong></a>(...)</dt><dd><tt><a href="#Log-items">items</a>()&nbsp;-&gt;&nbsp;list&nbsp;of&nbsp;<a href="#Log">Log</a>&nbsp;objects<br>
+&nbsp;<br>
+Return&nbsp;a&nbsp;list&nbsp;of&nbsp;log&nbsp;items</tt></dd></dl>
+
+<dl><dt><a name="Log-start_logging"><strong>start_logging</strong></a>(...)</dt><dd><tt><a href="#Log-start_logging">start_logging</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Open&nbsp;log&nbsp;file&nbsp;and&nbsp;start&nbsp;logging.</tt></dd></dl>
+
+<dl><dt><a name="Log-stop_logging"><strong>stop_logging</strong></a>(...)</dt><dd><tt><a href="#Log-stop_logging">stop_logging</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Stop&nbsp;and&nbsp;close&nbsp;the&nbsp;log&nbsp;file.</tt></dd></dl>
+
+<dl><dt><a name="Log-update"><strong>update</strong></a>(...)</dt><dd><tt><a href="#Log-update">update</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Add&nbsp;log&nbsp;to&nbsp;list&nbsp;of&nbsp;logs&nbsp;/&nbsp;save&nbsp;changes&nbsp;to&nbsp;config&nbsp;file.</tt></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#Log-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<dl><dt><strong>autoopen</strong> = &lt;attribute 'autoopen' of 'irssi.Log' objects&gt;<dd><tt>Automatically&nbsp;open&nbsp;log&nbsp;at&nbsp;startup</tt></dl>
+
+<dl><dt><strong>failed</strong> = &lt;attribute 'failed' of 'irssi.Log' objects&gt;<dd><tt>Opening&nbsp;log&nbsp;failed&nbsp;last&nbsp;time</tt></dl>
+
+<dl><dt><strong>fname</strong> = &lt;attribute 'fname' of 'irssi.Log' objects&gt;<dd><tt><a href="#Log">Log</a>&nbsp;file&nbsp;name</tt></dl>
+
+<dl><dt><strong>last</strong> = &lt;attribute 'last' of 'irssi.Log' objects&gt;<dd><tt>Timestamp&nbsp;when&nbsp;last&nbsp;message&nbsp;was&nbsp;written</tt></dl>
+
+<dl><dt><strong>level</strong> = &lt;attribute 'level' of 'irssi.Log' objects&gt;<dd><tt><a href="#Log">Log</a>&nbsp;only&nbsp;these&nbsp;levels</tt></dl>
+
+<dl><dt><strong>opened</strong> = &lt;attribute 'opened' of 'irssi.Log' objects&gt;<dd><tt><a href="#Log">Log</a>&nbsp;file&nbsp;is&nbsp;open</tt></dl>
+
+<dl><dt><strong>real_fname</strong> = &lt;attribute 'real_fname' of 'irssi.Log' objects&gt;<dd><tt>The&nbsp;actual&nbsp;opened&nbsp;log&nbsp;file&nbsp;(after&nbsp;%d.%m.Y&nbsp;etc.&nbsp;are&nbsp;expanded)</tt></dl>
+
+<dl><dt><strong>temp</strong> = &lt;attribute 'temp' of 'irssi.Log' objects&gt;<dd><tt><a href="#Log">Log</a>&nbsp;isn't&nbsp;saved&nbsp;to&nbsp;config&nbsp;file</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Logitem">class <strong>Logitem</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>PyLogitem&nbsp;objects<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Data and other attributes defined here:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#Logitem-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<dl><dt><strong>name</strong> = &lt;attribute 'name' of 'irssi.Logitem' objects&gt;<dd><tt>Name</tt></dl>
+
+<dl><dt><strong>servertag</strong> = &lt;attribute 'servertag' of 'irssi.Logitem' objects&gt;<dd><tt><a href="#Server">Server</a>&nbsp;tag</tt></dl>
+
+<dl><dt><strong>type</strong> = &lt;attribute 'type' of 'irssi.Logitem' objects&gt;<dd><tt>0=target,&nbsp;1=window&nbsp;refnum</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="MainWindow">class <strong>MainWindow</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>PyMainWindow&nbsp;objects<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Data and other attributes defined here:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#MainWindow-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<dl><dt><strong>active</strong> = &lt;attribute 'active' of 'irssi.MainWindow' objects&gt;<dd><tt>active&nbsp;window&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>first_line</strong> = &lt;attribute 'first_line' of 'irssi.MainWindow' objects&gt;<dd><tt>first&nbsp;line&nbsp;used&nbsp;by&nbsp;this&nbsp;window&nbsp;(0..x)&nbsp;(includes&nbsp;statusbars)</tt></dl>
+
+<dl><dt><strong>height</strong> = &lt;attribute 'height' of 'irssi.MainWindow' objects&gt;<dd><tt>height&nbsp;of&nbsp;the&nbsp;window&nbsp;(includes&nbsp;statusbars)</tt></dl>
+
+<dl><dt><strong>last_line</strong> = &lt;attribute 'last_line' of 'irssi.MainWindow' objects&gt;<dd><tt>last&nbsp;line&nbsp;used&nbsp;by&nbsp;this&nbsp;window&nbsp;(0..x)&nbsp;(includes&nbsp;statusbars)</tt></dl>
+
+<dl><dt><strong>statusbar_lines</strong> = &lt;attribute 'statusbar_lines' of 'irssi.MainWindow' objects&gt;<dd><tt>???</tt></dl>
+
+<dl><dt><strong>width</strong> = &lt;attribute 'width' of 'irssi.MainWindow' objects&gt;<dd><tt>width&nbsp;of&nbsp;the&nbsp;window&nbsp;(includes&nbsp;statusbars)</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Netsplit">class <strong>Netsplit</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>PyNetsplit&nbsp;objects<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Netsplit-channels"><strong>channels</strong></a>(...)</dt><dd><tt><a href="#Netsplit-channels">channels</a>()&nbsp;-&gt;&nbsp;list&nbsp;of&nbsp;<a href="#NetsplitChannel">NetsplitChannel</a>&nbsp;objects<br>
+&nbsp;<br>
+Return&nbsp;list&nbsp;of&nbsp;<a href="#NetsplitChannel">NetsplitChannel</a>&nbsp;objects</tt></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#Netsplit-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<dl><dt><strong>address</strong> = &lt;attribute 'address' of 'irssi.Netsplit' objects&gt;<dd><tt><a href="#Nick">Nick</a>'s&nbsp;host</tt></dl>
+
+<dl><dt><strong>destroy</strong> = &lt;attribute 'destroy' of 'irssi.Netsplit' objects&gt;<dd><tt>Timestamp&nbsp;when&nbsp;this&nbsp;record&nbsp;should&nbsp;be&nbsp;destroyed</tt></dl>
+
+<dl><dt><strong>nick</strong> = &lt;attribute 'nick' of 'irssi.Netsplit' objects&gt;<dd><tt><a href="#Nick">Nick</a></tt></dl>
+
+<dl><dt><strong>server</strong> = &lt;attribute 'server' of 'irssi.Netsplit' objects&gt;<dd><tt>Netsplitserver&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="NetsplitChannel">class <strong>NetsplitChannel</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>PyNetsplitChannel&nbsp;objects<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Data and other attributes defined here:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#NetsplitChannel-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<dl><dt><strong>halfop</strong> = &lt;attribute 'halfop' of 'irssi.NetsplitChannel' objects&gt;<dd><tt>is&nbsp;halfop</tt></dl>
+
+<dl><dt><strong>name</strong> = &lt;attribute 'name' of 'irssi.NetsplitChannel' objects&gt;<dd><tt><a href="#Channel">Channel</a>&nbsp;name</tt></dl>
+
+<dl><dt><strong>op</strong> = &lt;attribute 'op' of 'irssi.NetsplitChannel' objects&gt;<dd><tt>is&nbsp;op</tt></dl>
+
+<dl><dt><strong>other</strong> = &lt;attribute 'other' of 'irssi.NetsplitChannel' objects&gt;<dd><tt>?</tt></dl>
+
+<dl><dt><strong>voice</strong> = &lt;attribute 'voice' of 'irssi.NetsplitChannel' objects&gt;<dd><tt>is&nbsp;voice</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="NetsplitServer">class <strong>NetsplitServer</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>PyNetsplitServer&nbsp;objects<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Data and other attributes defined here:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#NetsplitServer-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<dl><dt><strong>count</strong> = &lt;attribute 'count' of 'irssi.NetsplitServer' objects&gt;<dd><tt>Number&nbsp;of&nbsp;splits&nbsp;in&nbsp;server</tt></dl>
+
+<dl><dt><strong>destserver</strong> = &lt;attribute 'destserver' of 'irssi.NetsplitServer' objects&gt;<dd><tt>The&nbsp;other&nbsp;server&nbsp;where&nbsp;split&nbsp;occured.</tt></dl>
+
+<dl><dt><strong>server</strong> = &lt;attribute 'server' of 'irssi.NetsplitServer' objects&gt;<dd><tt>The&nbsp;server&nbsp;nick&nbsp;was&nbsp;in</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Nick">class <strong>Nick</strong></a>(<a href="irssi-python.html#IrssiChatBase">IrssiChatBase</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>PyNick&nbsp;objects<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="irssi-python.html#Nick">Nick</a></dd>
+<dd><a href="irssi-python.html#IrssiChatBase">IrssiChatBase</a></dd>
+<dd><a href="irssi-python.html#IrssiBase">IrssiBase</a></dd>
+<dd><a href="__builtin__.html#object">__builtin__.object</a></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>gone</strong> = &lt;attribute 'gone' of 'irssi.Nick' objects&gt;<dd><tt>User&nbsp;status</tt></dl>
+
+<dl><dt><strong>halfop</strong> = &lt;attribute 'halfop' of 'irssi.Nick' objects&gt;<dd><tt>User&nbsp;status</tt></dl>
+
+<dl><dt><strong>hops</strong> = &lt;attribute 'hops' of 'irssi.Nick' objects&gt;<dd><tt>Hop&nbsp;count&nbsp;to&nbsp;the&nbsp;server&nbsp;the&nbsp;nick&nbsp;is&nbsp;using</tt></dl>
+
+<dl><dt><strong>host</strong> = &lt;attribute 'host' of 'irssi.Nick' objects&gt;<dd><tt>Host&nbsp;address</tt></dl>
+
+<dl><dt><strong>last_check</strong> = &lt;attribute 'last_check' of 'irssi.Nick' objects&gt;<dd><tt>timestamp&nbsp;when&nbsp;last&nbsp;checked&nbsp;gone/ircop&nbsp;status.</tt></dl>
+
+<dl><dt><strong>nick</strong> = &lt;attribute 'nick' of 'irssi.Nick' objects&gt;<dd><tt>Plain&nbsp;nick</tt></dl>
+
+<dl><dt><strong>op</strong> = &lt;attribute 'op' of 'irssi.Nick' objects&gt;<dd><tt>User&nbsp;status</tt></dl>
+
+<dl><dt><strong>realname</strong> = &lt;attribute 'realname' of 'irssi.Nick' objects&gt;<dd><tt>Real&nbsp;name</tt></dl>
+
+<dl><dt><strong>send_massjoin</strong> = &lt;attribute 'send_massjoin' of 'irssi.Nick' objects&gt;<dd><tt>Waiting&nbsp;to&nbsp;be&nbsp;sent&nbsp;in&nbsp;a&nbsp;'massjoin'&nbsp;signal,&nbsp;True&nbsp;or&nbsp;False</tt></dl>
+
+<dl><dt><strong>serverop</strong> = &lt;attribute 'serverop' of 'irssi.Nick' objects&gt;<dd><tt>User&nbsp;status</tt></dl>
+
+<dl><dt><strong>voice</strong> = &lt;attribute 'voice' of 'irssi.Nick' objects&gt;<dd><tt>User&nbsp;status</tt></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#IrssiChatBase">IrssiChatBase</a>:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#Nick-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<dl><dt><strong>chat_type</strong> = &lt;attribute 'chat_type' of 'irssi.IrssiChatBase' objects&gt;<dd><tt>Chat&nbsp;name&nbsp;(str)</tt></dl>
+
+<dl><dt><strong>chat_type_id</strong> = &lt;attribute 'chat_type_id' of 'irssi.IrssiChatBase' objects&gt;<dd><tt>Chat&nbsp;Type&nbsp;id&nbsp;(int)</tt></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#IrssiBase">IrssiBase</a>:<br>
+<dl><dt><strong>type</strong> = &lt;attribute 'type' of 'irssi.IrssiBase' objects&gt;<dd><tt>Irssi's&nbsp;name&nbsp;for&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>type_id</strong> = &lt;attribute 'type_id' of 'irssi.IrssiBase' objects&gt;<dd><tt>Irssi's&nbsp;type&nbsp;id&nbsp;for&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>valid</strong> = &lt;attribute 'valid' of 'irssi.IrssiBase' objects&gt;<dd><tt>True&nbsp;if&nbsp;the&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;is&nbsp;valid</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Notifylist">class <strong>Notifylist</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>PyNotifylist&nbsp;objects<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Notifylist-ircnets"><strong>ircnets</strong></a>(...)</dt><dd><tt><a href="#Notifylist-ircnets">ircnets</a>()&nbsp;-&gt;&nbsp;list&nbsp;of&nbsp;str<br>
+&nbsp;<br>
+Return&nbsp;list&nbsp;of&nbsp;ircnets&nbsp;the&nbsp;notify&nbsp;is&nbsp;checked</tt></dd></dl>
+
+<dl><dt><a name="Notifylist-ircnets_match"><strong>ircnets_match</strong></a>(...)</dt><dd><tt><a href="#Notifylist-ircnets_match">ircnets_match</a>(ircnet)&nbsp;-&gt;&nbsp;bool<br>
+&nbsp;<br>
+Return&nbsp;True&nbsp;if&nbsp;notify&nbsp;is&nbsp;checked&nbsp;in&nbsp;ircnet</tt></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#Notifylist-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<dl><dt><strong>away_check</strong> = &lt;attribute 'away_check' of 'irssi.Notifylist' objects&gt;<dd><tt>Notify&nbsp;away&nbsp;status&nbsp;changes</tt></dl>
+
+<dl><dt><strong>idle_check_time</strong> = &lt;attribute 'idle_check_time' of 'irssi.Notifylist' objects&gt;<dd><tt>Notify&nbsp;when&nbsp;idle&nbsp;time&nbsp;is&nbsp;reset&nbsp;and&nbsp;idle&nbsp;was&nbsp;bigger&nbsp;than&nbsp;this&nbsp;(seconds)</tt></dl>
+
+<dl><dt><strong>mask</strong> = &lt;attribute 'mask' of 'irssi.Notifylist' objects&gt;<dd><tt>Notify&nbsp;nick&nbsp;mask</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Process">class <strong>Process</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>PyProcess&nbsp;objects<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Data and other attributes defined here:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#Process-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<dl><dt><strong>args</strong> = &lt;attribute 'args' of 'irssi.Process' objects&gt;<dd><tt>The&nbsp;command&nbsp;that&nbsp;is&nbsp;being&nbsp;executed</tt></dl>
+
+<dl><dt><strong>id</strong> = &lt;attribute 'id' of 'irssi.Process' objects&gt;<dd><tt>ID&nbsp;for&nbsp;the&nbsp;process</tt></dl>
+
+<dl><dt><strong>name</strong> = &lt;attribute 'name' of 'irssi.Process' objects&gt;<dd><tt>Name&nbsp;for&nbsp;the&nbsp;process&nbsp;(if&nbsp;given)</tt></dl>
+
+<dl><dt><strong>notice</strong> = &lt;attribute 'notice' of 'irssi.Process' objects&gt;<dd><tt>send&nbsp;text&nbsp;with&nbsp;/notice,&nbsp;not&nbsp;/msg&nbsp;if&nbsp;target&nbsp;is&nbsp;set</tt></dl>
+
+<dl><dt><strong>pid</strong> = &lt;attribute 'pid' of 'irssi.Process' objects&gt;<dd><tt>PID&nbsp;for&nbsp;the&nbsp;executed&nbsp;command</tt></dl>
+
+<dl><dt><strong>shell</strong> = &lt;attribute 'shell' of 'irssi.Process' objects&gt;<dd><tt>start&nbsp;the&nbsp;program&nbsp;via&nbsp;/bin/sh</tt></dl>
+
+<dl><dt><strong>silent</strong> = &lt;attribute 'silent' of 'irssi.Process' objects&gt;<dd><tt>don't&nbsp;print&nbsp;"process&nbsp;exited&nbsp;with&nbsp;level&nbsp;xx"</tt></dl>
+
+<dl><dt><strong>target</strong> = &lt;attribute 'target' of 'irssi.Process' objects&gt;<dd><tt>send&nbsp;text&nbsp;with&nbsp;/msg&nbsp;&lt;target&gt;&nbsp;...</tt></dl>
+
+<dl><dt><strong>target_win</strong> = &lt;attribute 'target_win' of 'irssi.Process' objects&gt;<dd><tt>print&nbsp;text&nbsp;to&nbsp;this&nbsp;window</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Query">class <strong>Query</strong></a>(<a href="irssi-python.html#WindowItem">WindowItem</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>PyQuery&nbsp;objects<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="irssi-python.html#Query">Query</a></dd>
+<dd><a href="irssi-python.html#WindowItem">WindowItem</a></dd>
+<dd><a href="irssi-python.html#IrssiChatBase">IrssiChatBase</a></dd>
+<dd><a href="irssi-python.html#IrssiBase">IrssiBase</a></dd>
+<dd><a href="__builtin__.html#object">__builtin__.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="Query-change_server"><strong>change_server</strong></a>(...)</dt><dd><tt><a href="#Query-change_server">change_server</a>(server)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Change&nbsp;the&nbsp;active&nbsp;server&nbsp;for&nbsp;the&nbsp;query.</tt></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>address</strong> = &lt;attribute 'address' of 'irssi.Query' objects&gt;<dd><tt>Host&nbsp;address&nbsp;of&nbsp;the&nbsp;queries&nbsp;nick</tt></dl>
+
+<dl><dt><strong>server_tag</strong> = &lt;attribute 'server_tag' of 'irssi.Query' objects&gt;<dd><tt><a href="#Server">Server</a>&nbsp;tag&nbsp;used&nbsp;for&nbsp;this&nbsp;nick&nbsp;(doesn't&nbsp;get&nbsp;erased&nbsp;if&nbsp;server&nbsp;gets&nbsp;disconnected)</tt></dl>
+
+<dl><dt><strong>unwanted</strong> = &lt;attribute 'unwanted' of 'irssi.Query' objects&gt;<dd><tt>1&nbsp;if&nbsp;the&nbsp;other&nbsp;side&nbsp;closed&nbsp;or&nbsp;some&nbsp;error&nbsp;occured&nbsp;(DCC&nbsp;chats)</tt></dl>
+
+<hr>
+Methods inherited from <a href="irssi-python.html#WindowItem">WindowItem</a>:<br>
+<dl><dt><a name="Query-activity"><strong>activity</strong></a>(...)</dt><dd><tt><a href="#Query-activity">activity</a>(data_level,&nbsp;hilight_color)&nbsp;-&gt;&nbsp;None</tt></dd></dl>
+
+<dl><dt><a name="Query-command"><strong>command</strong></a>(...)</dt><dd><tt><a href="#Query-command">command</a>(cmd)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Send&nbsp;command&nbsp;to&nbsp;window&nbsp;item</tt></dd></dl>
+
+<dl><dt><a name="Query-destroy"><strong>destroy</strong></a>(...)</dt><dd><tt><a href="#Query-destroy">destroy</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Destroy&nbsp;channel&nbsp;or&nbsp;query</tt></dd></dl>
+
+<dl><dt><a name="Query-get_dcc"><strong>get_dcc</strong></a>(...)</dt><dd><tt><a href="#Query-get_dcc">get_dcc</a>()&nbsp;-&gt;&nbsp;<a href="#DccChat">DccChat</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+If&nbsp;item&nbsp;is&nbsp;a&nbsp;query&nbsp;of&nbsp;a&nbsp;=nick,&nbsp;return&nbsp;DCC&nbsp;chat&nbsp;record&nbsp;of&nbsp;nick</tt></dd></dl>
+
+<dl><dt><a name="Query-is_active"><strong>is_active</strong></a>(...)</dt><dd><tt><a href="#Query-is_active">is_active</a>()&nbsp;-&gt;&nbsp;bool<br>
+&nbsp;<br>
+Returns&nbsp;true&nbsp;if&nbsp;window&nbsp;item&nbsp;is&nbsp;active</tt></dd></dl>
+
+<dl><dt><a name="Query-printformat"><strong>printformat</strong></a>(...)</dt><dd><tt>for&nbsp;<a href="#Server">Server</a>&nbsp;objects:<br>
+<a href="#Query-printformat">printformat</a>(target,&nbsp;level,&nbsp;format,&nbsp;...)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+For&nbsp;all&nbsp;else:<br>
+<a href="#Query-printformat">printformat</a>(level,&nbsp;format,&nbsp;...)&nbsp;-&gt;&nbsp;None</tt></dd></dl>
+
+<dl><dt><a name="Query-prnt"><strong>prnt</strong></a>(...)</dt><dd><tt><a href="#Query-prnt">prnt</a>(str,&nbsp;level)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Print&nbsp;to&nbsp;window&nbsp;item</tt></dd></dl>
+
+<dl><dt><a name="Query-set_active"><strong>set_active</strong></a>(...)</dt><dd><tt><a href="#Query-set_active">set_active</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Set&nbsp;window&nbsp;item&nbsp;active</tt></dd></dl>
+
+<dl><dt><a name="Query-window"><strong>window</strong></a>(...)</dt><dd><tt><a href="#Query-window">window</a>()&nbsp;-&gt;&nbsp;<a href="#Window">Window</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Return&nbsp;parent&nbsp;window&nbsp;for&nbsp;window&nbsp;item</tt></dd></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#WindowItem">WindowItem</a>:<br>
+<dl><dt><strong>createtime</strong> = &lt;attribute 'createtime' of 'irssi.WindowItem' objects&gt;<dd><tt>Time&nbsp;the&nbsp;witem&nbsp;was&nbsp;created</tt></dl>
+
+<dl><dt><strong>data_level</strong> = &lt;attribute 'data_level' of 'irssi.WindowItem' objects&gt;<dd><tt>0=no&nbsp;new&nbsp;data,&nbsp;1=text,&nbsp;2=msg,&nbsp;3=highlighted&nbsp;text</tt></dl>
+
+<dl><dt><strong>hilight_color</strong> = &lt;attribute 'hilight_color' of 'irssi.WindowItem' objects&gt;<dd><tt>Color&nbsp;of&nbsp;the&nbsp;last&nbsp;highlighted&nbsp;text</tt></dl>
+
+<dl><dt><strong>name</strong> = &lt;attribute 'name' of 'irssi.WindowItem' objects&gt;<dd><tt>Name&nbsp;of&nbsp;the&nbsp;item</tt></dl>
+
+<dl><dt><strong>server</strong> = &lt;attribute 'server' of 'irssi.WindowItem' objects&gt;<dd><tt>Active&nbsp;name&nbsp;for&nbsp;item</tt></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#IrssiChatBase">IrssiChatBase</a>:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#Query-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<dl><dt><strong>chat_type</strong> = &lt;attribute 'chat_type' of 'irssi.IrssiChatBase' objects&gt;<dd><tt>Chat&nbsp;name&nbsp;(str)</tt></dl>
+
+<dl><dt><strong>chat_type_id</strong> = &lt;attribute 'chat_type_id' of 'irssi.IrssiChatBase' objects&gt;<dd><tt>Chat&nbsp;Type&nbsp;id&nbsp;(int)</tt></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#IrssiBase">IrssiBase</a>:<br>
+<dl><dt><strong>type</strong> = &lt;attribute 'type' of 'irssi.IrssiBase' objects&gt;<dd><tt>Irssi's&nbsp;name&nbsp;for&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>type_id</strong> = &lt;attribute 'type_id' of 'irssi.IrssiBase' objects&gt;<dd><tt>Irssi's&nbsp;type&nbsp;id&nbsp;for&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>valid</strong> = &lt;attribute 'valid' of 'irssi.IrssiBase' objects&gt;<dd><tt>True&nbsp;if&nbsp;the&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;is&nbsp;valid</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Rawlog">class <strong>Rawlog</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>PyRawlog&nbsp;objects<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Rawlog-close"><strong>close</strong></a>(...)</dt><dd><tt><a href="#Rawlog-close">close</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Stop&nbsp;logging&nbsp;to&nbsp;file</tt></dd></dl>
+
+<dl><dt><a name="Rawlog-destroy"><strong>destroy</strong></a>(...)</dt><dd><tt><a href="#Rawlog-destroy">destroy</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Destroy&nbsp;rawlog</tt></dd></dl>
+
+<dl><dt><a name="Rawlog-get_lines"><strong>get_lines</strong></a>(...)</dt><dd><tt><a href="#Rawlog-get_lines">get_lines</a>()&nbsp;-&gt;&nbsp;list&nbsp;of&nbsp;str<br>
+&nbsp;<br>
+Return&nbsp;a&nbsp;list&nbsp;of&nbsp;lines&nbsp;for&nbsp;rawlog.</tt></dd></dl>
+
+<dl><dt><a name="Rawlog-input"><strong>input</strong></a>(...)</dt><dd><tt><a href="#Rawlog-input">input</a>(str)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Send&nbsp;str&nbsp;to&nbsp;rawlog&nbsp;as&nbsp;input&nbsp;text.</tt></dd></dl>
+
+<dl><dt><a name="Rawlog-open"><strong>open</strong></a>(...)</dt><dd><tt><a href="#Rawlog-open">open</a>(fname)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Start&nbsp;logging&nbsp;new&nbsp;messages&nbsp;in&nbsp;rawlog&nbsp;to&nbsp;specified&nbsp;file.</tt></dd></dl>
+
+<dl><dt><a name="Rawlog-output"><strong>output</strong></a>(...)</dt><dd><tt><a href="#Rawlog-output">output</a>(str)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Send&nbsp;str&nbsp;to&nbsp;rawlog&nbsp;as&nbsp;output&nbsp;text.</tt></dd></dl>
+
+<dl><dt><a name="Rawlog-redirect"><strong>redirect</strong></a>(...)</dt><dd><tt><a href="#Rawlog-redirect">redirect</a>(str)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Send&nbsp;str&nbsp;to&nbsp;rawlog&nbsp;as&nbsp;redirection&nbsp;text.</tt></dd></dl>
+
+<dl><dt><a name="Rawlog-save"><strong>save</strong></a>(...)</dt><dd><tt><a href="#Rawlog-save">save</a>(fname)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Save&nbsp;the&nbsp;current&nbsp;rawlog&nbsp;history&nbsp;to&nbsp;specified&nbsp;file.</tt></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#Rawlog-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<dl><dt><strong>logging</strong> = &lt;attribute 'logging' of 'irssi.Rawlog' objects&gt;<dd><tt>The&nbsp;raw&nbsp;log&nbsp;is&nbsp;being&nbsp;written&nbsp;to&nbsp;file&nbsp;currently.</tt></dl>
+
+<dl><dt><strong>nlines</strong> = &lt;attribute 'nlines' of 'irssi.Rawlog' objects&gt;<dd><tt>Number&nbsp;of&nbsp;lines&nbsp;in&nbsp;rawlog.</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Reconnect">class <strong>Reconnect</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>PyReconnect&nbsp;objects<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Data and other attributes defined here:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#Reconnect-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<dl><dt><strong>connect</strong> = &lt;attribute 'connect' of 'irssi.Reconnect' objects&gt;<dd><tt>Connection&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>next_connect</strong> = &lt;attribute 'next_connect' of 'irssi.Reconnect' objects&gt;<dd><tt>Unix&nbsp;time&nbsp;stamp&nbsp;when&nbsp;the&nbsp;next&nbsp;connection&nbsp;occurs</tt></dl>
+
+<dl><dt><strong>tag</strong> = &lt;attribute 'tag' of 'irssi.Reconnect' objects&gt;<dd><tt>Unique&nbsp;numeric&nbsp;tag</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Script">class <strong>Script</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>PyScript&nbsp;objects<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Script-command_bind"><strong>command_bind</strong></a>(...)</dt><dd><tt><a href="#Script-command_bind">command_bind</a>(command,&nbsp;func,&nbsp;catetory=None,&nbsp;priority=SIGNAL_PRIORITY_DEFAULT)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Add&nbsp;handler&nbsp;for&nbsp;a&nbsp;command</tt></dd></dl>
+
+<dl><dt><a name="Script-command_unbind"><strong>command_unbind</strong></a>(...)</dt><dd><tt><a href="#Script-command_unbind">command_unbind</a>(command,&nbsp;func=None)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Remove&nbsp;command&nbsp;handler</tt></dd></dl>
+
+<dl><dt><a name="Script-io_add_watch"><strong>io_add_watch</strong></a>(...)</dt><dd><tt><a href="#Script-io_add_watch">io_add_watch</a>(fd,&nbsp;func,&nbsp;data=None,&nbsp;condition=IO_IN|IO_PRI)&nbsp;-&gt;&nbsp;int&nbsp;source&nbsp;tag</tt></dd></dl>
+
+<dl><dt><a name="Script-settings_add_bool"><strong>settings_add_bool</strong></a>(...)</dt><dd><tt><a href="#Script-settings_add_bool">settings_add_bool</a>(section,&nbsp;key,&nbsp;def)&nbsp;-&gt;&nbsp;None</tt></dd></dl>
+
+<dl><dt><a name="Script-settings_add_int"><strong>settings_add_int</strong></a>(...)</dt><dd><tt><a href="#Script-settings_add_int">settings_add_int</a>(section,&nbsp;key,&nbsp;def)&nbsp;-&gt;&nbsp;None</tt></dd></dl>
+
+<dl><dt><a name="Script-settings_add_level"><strong>settings_add_level</strong></a>(...)</dt><dd><tt><a href="#Script-settings_add_level">settings_add_level</a>(section,&nbsp;key,&nbsp;def)&nbsp;-&gt;&nbsp;None</tt></dd></dl>
+
+<dl><dt><a name="Script-settings_add_size"><strong>settings_add_size</strong></a>(...)</dt><dd><tt><a href="#Script-settings_add_size">settings_add_size</a>(section,&nbsp;key,&nbsp;def)&nbsp;-&gt;&nbsp;None</tt></dd></dl>
+
+<dl><dt><a name="Script-settings_add_str"><strong>settings_add_str</strong></a>(...)</dt><dd><tt><a href="#Script-settings_add_str">settings_add_str</a>(section,&nbsp;key,&nbsp;def)&nbsp;-&gt;&nbsp;None</tt></dd></dl>
+
+<dl><dt><a name="Script-settings_add_time"><strong>settings_add_time</strong></a>(...)</dt><dd><tt><a href="#Script-settings_add_time">settings_add_time</a>(section,&nbsp;key,&nbsp;def)&nbsp;-&gt;&nbsp;None</tt></dd></dl>
+
+<dl><dt><a name="Script-settings_remove"><strong>settings_remove</strong></a>(...)</dt><dd><tt><a href="#Script-settings_remove">settings_remove</a>(key)&nbsp;-&gt;&nbsp;bool</tt></dd></dl>
+
+<dl><dt><a name="Script-signal_add"><strong>signal_add</strong></a>(...)</dt><dd><tt><a href="#Script-signal_add">signal_add</a>(signal,&nbsp;func,&nbsp;priority=SIGNAL_PRIORITY_DEFAULT)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Add&nbsp;handler&nbsp;for&nbsp;signal</tt></dd></dl>
+
+<dl><dt><a name="Script-signal_register"><strong>signal_register</strong></a>(...)</dt><dd><tt><a href="#Script-signal_register">signal_register</a>(signal,&nbsp;arglist)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Register&nbsp;a&nbsp;new&nbsp;dynamic&nbsp;signal&nbsp;for&nbsp;use&nbsp;with&nbsp;irssi_python<br>
+arglist&nbsp;is&nbsp;a&nbsp;string&nbsp;of&nbsp;character&nbsp;codes&nbsp;representing&nbsp;the&nbsp;type&nbsp;of&nbsp;each&nbsp;argument<br>
+of&nbsp;the&nbsp;signal&nbsp;handler&nbsp;function.<br>
+&nbsp;<br>
+&nbsp;Scalars<br>
+&nbsp;&nbsp;&nbsp;s&nbsp;-&gt;&nbsp;char&nbsp;*<br>
+&nbsp;&nbsp;&nbsp;i&nbsp;-&gt;&nbsp;int<br>
+&nbsp;<br>
+&nbsp;Chat&nbsp;objects<br>
+&nbsp;&nbsp;&nbsp;c&nbsp;-&gt;&nbsp;CHATNET_REC<br>
+&nbsp;&nbsp;&nbsp;S&nbsp;-&gt;&nbsp;SERVER_REC<br>
+&nbsp;&nbsp;&nbsp;C&nbsp;-&gt;&nbsp;CHANNEL_REC<br>
+&nbsp;&nbsp;&nbsp;q&nbsp;-&gt;&nbsp;QUERY_REC<br>
+&nbsp;&nbsp;&nbsp;n&nbsp;-&gt;&nbsp;NICK_REC<br>
+&nbsp;&nbsp;&nbsp;W&nbsp;-&gt;&nbsp;WI_ITEM_REC<br>
+&nbsp;<br>
+&nbsp;Irssi&nbsp;objects<br>
+&nbsp;&nbsp;&nbsp;d&nbsp;-&gt;&nbsp;DCC_REC<br>
+&nbsp;<br>
+&nbsp;Other&nbsp;objects<br>
+&nbsp;&nbsp;&nbsp;r&nbsp;-&gt;&nbsp;RECONNECT_REC<br>
+&nbsp;&nbsp;&nbsp;o&nbsp;-&gt;&nbsp;COMMAND_REC<br>
+&nbsp;&nbsp;&nbsp;l&nbsp;-&gt;&nbsp;LOG_REC<br>
+&nbsp;&nbsp;&nbsp;a&nbsp;-&gt;&nbsp;RAWLOG_REC<br>
+&nbsp;&nbsp;&nbsp;g&nbsp;-&gt;&nbsp;IGNORE_REC<br>
+&nbsp;&nbsp;&nbsp;b&nbsp;-&gt;&nbsp;BAN_REC<br>
+&nbsp;&nbsp;&nbsp;N&nbsp;-&gt;&nbsp;NETSPLIT_REC<br>
+&nbsp;&nbsp;&nbsp;e&nbsp;-&gt;&nbsp;NETSPLIT_SERVER_REC<br>
+&nbsp;&nbsp;&nbsp;O&nbsp;-&gt;&nbsp;NOTIFYLIST_REC<br>
+&nbsp;&nbsp;&nbsp;p&nbsp;-&gt;&nbsp;PROCESS_REC<br>
+&nbsp;&nbsp;&nbsp;t&nbsp;-&gt;&nbsp;TEXT_DEST_REC<br>
+&nbsp;&nbsp;&nbsp;w&nbsp;-&gt;&nbsp;WINDOW_REC</tt></dd></dl>
+
+<dl><dt><a name="Script-signal_remove"><strong>signal_remove</strong></a>(...)</dt><dd><tt><a href="#Script-signal_remove">signal_remove</a>(signal,&nbsp;func=None)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Remove&nbsp;signal&nbsp;handler</tt></dd></dl>
+
+<dl><dt><a name="Script-signal_unregister"><strong>signal_unregister</strong></a>(...)</dt><dd><tt><a href="#Script-signal_unregister">signal_unregister</a>(signal)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Unregister&nbsp;dynamic&nbsp;signal</tt></dd></dl>
+
+<dl><dt><a name="Script-source_remove"><strong>source_remove</strong></a>(...)</dt><dd><tt><a href="#Script-source_remove">source_remove</a>(tag)&nbsp;-&gt;&nbsp;bool<br>
+&nbsp;<br>
+Remove&nbsp;IO&nbsp;or&nbsp;timeout&nbsp;source&nbsp;by&nbsp;tag.&nbsp;Return&nbsp;True&nbsp;if&nbsp;tag&nbsp;found&nbsp;and&nbsp;removed.</tt></dd></dl>
+
+<dl><dt><a name="Script-statusbar_item_register"><strong>statusbar_item_register</strong></a>(...)</dt><dd><tt><a href="#Script-statusbar_item_register">statusbar_item_register</a>(name,&nbsp;value=None,&nbsp;func=None)&nbsp;-&gt;&nbsp;None</tt></dd></dl>
+
+<dl><dt><a name="Script-theme_register"><strong>theme_register</strong></a>(...)</dt><dd><tt><a href="#Script-theme_register">theme_register</a>(list)&nbsp;-&gt;&nbsp;None</tt></dd></dl>
+
+<dl><dt><a name="Script-timeout_add"><strong>timeout_add</strong></a>(...)</dt><dd><tt><a href="#Script-timeout_add">timeout_add</a>(msecs,&nbsp;func,&nbsp;data=None)&nbsp;-&gt;&nbsp;int&nbsp;source&nbsp;tag<br>
+&nbsp;<br>
+Add&nbsp;a&nbsp;timeout&nbsp;handler&nbsp;called&nbsp;every&nbsp;'msecs'&nbsp;milliseconds&nbsp;until&nbsp;func<br>
+returns&nbsp;False&nbsp;or&nbsp;the&nbsp;source&nbsp;is&nbsp;removed&nbsp;with&nbsp;<a href="#Script-source_remove">source_remove</a>().<br>
+&nbsp;<br>
+func&nbsp;is&nbsp;called&nbsp;as&nbsp;func(data)&nbsp;or&nbsp;func(),&nbsp;depending&nbsp;on&nbsp;whether&nbsp;data<br>
+is&nbsp;specified&nbsp;or&nbsp;not.</tt></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#Script-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<dl><dt><strong>argv</strong> = &lt;member 'argv' of 'irssi.Script' objects&gt;<dd><tt><a href="#Script">Script</a>&nbsp;arguments</tt></dl>
+
+<dl><dt><strong>module</strong> = &lt;member 'module' of 'irssi.Script' objects&gt;<dd><tt><a href="#Script">Script</a>&nbsp;module</tt></dl>
+
+<dl><dt><strong>modules</strong> = &lt;member 'modules' of 'irssi.Script' objects&gt;<dd><tt>Imported&nbsp;modules</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Server">class <strong>Server</strong></a>(<a href="irssi-python.html#IrssiChatBase">IrssiChatBase</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>PyServer&nbsp;objects<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="irssi-python.html#Server">Server</a></dd>
+<dd><a href="irssi-python.html#IrssiChatBase">IrssiChatBase</a></dd>
+<dd><a href="irssi-python.html#IrssiBase">IrssiBase</a></dd>
+<dd><a href="__builtin__.html#object">__builtin__.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="Server-channel_find"><strong>channel_find</strong></a>(...)</dt><dd><tt><a href="#Server-channel_find">channel_find</a>(name)&nbsp;-&gt;&nbsp;<a href="#Channel">Channel</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Find&nbsp;channel&nbsp;from&nbsp;this&nbsp;server</tt></dd></dl>
+
+<dl><dt><a name="Server-channels"><strong>channels</strong></a>(...)</dt><dd><tt><a href="#Server-channels">channels</a>()&nbsp;-&gt;&nbsp;list&nbsp;of&nbsp;<a href="#Channel">Channel</a>&nbsp;objects<br>
+&nbsp;<br>
+Return&nbsp;list&nbsp;of&nbsp;channels&nbsp;for&nbsp;server</tt></dd></dl>
+
+<dl><dt><a name="Server-channels_join"><strong>channels_join</strong></a>(...)</dt><dd><tt><a href="#Server-channels_join">channels_join</a>(channels,&nbsp;automatic=False)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Join&nbsp;to&nbsp;channels&nbsp;in&nbsp;server.&nbsp;`channels'&nbsp;may&nbsp;also&nbsp;contain&nbsp;keys&nbsp;for<br>
+channels&nbsp;just&nbsp;like&nbsp;with&nbsp;/JOIN&nbsp;command.&nbsp;`automatic'&nbsp;specifies&nbsp;if&nbsp;this<br>
+channel&nbsp;was&nbsp;joined&nbsp;'automatically'&nbsp;or&nbsp;if&nbsp;it&nbsp;was&nbsp;joined&nbsp;because&nbsp;join<br>
+was&nbsp;requested&nbsp;by&nbsp;user.&nbsp;If&nbsp;channel&nbsp;join&nbsp;is&nbsp;'automatic',&nbsp;irssi&nbsp;doesn't<br>
+jump&nbsp;to&nbsp;the&nbsp;window&nbsp;where&nbsp;the&nbsp;channel&nbsp;was&nbsp;joined.</tt></dd></dl>
+
+<dl><dt><a name="Server-command"><strong>command</strong></a>(...)</dt><dd><tt><a href="#Server-command">command</a>(cmd)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Send&nbsp;command</tt></dd></dl>
+
+<dl><dt><a name="Server-disconnect"><strong>disconnect</strong></a>(...)</dt><dd><tt><a href="#Server-disconnect">disconnect</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Disconnect&nbsp;from&nbsp;server</tt></dd></dl>
+
+<dl><dt><a name="Server-get_nick_flags"><strong>get_nick_flags</strong></a>(...)</dt><dd><tt><a href="#Server-get_nick_flags">get_nick_flags</a>()&nbsp;-&gt;&nbsp;str<br>
+&nbsp;<br>
+Returns&nbsp;nick&nbsp;flag&nbsp;characters&nbsp;in&nbsp;order:&nbsp;op,&nbsp;voice,&nbsp;halfop&nbsp;("@+%")&nbsp;in&nbsp;IRC</tt></dd></dl>
+
+<dl><dt><a name="Server-ignore_check"><strong>ignore_check</strong></a>(...)</dt><dd><tt><a href="#Server-ignore_check">ignore_check</a>(nick,&nbsp;host,&nbsp;channel,&nbsp;text,&nbsp;level)&nbsp;-&gt;&nbsp;bool<br>
+&nbsp;<br>
+Return&nbsp;True&nbsp;if&nbsp;ignore&nbsp;matches</tt></dd></dl>
+
+<dl><dt><a name="Server-ischannel"><strong>ischannel</strong></a>(...)</dt><dd><tt><a href="#Server-ischannel">ischannel</a>(data)&nbsp;-&gt;&nbsp;bool<br>
+&nbsp;<br>
+Returns&nbsp;True&nbsp;if&nbsp;start&nbsp;of&nbsp;`data'&nbsp;seems&nbsp;to&nbsp;mean&nbsp;channel.</tt></dd></dl>
+
+<dl><dt><a name="Server-isnickflag"><strong>isnickflag</strong></a>(...)</dt><dd><tt><a href="#Server-isnickflag">isnickflag</a>(flag)&nbsp;-&gt;&nbsp;bool<br>
+&nbsp;<br>
+Returns&nbsp;True&nbsp;if&nbsp;flag&nbsp;is&nbsp;a&nbsp;nick&nbsp;mode&nbsp;flag&nbsp;(@,&nbsp;+&nbsp;or&nbsp;%&nbsp;in&nbsp;IRC)</tt></dd></dl>
+
+<dl><dt><a name="Server-mask_match"><strong>mask_match</strong></a>(...)</dt><dd><tt><a href="#Server-mask_match">mask_match</a>(mask,&nbsp;nick,&nbsp;user,&nbsp;host)&nbsp;-&gt;&nbsp;bool<br>
+&nbsp;<br>
+Return&nbsp;true&nbsp;if&nbsp;mask&nbsp;matches&nbsp;nick!user@host</tt></dd></dl>
+
+<dl><dt><a name="Server-mask_match_address"><strong>mask_match_address</strong></a>(...)</dt><dd><tt><a href="#Server-mask_match_address">mask_match_address</a>(mask,&nbsp;nick,&nbsp;address)&nbsp;-&gt;&nbsp;bool<br>
+&nbsp;<br>
+Return&nbsp;True&nbsp;if&nbsp;mask&nbsp;matches&nbsp;nick!address</tt></dd></dl>
+
+<dl><dt><a name="Server-masks_match"><strong>masks_match</strong></a>(...)</dt><dd><tt><a href="#Server-masks_match">masks_match</a>(masks,&nbsp;nick,&nbsp;address)&nbsp;-&gt;&nbsp;bool<br>
+&nbsp;<br>
+Return&nbsp;True&nbsp;if&nbsp;any&nbsp;mask&nbsp;in&nbsp;the&nbsp;masks&nbsp;(string&nbsp;separated&nbsp;by&nbsp;spaces)<br>
+matches&nbsp;nick!address</tt></dd></dl>
+
+<dl><dt><a name="Server-nicks_get_same"><strong>nicks_get_same</strong></a>(...)</dt><dd><tt><a href="#Server-nicks_get_same">nicks_get_same</a>(nick)<br>
+&nbsp;<br>
+Return&nbsp;all&nbsp;nick&nbsp;objects&nbsp;in&nbsp;all&nbsp;channels&nbsp;in&nbsp;server.&nbsp;List&nbsp;is&nbsp;in&nbsp;format:<br>
+[(<a href="#Channel">Channel</a>,&nbsp;<a href="#Nick">Nick</a>),&nbsp;(<a href="#Channel">Channel</a>,&nbsp;<a href="#Nick">Nick</a>),&nbsp;...]</tt></dd></dl>
+
+<dl><dt><a name="Server-printformat"><strong>printformat</strong></a>(...)</dt><dd><tt>for&nbsp;<a href="#Server">Server</a>&nbsp;objects:<br>
+<a href="#Server-printformat">printformat</a>(target,&nbsp;level,&nbsp;format,&nbsp;...)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+For&nbsp;all&nbsp;else:<br>
+<a href="#Server-printformat">printformat</a>(level,&nbsp;format,&nbsp;...)&nbsp;-&gt;&nbsp;None</tt></dd></dl>
+
+<dl><dt><a name="Server-prnt"><strong>prnt</strong></a>(...)</dt><dd><tt><a href="#Server-prnt">prnt</a>(channel,&nbsp;str,&nbsp;level)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Print&nbsp;to&nbsp;server</tt></dd></dl>
+
+<dl><dt><a name="Server-queries"><strong>queries</strong></a>(...)</dt><dd><tt><a href="#Server-queries">queries</a>()&nbsp;-&gt;&nbsp;list&nbsp;of&nbsp;<a href="#Query">Query</a>&nbsp;objects<br>
+&nbsp;<br>
+Return&nbsp;a&nbsp;list&nbsp;of&nbsp;queries&nbsp;for&nbsp;server.</tt></dd></dl>
+
+<dl><dt><a name="Server-query_find"><strong>query_find</strong></a>(...)</dt><dd><tt><a href="#Server-query_find">query_find</a>(nick)&nbsp;-&gt;&nbsp;<a href="#Query">Query</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Find&nbsp;a&nbsp;query&nbsp;on&nbsp;this&nbsp;server.</tt></dd></dl>
+
+<dl><dt><a name="Server-send_message"><strong>send_message</strong></a>(...)</dt><dd><tt><a href="#Server-send_message">send_message</a>(target,&nbsp;msg,&nbsp;target_type)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Sends&nbsp;a&nbsp;message&nbsp;to&nbsp;nick/channel.&nbsp;target_type&nbsp;0&nbsp;=&nbsp;channel,&nbsp;1&nbsp;=&nbsp;nick</tt></dd></dl>
+
+<dl><dt><a name="Server-window_find_closest"><strong>window_find_closest</strong></a>(...)</dt><dd><tt><a href="#Server-window_find_closest">window_find_closest</a>(name,&nbsp;level)&nbsp;-&gt;&nbsp;<a href="#Window">Window</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Find&nbsp;window&nbsp;that&nbsp;matches&nbsp;best&nbsp;to&nbsp;given&nbsp;arguments.&nbsp;`name'&nbsp;can&nbsp;be&nbsp;either<br>
+window&nbsp;name&nbsp;or&nbsp;name&nbsp;of&nbsp;one&nbsp;of&nbsp;the&nbsp;window&nbsp;items.</tt></dd></dl>
+
+<dl><dt><a name="Server-window_find_item"><strong>window_find_item</strong></a>(...)</dt><dd><tt><a href="#Server-window_find_item">window_find_item</a>(name)&nbsp;-&gt;&nbsp;<a href="#Window">Window</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Find&nbsp;window&nbsp;which&nbsp;contains&nbsp;window&nbsp;item&nbsp;with&nbsp;specified&nbsp;name/server</tt></dd></dl>
+
+<dl><dt><a name="Server-window_find_level"><strong>window_find_level</strong></a>(...)</dt><dd><tt><a href="#Server-window_find_level">window_find_level</a>(level)&nbsp;-&gt;&nbsp;<a href="#Window">Window</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Find&nbsp;window&nbsp;with&nbsp;level</tt></dd></dl>
+
+<dl><dt><a name="Server-window_item_find"><strong>window_item_find</strong></a>(...)</dt><dd><tt><a href="#Server-window_item_find">window_item_find</a>(name)&nbsp;-&gt;&nbsp;<a href="#WindowItem">WindowItem</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Find&nbsp;window&nbsp;item&nbsp;that&nbsp;matches&nbsp;best&nbsp;to&nbsp;given&nbsp;arguments</tt></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>away_reason</strong> = &lt;attribute 'away_reason' of 'irssi.Server' objects&gt;<dd><tt>Away&nbsp;reason&nbsp;message</tt></dl>
+
+<dl><dt><strong>banned</strong> = &lt;attribute 'banned' of 'irssi.Server' objects&gt;<dd><tt>Were&nbsp;we&nbsp;banned&nbsp;from&nbsp;this&nbsp;server?&nbsp;1|0</tt></dl>
+
+<dl><dt><strong>connect</strong> = &lt;attribute 'connect' of 'irssi.Server' objects&gt;<dd><tt><a href="#Connect">Connect</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;for&nbsp;the&nbsp;server</tt></dl>
+
+<dl><dt><strong>connect_time</strong> = &lt;attribute 'connect_time' of 'irssi.Server' objects&gt;<dd><tt>Time&nbsp;when&nbsp;<a href="#Server-connect">connect</a>()&nbsp;to&nbsp;server&nbsp;finished</tt></dl>
+
+<dl><dt><strong>connected</strong> = &lt;attribute 'connected' of 'irssi.Server' objects&gt;<dd><tt>Is&nbsp;connection&nbsp;finished?&nbsp;1|0</tt></dl>
+
+<dl><dt><strong>connection_lost</strong> = &lt;attribute 'connection_lost' of 'irssi.Server' objects&gt;<dd><tt>Did&nbsp;we&nbsp;lose&nbsp;the&nbsp;connection&nbsp;(1)&nbsp;or&nbsp;was&nbsp;the&nbsp;connection&nbsp;just&nbsp;/DISCONNECTed&nbsp;(0)</tt></dl>
+
+<dl><dt><strong>lag</strong> = &lt;attribute 'lag' of 'irssi.Server' objects&gt;<dd><tt>Current&nbsp;lag&nbsp;to&nbsp;server&nbsp;in&nbsp;milliseconds</tt></dl>
+
+<dl><dt><strong>last_invite</strong> = &lt;attribute 'last_invite' of 'irssi.Server' objects&gt;<dd><tt>Last&nbsp;channel&nbsp;we&nbsp;were&nbsp;invited&nbsp;to</tt></dl>
+
+<dl><dt><strong>nick</strong> = &lt;attribute 'nick' of 'irssi.Server' objects&gt;<dd><tt>Current&nbsp;nick</tt></dl>
+
+<dl><dt><strong>rawlog</strong> = &lt;attribute 'rawlog' of 'irssi.Server' objects&gt;<dd><tt><a href="#Rawlog">Rawlog</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;for&nbsp;the&nbsp;server</tt></dl>
+
+<dl><dt><strong>real_connect_time</strong> = &lt;attribute 'real_connect_time' of 'irssi.Server' objects&gt;<dd><tt>Time&nbsp;when&nbsp;server&nbsp;sent&nbsp;'connected'&nbsp;message</tt></dl>
+
+<dl><dt><strong>server_operator</strong> = &lt;attribute 'server_operator' of 'irssi.Server' objects&gt;<dd><tt>Are&nbsp;we&nbsp;server&nbsp;operator&nbsp;(IRC&nbsp;op)&nbsp;1|0</tt></dl>
+
+<dl><dt><strong>tag</strong> = &lt;attribute 'tag' of 'irssi.Server' objects&gt;<dd><tt>Unique&nbsp;server&nbsp;tag</tt></dl>
+
+<dl><dt><strong>usermode_away</strong> = &lt;attribute 'usermode_away' of 'irssi.Server' objects&gt;<dd><tt>Are&nbsp;we&nbsp;marked&nbsp;as&nbsp;away?&nbsp;1|0</tt></dl>
+
+<dl><dt><strong>version</strong> = &lt;attribute 'version' of 'irssi.Server' objects&gt;<dd><tt><a href="#Server">Server</a>&nbsp;version</tt></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#IrssiChatBase">IrssiChatBase</a>:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#Server-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<dl><dt><strong>chat_type</strong> = &lt;attribute 'chat_type' of 'irssi.IrssiChatBase' objects&gt;<dd><tt>Chat&nbsp;name&nbsp;(str)</tt></dl>
+
+<dl><dt><strong>chat_type_id</strong> = &lt;attribute 'chat_type_id' of 'irssi.IrssiChatBase' objects&gt;<dd><tt>Chat&nbsp;Type&nbsp;id&nbsp;(int)</tt></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#IrssiBase">IrssiBase</a>:<br>
+<dl><dt><strong>type</strong> = &lt;attribute 'type' of 'irssi.IrssiBase' objects&gt;<dd><tt>Irssi's&nbsp;name&nbsp;for&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>type_id</strong> = &lt;attribute 'type_id' of 'irssi.IrssiBase' objects&gt;<dd><tt>Irssi's&nbsp;type&nbsp;id&nbsp;for&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>valid</strong> = &lt;attribute 'valid' of 'irssi.IrssiBase' objects&gt;<dd><tt>True&nbsp;if&nbsp;the&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;is&nbsp;valid</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="StatusbarItem">class <strong>StatusbarItem</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>PyStatusbarItem&nbsp;objects<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="StatusbarItem-default_handler"><strong>default_handler</strong></a>(...)</dt><dd><tt><a href="#StatusbarItem-default_handler">default_handler</a>(get_size_only,&nbsp;str=None,&nbsp;data=,&nbsp;escape_vars=True)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Run&nbsp;default&nbsp;handler&nbsp;of&nbsp;item&nbsp;to&nbsp;print&nbsp;to&nbsp;statusbar</tt></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#StatusbarItem-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<dl><dt><strong>max_size</strong> = &lt;attribute 'max_size' of 'irssi.StatusbarItem' objects&gt;<dd><tt>max&nbsp;size</tt></dl>
+
+<dl><dt><strong>min_size</strong> = &lt;attribute 'min_size' of 'irssi.StatusbarItem' objects&gt;<dd><tt>min&nbsp;size</tt></dl>
+
+<dl><dt><strong>size</strong> = &lt;attribute 'size' of 'irssi.StatusbarItem' objects&gt;<dd><tt>size</tt></dl>
+
+<dl><dt><strong>window</strong> = &lt;attribute 'window' of 'irssi.StatusbarItem' objects&gt;<dd><tt>parent&nbsp;window&nbsp;for&nbsp;statusbar&nbsp;item</tt></dl>
+
+<dl><dt><strong>xpos</strong> = &lt;attribute 'xpos' of 'irssi.StatusbarItem' objects&gt;<dd><tt>x&nbsp;position</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="TextDest">class <strong>TextDest</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#TextDest-__init__">__init__</a>(target,&nbsp;level=MSGLEVEL_CLIENTNOTICE,&nbsp;server=None,&nbsp;window=None)<br>
+&nbsp;<br>
+Create&nbsp;a&nbsp;<a href="#TextDest">TextDest</a><br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="TextDest-__init__"><strong>__init__</strong></a>(...)</dt><dd><tt>x.<a href="#TextDest-__init__">__init__</a>(...)&nbsp;initializes&nbsp;x;&nbsp;see&nbsp;x.__class__.__doc__&nbsp;for&nbsp;signature</tt></dd></dl>
+
+<dl><dt><a name="TextDest-prnt"><strong>prnt</strong></a>(...)</dt><dd><tt><a href="#TextDest-prnt">prnt</a>(str)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Print&nbsp;str&nbsp;to&nbsp;<a href="#TextDest">TextDest</a></tt></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#TextDest-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<dl><dt><strong>hilight_color</strong> = &lt;attribute 'hilight_color' of 'irssi.TextDest' objects&gt;<dd><tt>Color&nbsp;for&nbsp;the&nbsp;hilighted&nbsp;text</tt></dl>
+
+<dl><dt><strong>hilight_priority</strong> = &lt;attribute 'hilight_priority' of 'irssi.TextDest' objects&gt;<dd><tt>Priority&nbsp;for&nbsp;the&nbsp;hilighted&nbsp;text</tt></dl>
+
+<dl><dt><strong>level</strong> = &lt;attribute 'level' of 'irssi.TextDest' objects&gt;<dd><tt>Text&nbsp;level</tt></dl>
+
+<dl><dt><strong>server</strong> = &lt;attribute 'server' of 'irssi.TextDest' objects&gt;<dd><tt>Target&nbsp;server</tt></dl>
+
+<dl><dt><strong>target</strong> = &lt;attribute 'target' of 'irssi.TextDest' objects&gt;<dd><tt>Target&nbsp;channel/query/etc&nbsp;name</tt></dl>
+
+<dl><dt><strong>window</strong> = &lt;attribute 'window' of 'irssi.TextDest' objects&gt;<dd><tt><a href="#Window">Window</a>&nbsp;where&nbsp;the&nbsp;text&nbsp;will&nbsp;be&nbsp;written</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Theme">class <strong>Theme</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Theme-format_expand"><strong>format_expand</strong></a>(...)</dt><dd><tt><a href="#Theme-format_expand">format_expand</a>(format,&nbsp;flags=0)&nbsp;-&gt;&nbsp;str&nbsp;or&nbsp;None</tt></dd></dl>
+
+<dl><dt><a name="Theme-get_format"><strong>get_format</strong></a>(...)</dt><dd><tt><a href="#Theme-get_format">get_format</a>(module,&nbsp;tag)&nbsp;-&gt;&nbsp;str</tt></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#Theme-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Window">class <strong>Window</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>PyWindow&nbsp;objects<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Window-activity"><strong>activity</strong></a>(...)</dt><dd><tt><a href="#Window-activity">activity</a>(data_level,&nbsp;hilight_color)&nbsp;-&gt;&nbsp;None</tt></dd></dl>
+
+<dl><dt><a name="Window-change_server"><strong>change_server</strong></a>(...)</dt><dd><tt><a href="#Window-change_server">change_server</a>(server)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Change&nbsp;server&nbsp;in&nbsp;window</tt></dd></dl>
+
+<dl><dt><a name="Window-command"><strong>command</strong></a>(...)</dt><dd><tt><a href="#Window-command">command</a>(cmd)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Send&nbsp;command&nbsp;to&nbsp;window</tt></dd></dl>
+
+<dl><dt><a name="Window-destroy"><strong>destroy</strong></a>(...)</dt><dd><tt><a href="#Window-destroy">destroy</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Destroy&nbsp;the&nbsp;window.</tt></dd></dl>
+
+<dl><dt><a name="Window-get_active_name"><strong>get_active_name</strong></a>(...)</dt><dd><tt><a href="#Window-get_active_name">get_active_name</a>()&nbsp;-&gt;&nbsp;str&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Return&nbsp;active&nbsp;item's&nbsp;name,&nbsp;or&nbsp;if&nbsp;none&nbsp;is&nbsp;active,&nbsp;window's&nbsp;name.</tt></dd></dl>
+
+<dl><dt><a name="Window-item_add"><strong>item_add</strong></a>(...)</dt><dd><tt><a href="#Window-item_add">item_add</a>(item,&nbsp;automatic=False)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Add&nbsp;window&nbsp;item</tt></dd></dl>
+
+<dl><dt><a name="Window-item_destroy"><strong>item_destroy</strong></a>(...)</dt><dd><tt><a href="#Window-item_destroy">item_destroy</a>(item)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Destroy&nbsp;window&nbsp;item</tt></dd></dl>
+
+<dl><dt><a name="Window-item_find"><strong>item_find</strong></a>(...)</dt><dd><tt><a href="#Window-item_find">item_find</a>(server,&nbsp;name)&nbsp;-&gt;&nbsp;<a href="#WindowItem">WindowItem</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Find&nbsp;window&nbsp;item&nbsp;that&nbsp;matches&nbsp;best&nbsp;to&nbsp;given&nbsp;arguments</tt></dd></dl>
+
+<dl><dt><a name="Window-item_next"><strong>item_next</strong></a>(...)</dt><dd><tt><a href="#Window-item_next">item_next</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Change&nbsp;to&nbsp;next&nbsp;window&nbsp;item</tt></dd></dl>
+
+<dl><dt><a name="Window-item_prev"><strong>item_prev</strong></a>(...)</dt><dd><tt><a href="#Window-item_prev">item_prev</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Change&nbsp;to&nbsp;previous&nbsp;window&nbsp;item</tt></dd></dl>
+
+<dl><dt><a name="Window-item_remove"><strong>item_remove</strong></a>(...)</dt><dd><tt><a href="#Window-item_remove">item_remove</a>(item)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Remove&nbsp;window&nbsp;item</tt></dd></dl>
+
+<dl><dt><a name="Window-items"><strong>items</strong></a>(...)</dt><dd><tt><a href="#Window-items">items</a>()&nbsp;-&gt;&nbsp;list&nbsp;of&nbsp;<a href="#WindowItem">WindowItem</a>&nbsp;objects<br>
+&nbsp;<br>
+Return&nbsp;a&nbsp;list&nbsp;of&nbsp;items&nbsp;in&nbsp;window.</tt></dd></dl>
+
+<dl><dt><a name="Window-printformat"><strong>printformat</strong></a>(...)</dt><dd><tt>for&nbsp;<a href="#Server">Server</a>&nbsp;objects:<br>
+<a href="#Window-printformat">printformat</a>(target,&nbsp;level,&nbsp;format,&nbsp;...)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+For&nbsp;all&nbsp;else:<br>
+<a href="#Window-printformat">printformat</a>(level,&nbsp;format,&nbsp;...)&nbsp;-&gt;&nbsp;None</tt></dd></dl>
+
+<dl><dt><a name="Window-prnt"><strong>prnt</strong></a>(...)</dt><dd><tt><a href="#Window-prnt">prnt</a>(str,&nbsp;level=MSGLEVEL_CLIENTNOTICE)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Print&nbsp;to&nbsp;window</tt></dd></dl>
+
+<dl><dt><a name="Window-set_active"><strong>set_active</strong></a>(...)</dt><dd><tt><a href="#Window-set_active">set_active</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Set&nbsp;window&nbsp;active.</tt></dd></dl>
+
+<dl><dt><a name="Window-set_history"><strong>set_history</strong></a>(...)</dt><dd><tt><a href="#Window-set_history">set_history</a>(history)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Set&nbsp;window&nbsp;history</tt></dd></dl>
+
+<dl><dt><a name="Window-set_level"><strong>set_level</strong></a>(...)</dt><dd><tt><a href="#Window-set_level">set_level</a>(level)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Set&nbsp;window&nbsp;level</tt></dd></dl>
+
+<dl><dt><a name="Window-set_name"><strong>set_name</strong></a>(...)</dt><dd><tt><a href="#Window-set_name">set_name</a>(name)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Set&nbsp;window&nbsp;name</tt></dd></dl>
+
+<dl><dt><a name="Window-set_refnum"><strong>set_refnum</strong></a>(...)</dt><dd><tt><a href="#Window-set_refnum">set_refnum</a>(refnum)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Set&nbsp;window&nbsp;refnum</tt></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#Window-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<dl><dt><strong>active</strong> = &lt;attribute 'active' of 'irssi.Window' objects&gt;<dd><tt>Active&nbsp;window&nbsp;item</tt></dl>
+
+<dl><dt><strong>active_server</strong> = &lt;attribute 'active_server' of 'irssi.Window' objects&gt;<dd><tt>Active&nbsp;server</tt></dl>
+
+<dl><dt><strong>data_level</strong> = &lt;attribute 'data_level' of 'irssi.Window' objects&gt;<dd><tt>Current&nbsp;data&nbsp;level</tt></dl>
+
+<dl><dt><strong>height</strong> = &lt;attribute 'height' of 'irssi.Window' objects&gt;<dd><tt>Height</tt></dl>
+
+<dl><dt><strong>hilight_color</strong> = &lt;attribute 'hilight_color' of 'irssi.Window' objects&gt;<dd><tt>Current&nbsp;activity&nbsp;hilight&nbsp;color</tt></dl>
+
+<dl><dt><strong>history_name</strong> = &lt;attribute 'history_name' of 'irssi.Window' objects&gt;<dd><tt>Name&nbsp;of&nbsp;named&nbsp;historylist&nbsp;for&nbsp;this&nbsp;window</tt></dl>
+
+<dl><dt><strong>last_line</strong> = &lt;attribute 'last_line' of 'irssi.Window' objects&gt;<dd><tt>Last&nbsp;time&nbsp;text&nbsp;was&nbsp;written&nbsp;in&nbsp;window</tt></dl>
+
+<dl><dt><strong>last_timestamp</strong> = &lt;attribute 'last_timestamp' of 'irssi.Window' objects&gt;<dd><tt>Last&nbsp;time&nbsp;timestamp&nbsp;was&nbsp;written&nbsp;in&nbsp;window</tt></dl>
+
+<dl><dt><strong>level</strong> = &lt;attribute 'level' of 'irssi.Window' objects&gt;<dd><tt>Current&nbsp;window&nbsp;level</tt></dl>
+
+<dl><dt><strong>name</strong> = &lt;attribute 'name' of 'irssi.Window' objects&gt;<dd><tt>Name</tt></dl>
+
+<dl><dt><strong>refnum</strong> = &lt;attribute 'refnum' of 'irssi.Window' objects&gt;<dd><tt>Reference&nbsp;number</tt></dl>
+
+<dl><dt><strong>servertag</strong> = &lt;attribute 'servertag' of 'irssi.Window' objects&gt;<dd><tt>active_server&nbsp;must&nbsp;be&nbsp;either&nbsp;None&nbsp;or&nbsp;have&nbsp;this&nbsp;same&nbsp;tag(unless&nbsp;there's&nbsp;items&nbsp;in&nbsp;this&nbsp;window).&nbsp;This&nbsp;is&nbsp;used&nbsp;by/WINDOW&nbsp;SERVER&nbsp;-sticky</tt></dl>
+
+<dl><dt><strong>sticky_refnum</strong> = &lt;attribute 'sticky_refnum' of 'irssi.Window' objects&gt;<dd><tt>True&nbsp;if&nbsp;reference&nbsp;number&nbsp;is&nbsp;sticky</tt></dl>
+
+<dl><dt><strong>theme_name</strong> = &lt;attribute 'theme_name' of 'irssi.Window' objects&gt;<dd><tt>Active&nbsp;theme&nbsp;in&nbsp;window,&nbsp;None&nbsp;=&nbsp;default</tt></dl>
+
+<dl><dt><strong>width</strong> = &lt;attribute 'width' of 'irssi.Window' objects&gt;<dd><tt>Width</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="WindowItem">class <strong>WindowItem</strong></a>(<a href="irssi-python.html#IrssiChatBase">IrssiChatBase</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>PyWindowItem&nbsp;objects<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="irssi-python.html#WindowItem">WindowItem</a></dd>
+<dd><a href="irssi-python.html#IrssiChatBase">IrssiChatBase</a></dd>
+<dd><a href="irssi-python.html#IrssiBase">IrssiBase</a></dd>
+<dd><a href="__builtin__.html#object">__builtin__.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="WindowItem-activity"><strong>activity</strong></a>(...)</dt><dd><tt><a href="#WindowItem-activity">activity</a>(data_level,&nbsp;hilight_color)&nbsp;-&gt;&nbsp;None</tt></dd></dl>
+
+<dl><dt><a name="WindowItem-change_server"><strong>change_server</strong></a>(...)</dt><dd><tt><a href="#WindowItem-change_server">change_server</a>(server)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Change&nbsp;server&nbsp;for&nbsp;window&nbsp;item</tt></dd></dl>
+
+<dl><dt><a name="WindowItem-command"><strong>command</strong></a>(...)</dt><dd><tt><a href="#WindowItem-command">command</a>(cmd)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Send&nbsp;command&nbsp;to&nbsp;window&nbsp;item</tt></dd></dl>
+
+<dl><dt><a name="WindowItem-destroy"><strong>destroy</strong></a>(...)</dt><dd><tt><a href="#WindowItem-destroy">destroy</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Destroy&nbsp;channel&nbsp;or&nbsp;query</tt></dd></dl>
+
+<dl><dt><a name="WindowItem-get_dcc"><strong>get_dcc</strong></a>(...)</dt><dd><tt><a href="#WindowItem-get_dcc">get_dcc</a>()&nbsp;-&gt;&nbsp;<a href="#DccChat">DccChat</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+If&nbsp;item&nbsp;is&nbsp;a&nbsp;query&nbsp;of&nbsp;a&nbsp;=nick,&nbsp;return&nbsp;DCC&nbsp;chat&nbsp;record&nbsp;of&nbsp;nick</tt></dd></dl>
+
+<dl><dt><a name="WindowItem-is_active"><strong>is_active</strong></a>(...)</dt><dd><tt><a href="#WindowItem-is_active">is_active</a>()&nbsp;-&gt;&nbsp;bool<br>
+&nbsp;<br>
+Returns&nbsp;true&nbsp;if&nbsp;window&nbsp;item&nbsp;is&nbsp;active</tt></dd></dl>
+
+<dl><dt><a name="WindowItem-printformat"><strong>printformat</strong></a>(...)</dt><dd><tt>for&nbsp;<a href="#Server">Server</a>&nbsp;objects:<br>
+<a href="#WindowItem-printformat">printformat</a>(target,&nbsp;level,&nbsp;format,&nbsp;...)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+For&nbsp;all&nbsp;else:<br>
+<a href="#WindowItem-printformat">printformat</a>(level,&nbsp;format,&nbsp;...)&nbsp;-&gt;&nbsp;None</tt></dd></dl>
+
+<dl><dt><a name="WindowItem-prnt"><strong>prnt</strong></a>(...)</dt><dd><tt><a href="#WindowItem-prnt">prnt</a>(str,&nbsp;level)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Print&nbsp;to&nbsp;window&nbsp;item</tt></dd></dl>
+
+<dl><dt><a name="WindowItem-set_active"><strong>set_active</strong></a>(...)</dt><dd><tt><a href="#WindowItem-set_active">set_active</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Set&nbsp;window&nbsp;item&nbsp;active</tt></dd></dl>
+
+<dl><dt><a name="WindowItem-window"><strong>window</strong></a>(...)</dt><dd><tt><a href="#WindowItem-window">window</a>()&nbsp;-&gt;&nbsp;<a href="#Window">Window</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Return&nbsp;parent&nbsp;window&nbsp;for&nbsp;window&nbsp;item</tt></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>createtime</strong> = &lt;attribute 'createtime' of 'irssi.WindowItem' objects&gt;<dd><tt>Time&nbsp;the&nbsp;witem&nbsp;was&nbsp;created</tt></dl>
+
+<dl><dt><strong>data_level</strong> = &lt;attribute 'data_level' of 'irssi.WindowItem' objects&gt;<dd><tt>0=no&nbsp;new&nbsp;data,&nbsp;1=text,&nbsp;2=msg,&nbsp;3=highlighted&nbsp;text</tt></dl>
+
+<dl><dt><strong>hilight_color</strong> = &lt;attribute 'hilight_color' of 'irssi.WindowItem' objects&gt;<dd><tt>Color&nbsp;of&nbsp;the&nbsp;last&nbsp;highlighted&nbsp;text</tt></dl>
+
+<dl><dt><strong>name</strong> = &lt;attribute 'name' of 'irssi.WindowItem' objects&gt;<dd><tt>Name&nbsp;of&nbsp;the&nbsp;item</tt></dl>
+
+<dl><dt><strong>server</strong> = &lt;attribute 'server' of 'irssi.WindowItem' objects&gt;<dd><tt>Active&nbsp;name&nbsp;for&nbsp;item</tt></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#IrssiChatBase">IrssiChatBase</a>:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object&gt;<dd><tt>T.<a href="#WindowItem-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<dl><dt><strong>chat_type</strong> = &lt;attribute 'chat_type' of 'irssi.IrssiChatBase' objects&gt;<dd><tt>Chat&nbsp;name&nbsp;(str)</tt></dl>
+
+<dl><dt><strong>chat_type_id</strong> = &lt;attribute 'chat_type_id' of 'irssi.IrssiChatBase' objects&gt;<dd><tt>Chat&nbsp;Type&nbsp;id&nbsp;(int)</tt></dl>
+
+<hr>
+Data and other attributes inherited from <a href="irssi-python.html#IrssiBase">IrssiBase</a>:<br>
+<dl><dt><strong>type</strong> = &lt;attribute 'type' of 'irssi.IrssiBase' objects&gt;<dd><tt>Irssi's&nbsp;name&nbsp;for&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>type_id</strong> = &lt;attribute 'type_id' of 'irssi.IrssiBase' objects&gt;<dd><tt>Irssi's&nbsp;type&nbsp;id&nbsp;for&nbsp;<a href="__builtin__.html#object">object</a></tt></dl>
+
+<dl><dt><strong>valid</strong> = &lt;attribute 'valid' of 'irssi.IrssiBase' objects&gt;<dd><tt>True&nbsp;if&nbsp;the&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;is&nbsp;valid</tt></dl>
+
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-active_mainwin"><strong>active_mainwin</strong></a>(...)</dt><dd><tt><a href="#-active_mainwin">active_mainwin</a>()&nbsp;-&gt;&nbsp;<a href="#MainWindow">MainWindow</a>&nbsp;<a href="__builtin__.html#object">object</a><br>
+&nbsp;<br>
+return&nbsp;active&nbsp;main&nbsp;window</tt></dd></dl>
+ <dl><dt><a name="-active_server"><strong>active_server</strong></a>(...)</dt><dd><tt><a href="#-active_server">active_server</a>()&nbsp;-&gt;&nbsp;<a href="#Server">Server</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Return&nbsp;active&nbsp;server</tt></dd></dl>
+ <dl><dt><a name="-active_win"><strong>active_win</strong></a>(...)</dt><dd><tt><a href="#-active_win">active_win</a>()&nbsp;-&gt;&nbsp;<a href="#Window">Window</a>&nbsp;<a href="__builtin__.html#object">object</a><br>
+&nbsp;<br>
+Return&nbsp;active&nbsp;window</tt></dd></dl>
+ <dl><dt><a name="-bits2level"><strong>bits2level</strong></a>(...)</dt><dd><tt><a href="#-bits2level">bits2level</a>(bits)&nbsp;-&gt;&nbsp;str<br>
+&nbsp;<br>
+Level&nbsp;number&nbsp;-&gt;&nbsp;string</tt></dd></dl>
+ <dl><dt><a name="-channel_find"><strong>channel_find</strong></a>(...)</dt><dd><tt><a href="#-channel_find">channel_find</a>(name)&nbsp;-&gt;&nbsp;<a href="#Channel">Channel</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Find&nbsp;channel&nbsp;from&nbsp;any&nbsp;server</tt></dd></dl>
+ <dl><dt><a name="-channels"><strong>channels</strong></a>(...)</dt><dd><tt><a href="#-channels">channels</a>()&nbsp;-&gt;&nbsp;list&nbsp;of&nbsp;<a href="#Channel">Channel</a>&nbsp;objects<br>
+&nbsp;<br>
+Return&nbsp;channel&nbsp;list</tt></dd></dl>
+ <dl><dt><a name="-chatnet_find"><strong>chatnet_find</strong></a>(...)</dt><dd><tt><a href="#-chatnet_find">chatnet_find</a>(name)&nbsp;-&gt;&nbsp;<a href="#Chatnet">Chatnet</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Find&nbsp;chat&nbsp;network&nbsp;with&nbsp;name</tt></dd></dl>
+ <dl><dt><a name="-chatnets"><strong>chatnets</strong></a>(...)</dt><dd><tt><a href="#-chatnets">chatnets</a>()&nbsp;-&gt;&nbsp;list&nbsp;of&nbsp;<a href="#Chatnet">Chatnet</a>&nbsp;objects<br>
+&nbsp;<br>
+Return&nbsp;a&nbsp;list&nbsp;of&nbsp;all&nbsp;chatnets</tt></dd></dl>
+ <dl><dt><a name="-combine_level"><strong>combine_level</strong></a>(...)</dt><dd><tt><a href="#-combine_level">combine_level</a>(level,&nbsp;str)&nbsp;-&gt;&nbsp;long<br>
+&nbsp;<br>
+Combine&nbsp;level&nbsp;number&nbsp;to&nbsp;level&nbsp;string&nbsp;('+level&nbsp;-level').&nbsp;Return&nbsp;new&nbsp;level&nbsp;number.</tt></dd></dl>
+ <dl><dt><a name="-command"><strong>command</strong></a>(...)</dt><dd><tt><a href="#-command">command</a>(cmd)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Execute&nbsp;command</tt></dd></dl>
+ <dl><dt><a name="-command_bind"><strong>command_bind</strong></a>(*args, **kwargs)</dt><dd><tt>see&nbsp;<a href="#Script">Script</a>.<a href="#-command_bind">command_bind</a>()</tt></dd></dl>
+ <dl><dt><a name="-command_runsub"><strong>command_runsub</strong></a>(...)</dt><dd><tt><a href="#-command_runsub">command_runsub</a>(cmd,&nbsp;data,&nbsp;server=None,&nbsp;item=None)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Run&nbsp;subcommands&nbsp;for&nbsp;`cmd'.&nbsp;First&nbsp;word&nbsp;in&nbsp;`data'&nbsp;is&nbsp;parsed&nbsp;as<br>
+subcommand.&nbsp;`server'&nbsp;is&nbsp;<a href="#Server">Server</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;for&nbsp;current<br>
+<a href="#WindowItem">WindowItem</a>&nbsp;`item'.<br>
+&nbsp;<br>
+Call&nbsp;command_runsub&nbsp;in&nbsp;handler&nbsp;function&nbsp;for&nbsp;`cmd'&nbsp;and&nbsp;bind<br>
+with&nbsp;<a href="#-command_bind">command_bind</a>("`cmd'&nbsp;`subcmd'",&nbsp;subcmdfunc[,&nbsp;category]);</tt></dd></dl>
+ <dl><dt><a name="-command_unbind"><strong>command_unbind</strong></a>(*args, **kwargs)</dt><dd><tt>see&nbsp;<a href="#Script">Script</a>.<a href="#-command_unbind">command_unbind</a>()</tt></dd></dl>
+ <dl><dt><a name="-commands"><strong>commands</strong></a>(...)</dt><dd><tt><a href="#-commands">commands</a>()&nbsp;-&gt;&nbsp;list&nbsp;of&nbsp;<a href="#Command">Command</a>&nbsp;objects<br>
+&nbsp;<br>
+Return&nbsp;a&nbsp;list&nbsp;of&nbsp;all&nbsp;commands.</tt></dd></dl>
+ <dl><dt><a name="-current_theme"><strong>current_theme</strong></a>(...)</dt><dd><tt><a href="#-current_theme">current_theme</a>()&nbsp;-&gt;&nbsp;<a href="#Theme">Theme</a>&nbsp;<a href="__builtin__.html#object">object</a></tt></dd></dl>
+ <dl><dt><a name="-dcc_chat_find_id"><strong>dcc_chat_find_id</strong></a>(...)</dt><dd><tt><a href="#-dcc_chat_find_id">dcc_chat_find_id</a>(id)&nbsp;-&gt;&nbsp;<a href="#Dcc">Dcc</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+???</tt></dd></dl>
+ <dl><dt><a name="-dcc_find_request"><strong>dcc_find_request</strong></a>(...)</dt><dd><tt><a href="#-dcc_find_request">dcc_find_request</a>(type,&nbsp;nick,&nbsp;arg)&nbsp;-&gt;&nbsp;<a href="#Dcc">Dcc</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+???</tt></dd></dl>
+ <dl><dt><a name="-dcc_find_request_latest"><strong>dcc_find_request_latest</strong></a>(...)</dt><dd><tt><a href="#-dcc_find_request_latest">dcc_find_request_latest</a>(type)&nbsp;-&gt;&nbsp;<a href="#Dcc">Dcc</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+???</tt></dd></dl>
+ <dl><dt><a name="-dcc_get_download_path"><strong>dcc_get_download_path</strong></a>(...)</dt><dd><tt>dcc_get_download(fname)&nbsp;-&gt;&nbsp;str<br>
+&nbsp;<br>
+???</tt></dd></dl>
+ <dl><dt><a name="-dcc_register_type"><strong>dcc_register_type</strong></a>(...)</dt><dd><tt><a href="#-dcc_register_type">dcc_register_type</a>(type)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+???</tt></dd></dl>
+ <dl><dt><a name="-dcc_str2type"><strong>dcc_str2type</strong></a>(...)</dt><dd><tt><a href="#-dcc_str2type">dcc_str2type</a>(type)&nbsp;-&gt;&nbsp;int<br>
+&nbsp;<br>
+???</tt></dd></dl>
+ <dl><dt><a name="-dcc_type2str"><strong>dcc_type2str</strong></a>(...)</dt><dd><tt><a href="#-dcc_type2str">dcc_type2str</a>(type)&nbsp;-&gt;&nbsp;str&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+???</tt></dd></dl>
+ <dl><dt><a name="-dcc_unregister_type"><strong>dcc_unregister_type</strong></a>(...)</dt><dd><tt><a href="#-dcc_unregister_type">dcc_unregister_type</a>(type)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+???</tt></dd></dl>
+ <dl><dt><a name="-dccs"><strong>dccs</strong></a>(...)</dt><dd><tt><a href="#-dccs">dccs</a>()&nbsp;-&gt;&nbsp;list&nbsp;of&nbsp;<a href="#Dcc">Dcc</a>&nbsp;objects<br>
+&nbsp;<br>
+Return&nbsp;list&nbsp;of&nbsp;active&nbsp;DCCs</tt></dd></dl>
+ <dl><dt><a name="-format_get_length"><strong>format_get_length</strong></a>(...)</dt><dd><tt><a href="#-format_get_length">format_get_length</a>(str)&nbsp;-&gt;&nbsp;int&nbsp;length</tt></dd></dl>
+ <dl><dt><a name="-format_real_length"><strong>format_real_length</strong></a>(...)</dt><dd><tt><a href="#-format_real_length">format_real_length</a>(str,&nbsp;len)&nbsp;-&gt;&nbsp;int&nbsp;length</tt></dd></dl>
+ <dl><dt><a name="-get_script"><strong>get_script</strong></a>(...)</dt><dd><tt><a href="#-get_script">get_script</a>()&nbsp;-&gt;&nbsp;<a href="#Script">Script</a>&nbsp;<a href="__builtin__.html#object">object</a><br>
+&nbsp;<br>
+Find&nbsp;current&nbsp;Irssi&nbsp;script&nbsp;<a href="__builtin__.html#object">object</a></tt></dd></dl>
+ <dl><dt><a name="-ignore_check"><strong>ignore_check</strong></a>(...)</dt><dd><tt><a href="#-ignore_check">ignore_check</a>(nick,&nbsp;host,&nbsp;channel,&nbsp;text,&nbsp;level)&nbsp;-&gt;&nbsp;bool<br>
+&nbsp;<br>
+Return&nbsp;True&nbsp;if&nbsp;ignore&nbsp;matches</tt></dd></dl>
+ <dl><dt><a name="-ignores"><strong>ignores</strong></a>(...)</dt><dd><tt><a href="#-ignores">ignores</a>()&nbsp;-&gt;&nbsp;list&nbsp;of&nbsp;<a href="#Ignore">Ignore</a>&nbsp;objects<br>
+&nbsp;<br>
+Return&nbsp;a&nbsp;list&nbsp;of&nbsp;ignore&nbsp;entries</tt></dd></dl>
+ <dl><dt><a name="-io_add_watch"><strong>io_add_watch</strong></a>(*args, **kwargs)</dt><dd><tt>see&nbsp;<a href="#Script">Script</a>.<a href="#-io_add_watch">io_add_watch</a>()</tt></dd></dl>
+ <dl><dt><a name="-level2bits"><strong>level2bits</strong></a>(...)</dt><dd><tt><a href="#-level2bits">level2bits</a>(level)&nbsp;-&gt;&nbsp;long<br>
+&nbsp;<br>
+Level&nbsp;string&nbsp;-&gt;&nbsp;number</tt></dd></dl>
+ <dl><dt><a name="-log_find"><strong>log_find</strong></a>(...)</dt><dd><tt><a href="#-log_find">log_find</a>(fname)&nbsp;-&gt;&nbsp;<a href="#Log">Log</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Find&nbsp;log&nbsp;by&nbsp;file&nbsp;name.</tt></dd></dl>
+ <dl><dt><a name="-logs"><strong>logs</strong></a>(...)</dt><dd><tt><a href="#-logs">logs</a>()&nbsp;-&gt;&nbsp;list&nbsp;of&nbsp;<a href="#Log">Log</a>&nbsp;objects<br>
+&nbsp;<br>
+Return&nbsp;list&nbsp;of&nbsp;logs.</tt></dd></dl>
+ <dl><dt><a name="-mainwindows"><strong>mainwindows</strong></a>(...)</dt><dd><tt><a href="#-mainwindows">mainwindows</a>()&nbsp;-&gt;&nbsp;list&nbsp;of&nbsp;<a href="#MainWindow">MainWindow</a>&nbsp;objects<br>
+&nbsp;<br>
+return&nbsp;a&nbsp;list&nbsp;of&nbsp;mainwindows</tt></dd></dl>
+ <dl><dt><a name="-mask_match"><strong>mask_match</strong></a>(...)</dt><dd><tt><a href="#-mask_match">mask_match</a>(mask,&nbsp;nick,&nbsp;user,&nbsp;host)&nbsp;-&gt;&nbsp;bool<br>
+&nbsp;<br>
+Return&nbsp;true&nbsp;if&nbsp;mask&nbsp;matches&nbsp;nick!user@host</tt></dd></dl>
+ <dl><dt><a name="-mask_match_address"><strong>mask_match_address</strong></a>(...)</dt><dd><tt><a href="#-mask_match_address">mask_match_address</a>(mask,&nbsp;nick,&nbsp;address)&nbsp;-&gt;&nbsp;bool<br>
+&nbsp;<br>
+Return&nbsp;True&nbsp;if&nbsp;mask&nbsp;matches&nbsp;nick!address</tt></dd></dl>
+ <dl><dt><a name="-masks_match"><strong>masks_match</strong></a>(...)</dt><dd><tt><a href="#-masks_match">masks_match</a>(masks,&nbsp;nick,&nbsp;address)&nbsp;-&gt;&nbsp;bool<br>
+&nbsp;<br>
+Return&nbsp;True&nbsp;if&nbsp;any&nbsp;mask&nbsp;in&nbsp;the&nbsp;masks&nbsp;(string&nbsp;separated&nbsp;by&nbsp;spaces)<br>
+matches&nbsp;nick!address</tt></dd></dl>
+ <dl><dt><a name="-notifies"><strong>notifies</strong></a>(...)</dt><dd><tt><a href="#-notifies">notifies</a>()&nbsp;-&gt;&nbsp;list&nbsp;of&nbsp;<a href="#Notifylist">Notifylist</a>&nbsp;objects<br>
+&nbsp;<br>
+Return&nbsp;list&nbsp;of&nbsp;notifies</tt></dd></dl>
+ <dl><dt><a name="-notifylist_add"><strong>notifylist_add</strong></a>(...)</dt><dd><tt><a href="#-notifylist_add">notifylist_add</a>(mask,&nbsp;ircnets=None,&nbsp;away_check=0,&nbsp;idle_time_check=0)&nbsp;-&gt;&nbsp;<a href="#Notifylist">Notifylist</a>&nbsp;<a href="__builtin__.html#object">object</a><br>
+&nbsp;<br>
+Add&nbsp;new&nbsp;item&nbsp;to&nbsp;notify&nbsp;list</tt></dd></dl>
+ <dl><dt><a name="-notifylist_find"><strong>notifylist_find</strong></a>(...)</dt><dd><tt><a href="#-notifylist_find">notifylist_find</a>(mask,&nbsp;ircnet=None)&nbsp;-&gt;&nbsp;<a href="#Notifylist">Notifylist</a>&nbsp;<a href="__builtin__.html#object">object</a><br>
+&nbsp;<br>
+Find&nbsp;notify</tt></dd></dl>
+ <dl><dt><a name="-notifylist_ison"><strong>notifylist_ison</strong></a>(...)</dt><dd><tt><a href="#-notifylist_ison">notifylist_ison</a>(nick,&nbsp;serverlist="")&nbsp;-&gt;&nbsp;<a href="#IrcServer">IrcServer</a>&nbsp;<a href="__builtin__.html#object">object</a><br>
+&nbsp;<br>
+Check&nbsp;if&nbsp;nick&nbsp;is&nbsp;in&nbsp;IRC.&nbsp;serverlist&nbsp;is&nbsp;a&nbsp;space&nbsp;separated&nbsp;list&nbsp;of&nbsp;server&nbsp;tags.<br>
+If&nbsp;it's&nbsp;empty&nbsp;string,&nbsp;all&nbsp;servers&nbsp;will&nbsp;be&nbsp;checked</tt></dd></dl>
+ <dl><dt><a name="-notifylist_remove"><strong>notifylist_remove</strong></a>(...)</dt><dd><tt><a href="#-notifylist_remove">notifylist_remove</a>(mask)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Remove&nbsp;notify&nbsp;item&nbsp;from&nbsp;notify&nbsp;list</tt></dd></dl>
+ <dl><dt><a name="-pidwait_add"><strong>pidwait_add</strong></a>(...)</dt><dd><tt><a href="#-pidwait_add">pidwait_add</a>(pid)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Add&nbsp;pid&nbsp;to&nbsp;wait&nbsp;list</tt></dd></dl>
+ <dl><dt><a name="-pidwait_remove"><strong>pidwait_remove</strong></a>(...)</dt><dd><tt><a href="#-pidwait_remove">pidwait_remove</a>(pid)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Remove&nbsp;pid&nbsp;from&nbsp;wait&nbsp;list</tt></dd></dl>
+ <dl><dt><a name="-printformat"><strong>printformat</strong></a>(...)</dt><dd><tt>for&nbsp;<a href="#Server">Server</a>&nbsp;objects:<br>
+<a href="#-printformat">printformat</a>(target,&nbsp;level,&nbsp;format,&nbsp;...)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+For&nbsp;all&nbsp;else:<br>
+<a href="#-printformat">printformat</a>(level,&nbsp;format,&nbsp;...)&nbsp;-&gt;&nbsp;None</tt></dd></dl>
+ <dl><dt><a name="-prnt"><strong>prnt</strong></a>(...)</dt><dd><tt><a href="#-prnt">prnt</a>(text,&nbsp;msglvl=MSGLEVEL_CLIENTNOTICE)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+print&nbsp;output</tt></dd></dl>
+ <dl><dt><a name="-queries"><strong>queries</strong></a>(...)</dt><dd><tt><a href="#-queries">queries</a>()&nbsp;-&gt;&nbsp;list&nbsp;of&nbsp;<a href="#Query">Query</a>&nbsp;objects<br>
+&nbsp;<br>
+Return&nbsp;a&nbsp;list&nbsp;of&nbsp;open&nbsp;queries.</tt></dd></dl>
+ <dl><dt><a name="-query_find"><strong>query_find</strong></a>(...)</dt><dd><tt><a href="#-query_find">query_find</a>(nick)&nbsp;-&gt;&nbsp;<a href="#Query">Query</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Find&nbsp;a&nbsp;query&nbsp;from&nbsp;any&nbsp;server.</tt></dd></dl>
+ <dl><dt><a name="-rawlog_set_size"><strong>rawlog_set_size</strong></a>(...)</dt><dd><tt><a href="#-rawlog_set_size">rawlog_set_size</a>(lines)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Set&nbsp;the&nbsp;default&nbsp;rawlog&nbsp;size&nbsp;for&nbsp;new&nbsp;rawlogs.</tt></dd></dl>
+ <dl><dt><a name="-reconnects"><strong>reconnects</strong></a>(...)</dt><dd><tt><a href="#-reconnects">reconnects</a>()&nbsp;-&gt;&nbsp;list&nbsp;of&nbsp;<a href="#Reconnect">Reconnect</a>&nbsp;objects<br>
+&nbsp;<br>
+Return&nbsp;a&nbsp;list&nbsp;of&nbsp;all&nbsp;reconnects</tt></dd></dl>
+ <dl><dt><a name="-server_find_chatnet"><strong>server_find_chatnet</strong></a>(...)</dt><dd><tt><a href="#-server_find_chatnet">server_find_chatnet</a>(chatnet)&nbsp;-&gt;&nbsp;<a href="#Server">Server</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Find&nbsp;first&nbsp;server&nbsp;that&nbsp;is&nbsp;in&nbsp;chatnet</tt></dd></dl>
+ <dl><dt><a name="-server_find_tag"><strong>server_find_tag</strong></a>(...)</dt><dd><tt><a href="#-server_find_tag">server_find_tag</a>(tag)&nbsp;-&gt;&nbsp;<a href="#Server">Server</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Find&nbsp;server&nbsp;with&nbsp;tag</tt></dd></dl>
+ <dl><dt><a name="-server_redirect_register"><strong>server_redirect_register</strong></a>(...)</dt><dd><tt><a href="#-server_redirect_register">server_redirect_register</a>(command,&nbsp;stop,&nbsp;start=None,&nbsp;opt=None,&nbsp;remote=False,&nbsp;timeout=0)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Register&nbsp;new&nbsp;redirection&nbsp;command.&nbsp;By&nbsp;default&nbsp;irssi&nbsp;has&nbsp;already<br>
+registered&nbsp;at&nbsp;least:&nbsp;whois,&nbsp;whowas,&nbsp;who,&nbsp;list,&nbsp;ison,&nbsp;userhost,&nbsp;ping,<br>
+"mode&nbsp;channel"&nbsp;(/MODE&nbsp;#channel),&nbsp;"mode&nbsp;b"&nbsp;(/MODE&nbsp;#channel&nbsp;b),&nbsp;"mode&nbsp;e"<br>
+and&nbsp;"mode&nbsp;I".<br>
+&nbsp;<br>
+`command'&nbsp;specifies&nbsp;the&nbsp;name&nbsp;of&nbsp;the&nbsp;command&nbsp;to&nbsp;register,&nbsp;it&nbsp;doesn't<br>
+have&nbsp;to&nbsp;be&nbsp;a&nbsp;real&nbsp;command&nbsp;name,&nbsp;but&nbsp;something&nbsp;you&nbsp;just&nbsp;specify&nbsp;to<br>
+<a href="#Server">Server</a>.redirect_event()&nbsp;when&nbsp;using&nbsp;this&nbsp;redirection.<br>
+&nbsp;<br>
+`start',&nbsp;`stop',&nbsp;`opt'&nbsp;-&nbsp;lists&nbsp;of&nbsp;('event',&nbsp;argpos)&nbsp;tuples.<br>
+List&nbsp;of&nbsp;events&nbsp;that&nbsp;start&nbsp;and&nbsp;stop&nbsp;this&nbsp;redirection.<br>
+Start&nbsp;event&nbsp;list&nbsp;may&nbsp;be&nbsp;empty,&nbsp;but&nbsp;there&nbsp;must&nbsp;be&nbsp;at&nbsp;least&nbsp;one<br>
+stop&nbsp;event.&nbsp;Optional&nbsp;events&nbsp;are&nbsp;checked&nbsp;only&nbsp;if&nbsp;they&nbsp;are&nbsp;received<br>
+immediately&nbsp;after&nbsp;one&nbsp;of&nbsp;the&nbsp;stop-events.&nbsp;`argpos'&nbsp;specifies&nbsp;the<br>
+word&nbsp;number&nbsp;in&nbsp;event&nbsp;string&nbsp;which&nbsp;is&nbsp;compared&nbsp;to&nbsp;wanted&nbsp;argument,<br>
+-1&nbsp;=&nbsp;don't&nbsp;compare,&nbsp;TRUE&nbsp;always.<br>
+&nbsp;<br>
+`remote'&nbsp;specifies&nbsp;if&nbsp;the&nbsp;command&nbsp;is&nbsp;by&nbsp;default&nbsp;a&nbsp;remote&nbsp;command<br>
+(eg.&nbsp;sent&nbsp;to&nbsp;another&nbsp;server).&nbsp;<a href="#Server">Server</a>.redirect_event()&nbsp;may&nbsp;override&nbsp;this.<br>
+&nbsp;<br>
+`timeout'&nbsp;-&nbsp;If&nbsp;remote&nbsp;is&nbsp;TRUE,&nbsp;specifies&nbsp;how&nbsp;many&nbsp;seconds&nbsp;to&nbsp;wait&nbsp;for<br>
+reply&nbsp;before&nbsp;aborting.<br>
+&nbsp;<br>
+Example&nbsp;(already&nbsp;done&nbsp;by&nbsp;irssi):<br>
+&nbsp;<br>
+<a href="#-server_redirect_register">server_redirect_register</a>('mode&nbsp;channel',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;start&nbsp;=&nbsp;None,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;stop&nbsp;=&nbsp;[&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;('event&nbsp;324',&nbsp;1),&nbsp;#&nbsp;MODE-reply<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;('event&nbsp;403',&nbsp;1),&nbsp;#&nbsp;no&nbsp;such&nbsp;channel<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;('event&nbsp;442',&nbsp;1),&nbsp;#&nbsp;"you're&nbsp;not&nbsp;on&nbsp;that&nbsp;channel"<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;('event&nbsp;479',&nbsp;1)&nbsp;&nbsp;#&nbsp;"Cannot&nbsp;join&nbsp;channel&nbsp;(illegal&nbsp;name)"<br>
+&nbsp;&nbsp;&nbsp;&nbsp;],&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;opt&nbsp;=&nbsp;[&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;('event&nbsp;329',&nbsp;1)&nbsp;&nbsp;#&nbsp;<a href="#Channel">Channel</a>&nbsp;create&nbsp;time<br>
+&nbsp;&nbsp;&nbsp;&nbsp;]&nbsp;<br>
+)</tt></dd></dl>
+ <dl><dt><a name="-servers"><strong>servers</strong></a>(...)</dt><dd><tt><a href="#-servers">servers</a>()&nbsp;-&gt;&nbsp;list&nbsp;of&nbsp;<a href="#Server">Server</a>&nbsp;objects<br>
+&nbsp;<br>
+Return&nbsp;a&nbsp;list&nbsp;of&nbsp;all&nbsp;servers</tt></dd></dl>
+ <dl><dt><a name="-settings_add_bool"><strong>settings_add_bool</strong></a>(*args, **kwargs)</dt><dd><tt>see&nbsp;<a href="#Script">Script</a>.<a href="#-settings_add_bool">settings_add_bool</a>()</tt></dd></dl>
+ <dl><dt><a name="-settings_add_int"><strong>settings_add_int</strong></a>(*args, **kwargs)</dt><dd><tt>see&nbsp;<a href="#Script">Script</a>.<a href="#-settings_add_int">settings_add_int</a>()</tt></dd></dl>
+ <dl><dt><a name="-settings_add_level"><strong>settings_add_level</strong></a>(*args, **kwargs)</dt><dd><tt>see&nbsp;<a href="#Script">Script</a>.<a href="#-settings_add_level">settings_add_level</a>()</tt></dd></dl>
+ <dl><dt><a name="-settings_add_size"><strong>settings_add_size</strong></a>(*args, **kwargs)</dt><dd><tt>see&nbsp;<a href="#Script">Script</a>.<a href="#-settings_add_size">settings_add_size</a>()</tt></dd></dl>
+ <dl><dt><a name="-settings_add_str"><strong>settings_add_str</strong></a>(*args, **kwargs)</dt><dd><tt>see&nbsp;<a href="#Script">Script</a>.<a href="#-settings_add_str">settings_add_str</a>()</tt></dd></dl>
+ <dl><dt><a name="-settings_add_time"><strong>settings_add_time</strong></a>(*args, **kwargs)</dt><dd><tt>see&nbsp;<a href="#Script">Script</a>.<a href="#-settings_add_time">settings_add_time</a>()</tt></dd></dl>
+ <dl><dt><a name="-settings_get_bool"><strong>settings_get_bool</strong></a>(...)</dt><dd><tt><a href="#-settings_get_bool">settings_get_bool</a>(key)&nbsp;-&gt;&nbsp;bool<br>
+&nbsp;<br>
+Get&nbsp;value&nbsp;for&nbsp;setting.</tt></dd></dl>
+ <dl><dt><a name="-settings_get_int"><strong>settings_get_int</strong></a>(...)</dt><dd><tt><a href="#-settings_get_int">settings_get_int</a>(key)&nbsp;-&gt;&nbsp;int<br>
+&nbsp;<br>
+Get&nbsp;value&nbsp;for&nbsp;setting.</tt></dd></dl>
+ <dl><dt><a name="-settings_get_level"><strong>settings_get_level</strong></a>(...)</dt><dd><tt><a href="#-settings_get_level">settings_get_level</a>(key)&nbsp;-&gt;&nbsp;int<br>
+&nbsp;<br>
+Get&nbsp;value&nbsp;for&nbsp;setting.</tt></dd></dl>
+ <dl><dt><a name="-settings_get_size"><strong>settings_get_size</strong></a>(...)</dt><dd><tt><a href="#-settings_get_size">settings_get_size</a>(key)&nbsp;-&gt;&nbsp;long<br>
+&nbsp;<br>
+Get&nbsp;value&nbsp;for&nbsp;setting.</tt></dd></dl>
+ <dl><dt><a name="-settings_get_str"><strong>settings_get_str</strong></a>(...)</dt><dd><tt><a href="#-settings_get_str">settings_get_str</a>(key)&nbsp;-&gt;&nbsp;str<br>
+&nbsp;<br>
+Get&nbsp;value&nbsp;for&nbsp;setting.</tt></dd></dl>
+ <dl><dt><a name="-settings_get_time"><strong>settings_get_time</strong></a>(...)</dt><dd><tt><a href="#-settings_get_time">settings_get_time</a>(key)&nbsp;-&gt;&nbsp;long<br>
+&nbsp;<br>
+Get&nbsp;value&nbsp;for&nbsp;setting.</tt></dd></dl>
+ <dl><dt><a name="-settings_set_bool"><strong>settings_set_bool</strong></a>(...)</dt><dd><tt><a href="#-settings_set_bool">settings_set_bool</a>(key,&nbsp;value)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Set&nbsp;bool&nbsp;value&nbsp;for&nbsp;setting</tt></dd></dl>
+ <dl><dt><a name="-settings_set_int"><strong>settings_set_int</strong></a>(...)</dt><dd><tt><a href="#-settings_set_int">settings_set_int</a>(key,&nbsp;value)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Set&nbsp;int&nbsp;value&nbsp;for&nbsp;setting</tt></dd></dl>
+ <dl><dt><a name="-settings_set_level"><strong>settings_set_level</strong></a>(...)</dt><dd><tt><a href="#-settings_set_level">settings_set_level</a>(key,&nbsp;value)&nbsp;-&gt;&nbsp;bool<br>
+&nbsp;<br>
+Set&nbsp;string&nbsp;value&nbsp;for&nbsp;setting</tt></dd></dl>
+ <dl><dt><a name="-settings_set_size"><strong>settings_set_size</strong></a>(...)</dt><dd><tt><a href="#-settings_set_size">settings_set_size</a>(key,&nbsp;value)&nbsp;-&gt;&nbsp;bool<br>
+&nbsp;<br>
+Set&nbsp;string&nbsp;value&nbsp;for&nbsp;setting</tt></dd></dl>
+ <dl><dt><a name="-settings_set_str"><strong>settings_set_str</strong></a>(...)</dt><dd><tt><a href="#-settings_set_str">settings_set_str</a>(key,&nbsp;value)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Set&nbsp;string&nbsp;value&nbsp;for&nbsp;setting</tt></dd></dl>
+ <dl><dt><a name="-settings_set_time"><strong>settings_set_time</strong></a>(...)</dt><dd><tt><a href="#-settings_set_time">settings_set_time</a>(key,&nbsp;value)&nbsp;-&gt;&nbsp;bool<br>
+&nbsp;<br>
+Set&nbsp;string&nbsp;value&nbsp;for&nbsp;setting</tt></dd></dl>
+ <dl><dt><a name="-signal_add"><strong>signal_add</strong></a>(*args, **kwargs)</dt><dd><tt>see&nbsp;<a href="#Script">Script</a>.<a href="#-signal_add">signal_add</a>()</tt></dd></dl>
+ <dl><dt><a name="-signal_continue"><strong>signal_continue</strong></a>(...)</dt><dd><tt><a href="#-signal_continue">signal_continue</a>(*args)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Continue&nbsp;(reemit?)&nbsp;the&nbsp;current&nbsp;Irssi&nbsp;signal&nbsp;with&nbsp;up&nbsp;to&nbsp;6&nbsp;arguments</tt></dd></dl>
+ <dl><dt><a name="-signal_emit"><strong>signal_emit</strong></a>(...)</dt><dd><tt><a href="#-signal_emit">signal_emit</a>(signal,&nbsp;*args)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Emit&nbsp;an&nbsp;Irssi&nbsp;signal&nbsp;with&nbsp;up&nbsp;to&nbsp;6&nbsp;arguments</tt></dd></dl>
+ <dl><dt><a name="-signal_get_emitted"><strong>signal_get_emitted</strong></a>(...)</dt><dd><tt>signal_get_emmited()&nbsp;-&gt;&nbsp;signal&nbsp;name&nbsp;string<br>
+&nbsp;<br>
+Get&nbsp;name&nbsp;of&nbsp;current&nbsp;signal</tt></dd></dl>
+ <dl><dt><a name="-signal_get_emitted_id"><strong>signal_get_emitted_id</strong></a>(...)</dt><dd><tt>signal_get_emmited_id()&nbsp;-&gt;&nbsp;signal&nbsp;id&nbsp;int<br>
+&nbsp;<br>
+Get&nbsp;id&nbsp;of&nbsp;current&nbsp;signal</tt></dd></dl>
+ <dl><dt><a name="-signal_remove"><strong>signal_remove</strong></a>(*args, **kwargs)</dt><dd><tt>see&nbsp;<a href="#Script">Script</a>.<a href="#-signal_remove">signal_remove</a>()</tt></dd></dl>
+ <dl><dt><a name="-signal_stop"><strong>signal_stop</strong></a>(...)</dt><dd><tt><a href="#-signal_stop">signal_stop</a>()&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Stop&nbsp;the&nbsp;signal&nbsp;that's&nbsp;currently&nbsp;being&nbsp;emitted.</tt></dd></dl>
+ <dl><dt><a name="-signal_stop_by_name"><strong>signal_stop_by_name</strong></a>(...)</dt><dd><tt><a href="#-signal_stop_by_name">signal_stop_by_name</a>(signal)&nbsp;-&gt;&nbsp;None<br>
+&nbsp;<br>
+Stop&nbsp;the&nbsp;signal,&nbsp;'signal',&nbsp;thats&nbsp;currently&nbsp;being&nbsp;emitted&nbsp;by&nbsp;name</tt></dd></dl>
+ <dl><dt><a name="-statusbar_item_register"><strong>statusbar_item_register</strong></a>(*args, **kwargs)</dt><dd><tt>see&nbsp;<a href="#Script">Script</a>.<a href="#-statusbar_item_register">statusbar_item_register</a>()</tt></dd></dl>
+ <dl><dt><a name="-statusbar_item_unregister"><strong>statusbar_item_unregister</strong></a>(...)</dt><dd><tt><a href="#-statusbar_item_unregister">statusbar_item_unregister</a>(name)&nbsp;-&gt;&nbsp;None</tt></dd></dl>
+ <dl><dt><a name="-statusbar_items_redraw"><strong>statusbar_items_redraw</strong></a>(...)</dt><dd><tt><a href="#-statusbar_items_redraw">statusbar_items_redraw</a>(name)&nbsp;-&gt;&nbsp;None</tt></dd></dl>
+ <dl><dt><a name="-statusbars_recreate_items"><strong>statusbars_recreate_items</strong></a>(...)</dt><dd><tt><a href="#-statusbars_recreate_items">statusbars_recreate_items</a>()&nbsp;-&gt;&nbsp;None</tt></dd></dl>
+ <dl><dt><a name="-strip_codes"><strong>strip_codes</strong></a>(...)</dt><dd><tt><a href="#-strip_codes">strip_codes</a>(input)&nbsp;-&gt;&nbsp;str</tt></dd></dl>
+ <dl><dt><a name="-themes_reload"><strong>themes_reload</strong></a>(...)</dt><dd><tt><a href="#-themes_reload">themes_reload</a>()&nbsp;-&gt;&nbsp;None</tt></dd></dl>
+ <dl><dt><a name="-timeout_add"><strong>timeout_add</strong></a>(*args, **kwargs)</dt><dd><tt>see&nbsp;<a href="#Script">Script</a>.<a href="#-timeout_add">timeout_add</a>()</tt></dd></dl>
+ <dl><dt><a name="-window_create"><strong>window_create</strong></a>(...)</dt><dd><tt><a href="#-window_create">window_create</a>(item=None,&nbsp;automatic=False)&nbsp;-&gt;&nbsp;<a href="#Window">Window</a>&nbsp;<a href="__builtin__.html#object">object</a><br>
+&nbsp;<br>
+Create&nbsp;a&nbsp;new&nbsp;window</tt></dd></dl>
+ <dl><dt><a name="-window_find_closest"><strong>window_find_closest</strong></a>(...)</dt><dd><tt><a href="#-window_find_closest">window_find_closest</a>(name,&nbsp;level)&nbsp;-&gt;&nbsp;<a href="#Window">Window</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Find&nbsp;window&nbsp;that&nbsp;matches&nbsp;best&nbsp;to&nbsp;given&nbsp;arguments.&nbsp;`name'&nbsp;can&nbsp;be&nbsp;either<br>
+window&nbsp;name&nbsp;or&nbsp;name&nbsp;of&nbsp;one&nbsp;of&nbsp;the&nbsp;window&nbsp;items.</tt></dd></dl>
+ <dl><dt><a name="-window_find_item"><strong>window_find_item</strong></a>(...)</dt><dd><tt><a href="#-window_find_item">window_find_item</a>(name)&nbsp;-&gt;&nbsp;<a href="#Window">Window</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Find&nbsp;window&nbsp;which&nbsp;contains&nbsp;window&nbsp;item&nbsp;with&nbsp;specified&nbsp;name.</tt></dd></dl>
+ <dl><dt><a name="-window_find_level"><strong>window_find_level</strong></a>(...)</dt><dd><tt><a href="#-window_find_level">window_find_level</a>(level)&nbsp;-&gt;&nbsp;<a href="#Window">Window</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Find&nbsp;window&nbsp;with&nbsp;level.</tt></dd></dl>
+ <dl><dt><a name="-window_find_name"><strong>window_find_name</strong></a>(...)</dt><dd><tt><a href="#-window_find_name">window_find_name</a>(name)&nbsp;-&gt;&nbsp;<a href="#Window">Window</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Find&nbsp;window&nbsp;with&nbsp;name</tt></dd></dl>
+ <dl><dt><a name="-window_find_refnum"><strong>window_find_refnum</strong></a>(...)</dt><dd><tt><a href="#-window_find_refnum">window_find_refnum</a>(refnum)&nbsp;-&gt;&nbsp;<a href="#Window">Window</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Find&nbsp;window&nbsp;with&nbsp;reference&nbsp;number</tt></dd></dl>
+ <dl><dt><a name="-window_item_find"><strong>window_item_find</strong></a>(...)</dt><dd><tt><a href="#-window_item_find">window_item_find</a>(name)&nbsp;-&gt;&nbsp;<a href="#WindowItem">WindowItem</a>&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;or&nbsp;None<br>
+&nbsp;<br>
+Find&nbsp;window&nbsp;item&nbsp;that&nbsp;matches&nbsp;best&nbsp;to&nbsp;given&nbsp;arguments.</tt></dd></dl>
+ <dl><dt><a name="-window_refnum_next"><strong>window_refnum_next</strong></a>(...)</dt><dd><tt><a href="#-window_refnum_next">window_refnum_next</a>(refnum,&nbsp;wrap)&nbsp;-&gt;&nbsp;int<br>
+&nbsp;<br>
+Return&nbsp;refnum&nbsp;for&nbsp;window&nbsp;that's&nbsp;next&nbsp;in&nbsp;window&nbsp;list</tt></dd></dl>
+ <dl><dt><a name="-window_refnum_prev"><strong>window_refnum_prev</strong></a>(...)</dt><dd><tt><a href="#-window_refnum_prev">window_refnum_prev</a>(refnum,&nbsp;wrap)&nbsp;-&gt;&nbsp;int<br>
+&nbsp;<br>
+Return&nbsp;refnum&nbsp;for&nbsp;window&nbsp;that's&nbsp;previous&nbsp;in&nbsp;window&nbsp;list</tt></dd></dl>
+ <dl><dt><a name="-windows"><strong>windows</strong></a>(...)</dt><dd><tt><a href="#-windows">windows</a>()&nbsp;-&gt;&nbsp;list&nbsp;of&nbsp;<a href="#Window">Window</a>&nbsp;objects<br>
+&nbsp;<br>
+Get&nbsp;a&nbsp;list&nbsp;of&nbsp;all&nbsp;windows</tt></dd></dl>
+ <dl><dt><a name="-windows_refnum_last"><strong>windows_refnum_last</strong></a>(...)</dt><dd><tt><a href="#-windows_refnum_last">windows_refnum_last</a>()&nbsp;-&gt;&nbsp;int<br>
+&nbsp;<br>
+Return&nbsp;refnum&nbsp;for&nbsp;last&nbsp;window.</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>IO_ERR</strong> = 8<br>
+<strong>IO_HUP</strong> = 16<br>
+<strong>IO_IN</strong> = 1<br>
+<strong>IO_OUT</strong> = 4<br>
+<strong>IO_PRI</strong> = 2<br>
+<strong>IRC_MASK_DOMAIN</strong> = 8<br>
+<strong>IRC_MASK_HOST</strong> = 4<br>
+<strong>IRC_MASK_NICK</strong> = 1<br>
+<strong>IRC_MASK_USER</strong> = 2<br>
+<strong>IRSSI_GUI_GNOME</strong> = 3<br>
+<strong>IRSSI_GUI_GTK</strong> = 2<br>
+<strong>IRSSI_GUI_KDE</strong> = 5<br>
+<strong>IRSSI_GUI_NONE</strong> = 0<br>
+<strong>IRSSI_GUI_QT</strong> = 4<br>
+<strong>IRSSI_GUI_TEXT</strong> = 1<br>
+<strong>MSGLEVEL_ACTIONS</strong> = 64<br>
+<strong>MSGLEVEL_ALL</strong> = 4194303<br>
+<strong>MSGLEVEL_CLIENTCRAP</strong> = 524288<br>
+<strong>MSGLEVEL_CLIENTERROR</strong> = 1048576<br>
+<strong>MSGLEVEL_CLIENTNOTICE</strong> = 262144<br>
+<strong>MSGLEVEL_CRAP</strong> = 1<br>
+<strong>MSGLEVEL_CTCPS</strong> = 32<br>
+<strong>MSGLEVEL_DCC</strong> = 65536<br>
+<strong>MSGLEVEL_DCCMSGS</strong> = 131072<br>
+<strong>MSGLEVEL_HILIGHT</strong> = 2097152<br>
+<strong>MSGLEVEL_INVITES</strong> = 16384<br>
+<strong>MSGLEVEL_JOINS</strong> = 128<br>
+<strong>MSGLEVEL_KICKS</strong> = 1024<br>
+<strong>MSGLEVEL_LASTLOG</strong> = 134217728<br>
+<strong>MSGLEVEL_MODES</strong> = 2048<br>
+<strong>MSGLEVEL_MSGS</strong> = 2<br>
+<strong>MSGLEVEL_NEVER</strong> = 67108864<br>
+<strong>MSGLEVEL_NICKS</strong> = 32768<br>
+<strong>MSGLEVEL_NOHILIGHT</strong> = 16777216<br>
+<strong>MSGLEVEL_NOTICES</strong> = 8<br>
+<strong>MSGLEVEL_NO_ACT</strong> = 33554432<br>
+<strong>MSGLEVEL_PARTS</strong> = 256<br>
+<strong>MSGLEVEL_PUBLIC</strong> = 4<br>
+<strong>MSGLEVEL_QUITS</strong> = 512<br>
+<strong>MSGLEVEL_SNOTES</strong> = 16<br>
+<strong>MSGLEVEL_TOPICS</strong> = 4096<br>
+<strong>MSGLEVEL_WALLOPS</strong> = 8192<br>
+<strong>SIGNAL_PRIORITY_DEFAULT</strong> = 0<br>
+<strong>SIGNAL_PRIORITY_HIGH</strong> = -100<br>
+<strong>SIGNAL_PRIORITY_LOW</strong> = 100</td></tr></table>
+</body></html>

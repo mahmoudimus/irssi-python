@@ -1,0 +1,67 @@
+#                                               -*- Autoconf -*-
+# Process this file with autoconf to produce a configure script.
+
+#AC_PREREQ(2.59)
+AC_INIT(irssi-python, test3, loafier@gmail.com)
+AC_CONFIG_SRCDIR([src/pyconstants.c])
+AC_CONFIG_HEADER([pyirssi-config.h])
+AM_INIT_AUTOMAKE([irssi-python], [test3])
+AM_DISABLE_STATIC
+AM_PROG_LIBTOOL
+
+# Options
+AC_ARG_WITH(irssi,
+[  --with-irssi=path/to/distro        Specify location of Irssi distribution directory],
+    irssi_path=$withval,
+	irssi_path="")
+
+# Checks for programs.
+AC_PROG_CC
+AC_PROG_MAKE_SET
+
+# Checks for libraries.
+AC_PYTHON_DEVEL([>= '2.4'])
+AM_PATH_GLIB_2_0(2.0.0) 
+
+# Checks for header files.
+AC_HEADER_STDC
+AC_CHECK_HEADERS([string.h])
+
+# Checks for typedefs, structures, and compiler characteristics.
+AC_C_CONST
+AC_TYPE_SIZE_T
+
+# Checks for library functions.
+AC_TYPE_SIGNAL
+AC_CHECK_FUNCS([memset strchr strrchr])
+
+#check Irssi path
+echo irssi_path = $irssi_path
+if test -z $irssi_path; then
+    AC_MSG_ERROR([Path to Irssi distribution not specified. See --with-irssi option.])
+fi
+
+# fix relative paths (from modules/icb)
+old=`pwd`
+irssi_path=`eval cd $irssi_path; pwd`
+cd $old
+
+IRSSI_DIST=$irssi_path
+AC_SUBST([IRSSI_DIST])
+IRSSI_PYTHON_INCLUDES="-I${IRSSI_DIST} -I${IRSSI_DIST}/src -I${IRSSI_DIST}/src/fe-common/core \
+-I${IRSSI_DIST}/src/core -I${IRSSI_DIST}/src/fe-text -I${IRSSI_DIST}/src/irc \
+-I${IRSSI_DIST}/src/irc/core -I${IRSSI_DIST}/src/irc/dcc -I${IRSSI_DIST}/src/irc/notifylist \
+${PYTHON_CPPFLAGS} ${GLIB_CFLAGS}"
+
+AC_SUBST([IRSSI_PYTHON_INCLUDES])
+
+dnl * gcc specific options
+if test "x$ac_cv_prog_gcc" = "xyes"; then
+    CFLAGS="$CFLAGS -Wall -fno-strict-aliasing"
+fi
+
+#AC_CONFIG_FILES([src/Makefile src/objects/Makefile])
+#AC_OUTPUT([Makefile src/Makefile src/objects/Makefile])
+#AC_OUTPUT([Makefile src/Makefile src/objects/Makefile])
+AC_CONFIG_FILES([Makefile scripts/Makefile docs/Makefile src/Makefile src/objects/Makefile])
+AC_OUTPUT

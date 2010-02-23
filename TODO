@@ -1,0 +1,5 @@
+-- Fix loader to handle module hierarchies better.
+
+-- Add more example scripts.
+
+-- Fix irssi-python to better match Irssi's structure.

@@ -1,0 +1,21 @@
+loafier, 2006-08-14:
+	first release, test1
+
+loafier, 2006-08-16:
+	second release, test2
+	fixed up links in irssi-python.html
+	changed intstallation location of docs (irssi/docs/irssi-python.html -> doc/irssi/irssi-python.html)	
+	added online help document ( -> irssi/help/py)
+	changed name of shared library from libirssi_python.so to libpython.so
+
+loafier, 2006-08-17:
+	added a few simple scripts
+	added settings_add_* wrappers to irssi.py
+
+loafier, 2006-08-20:
+	added autoload
+	changed behavior of load to reload previously loaded scripts
+
+loafier, 2006-08-21:
+	test3
+

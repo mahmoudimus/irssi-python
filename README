@@ -1,0 +1,21 @@
+irssi-python test3
+
+irssi-python embeds Python into an Irssi module, providing most of the
+functionality of the Perl wrapper to Python scripts using a similar interface.
+Read INSTALL for setup instructions.
+
+Currently, all of the objects and functions are accessible through the irssi
+module. See docs/irssi-python.html for a listing. Basic docs are also available
+online in Irssi, as well. Use the /py exec command to send commands to the Python
+interpreter while in Irssi. 
+
+This will print help for the Window object:
+    /py exec import irssi
+    /py exec help(irssi.Window)
+
+Other commands:
+    /py load     load a Python script
+    /py unload   unload a Python script
+    /py list     list loaded scripts
+    
+

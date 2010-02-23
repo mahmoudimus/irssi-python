@@ -1,0 +1,44 @@
+ Conversion codes notes
+   I = int *arg IN/OUT 
+   G = string GList **arg IN/OUT (list must be reconstructed)
+   L = list of nicks
+
+ Scalars
+   s -> char *
+   u -> ulong *
+   I -> int *
+   i -> int
+
+ Lists of things (completion.c and massjoin.c) 
+   G -> GList * of char* 
+   L -> GSList of NICK_RECs
+
+ Chat objects
+   c -> CHATNET_REC
+   S -> SERVER_REC
+   C -> CHANNEL_REC
+   q -> QUERY_REC
+   n -> NICK_REC
+   W -> WI_ITEM_REC
+
+ Irssi objects
+   d -> DCC_REC
+
+ Other objects
+   r -> RECONNECT_REC
+   o -> COMMAND_REC
+   l -> LOG_REC
+   a -> RAWLOG_REC
+   g -> IGNORE_REC
+   ? -> MODULE_REC
+   b -> BAN_REC
+   N -> NETSPLIT_REC
+   e -> NETSPLIT_SERVER_REC
+   ? -> AUTOIGNORE_REC
+   O -> NOTIFYLIST_REC
+   ? -> THEME_REC
+   ? -> KEYINFO_REC
+   p -> PROCESS_REC
+   t -> TEXT_DEST_REC
+   w -> WINDOW_REC
+
